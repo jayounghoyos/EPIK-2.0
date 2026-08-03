@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EPIK 2.0 — pantallas</title>
+<style>
+  :root{
+    --blue:#004B85; --blue-900:#001A30; --yellow:#FFB903;
+    --page:#F7F8FA; --card:#FFFFFF; --line:#DDE2E8;
+    --ink:#111827; --ink-2:#4B5563; --ink-3:#6B7480;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--page);color:var(--ink);
+    font:15px/1.5 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+  header{background:var(--blue-900);color:#fff;padding:28px 32px}
+  .uni{font-size:10px;letter-spacing:.22em;opacity:.8}
+  h1{margin:2px 0 0;font-size:30px;font-weight:800;letter-spacing:-.025em}
+  .rule{width:92px;height:3px;background:var(--yellow);border-radius:2px;margin-top:10px}
+  header p{margin:12px 0 0;color:#C8D4DE;font-size:14px;max-width:70ch}
+  main{padding:32px;max-width:1180px;margin:0 auto}
+  .meta{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--ink-3);margin-bottom:24px}
+  .shot{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:28px}
+  .shot__head{display:flex;align-items:center;gap:12px;padding:14px 20px;border-bottom:1px solid var(--line)}
+  .shot__n{width:24px;height:24px;display:grid;place-items:center;background:var(--blue);color:#fff;
+    border-radius:999px;font-size:12px;font-weight:700}
+  .shot__t{font-weight:700}
+  .shot__d{font-size:13px;color:var(--ink-2);margin-left:auto}
+  .shot img{display:block;width:100%;height:auto;background:#fff}
+  .pending{padding:40px 20px;text-align:center;color:var(--ink-3);font-size:14px}
+  footer{padding:0 32px 48px;max-width:1180px;margin:0 auto;color:var(--ink-3);font-size:12px}
+  a{color:var(--blue)}
+  @media(prefers-color-scheme:dark){
+    :root{--page:#0E141B;--card:#151D26;--line:#26313D;--ink:#E7ECF1;--ink-2:#AEB9C5;--ink-3:#8794A2}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="uni">UNIVERSIDAD EAFIT</div>
+  <h1>EPIK 2.0</h1>
+  <div class="rule"></div>
+  <p>Rediseño del portal estudiantil. Pantallas generadas con pen.dev. Esta página se recarga sola cada 30 segundos, así que las pantallas nuevas aparecen aquí sin hacer nada.</p>
+</header>
+<main>
+  <div class="meta">
+    <span>Interacción Humano–Computador</span>
+    <span>Azul EAFIT #004B85 · Amarillo EAFIT #FFB903</span>
+    <span id="stamp"></span>
+  </div>
+
+  <section class="shot">
+    <div class="shot__head">
+      <span class="shot__n">1</span>
+      <span class="shot__t">Inicio</span>
+      <span class="shot__d">5 dominios con región común · estado real en la primera pantalla</span>
+    </div>
+    <img src="epik-inicio.png?v=1" alt="Pantalla de inicio de EPIK 2.0">
+  </section>
+
+  <section class="shot" id="s2">
+    <div class="shot__head">
+      <span class="shot__n">2</span>
+      <span class="shot__t">Mi matrícula</span>
+      <span class="shot__d">Horario que detecta y separa el choque de 3:00pm a 6:00pm</span>
+    </div>
+    <div class="pending">Generando…</div>
+  </section>
+
+  <section class="shot" id="s3">
+    <div class="shot__head">
+      <span class="shot__n">3</span>
+      <span class="shot__t">Cuenta financiera y pago</span>
+      <span class="shot__d">De 6 pasos a 3, con comprobante</span>
+    </div>
+    <div class="pending">Generando…</div>
+  </section>
+
+  <section class="shot" id="s4">
+    <div class="shot__head">
+      <span class="shot__n">4</span>
+      <span class="shot__t">Certificados</span>
+      <span class="shot__d">Solicitar, seguir el estado y descargar</span>
+    </div>
+    <div class="pending">Generando…</div>
+  </section>
+</main>
+<footer>
+  Archivos fuente <code>.pen</code> en esta misma carpeta, editables en la app de pen.dev.
+  Auditoría y sistema de diseño en <a href="../docs/">docs/</a>.
+</footer>
+<script>
+  document.getElementById('stamp').textContent =
+    'Actualizado ' + new Date().toLocaleTimeString('es-CO');
+
+  // Sustituye el marcador por la imagen en cuanto el archivo exista.
+  const screens = [
+    ['s2','epik-matricula.png'],
+    ['s3','epik-financiero.png'],
+    ['s4','epik-certificados.png'],
+  ];
+  screens.forEach(([id, file]) => {
+    const probe = new Image();
+    probe.onload = () => {
+      const box = document.getElementById(id);
+      const slot = box.querySelector('.pending');
+      if (!slot) return;
+      const img = document.createElement('img');
+      img.src = file + '?v=' + Date.now();
+      img.alt = box.querySelector('.shot__t').textContent;
+      slot.replaceWith(img);
+    };
+    probe.src = file + '?v=' + Date.now();
+  });
+
+  setTimeout(() => location.reload(), 30000);
+</script>
+</body>
+</html>
