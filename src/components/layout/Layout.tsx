@@ -2,9 +2,12 @@ import { useState } from 'react'
 import { Outlet } from 'react-router'
 import { TopBar } from './TopBar'
 import { Sidebar } from './Sidebar'
+import { PrivacyNotice } from '../PrivacyNotice'
+import { useScreenTracking } from '../../lib/useScreenTracking'
 
 export function Layout() {
   const [menuOpen, setMenuOpen] = useState(false)
+  useScreenTracking()
 
   return (
     <div className="min-h-dvh bg-gray-50">
@@ -23,6 +26,8 @@ export function Layout() {
           <Outlet />
         </main>
       </div>
+
+      <PrivacyNotice />
     </div>
   )
 }

@@ -9,9 +9,8 @@ dist-ssr/
 *.local
 
 # Entorno
-.env
-.env.*
-!.env.example
+.env.local
+.env.*.local
 
 # Editor
 .vscode/
