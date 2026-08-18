@@ -1,0 +1,4254 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "WOh3J",
+      "x": 0,
+      "y": 0,
+      "name": "EPIK — Mi horario (escritorio 1440)",
+      "clip": true,
+      "width": 1440,
+      "height": 1846,
+      "fill": "$fondo",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XFbUr",
+          "name": "Barra superior",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "$azul-eafit",
+          "padding": [
+            0,
+            32
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QVrTo",
+              "name": "Marca EAFIT",
+              "layout": "vertical",
+              "gap": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xFwG2",
+                  "name": "Universidad",
+                  "fill": "$texto-sobre-azul",
+                  "content": "UNIVERSIDAD",
+                  "fontFamily": "$fuente",
+                  "fontSize": 9,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.6
+                },
+                {
+                  "type": "text",
+                  "id": "wNzS6",
+                  "name": "EAFIT",
+                  "fill": "$texto-sobre-azul",
+                  "content": "EAFIT",
+                  "fontFamily": "$fuente",
+                  "fontSize": 21,
+                  "fontWeight": "800",
+                  "letterSpacing": 1.2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UFaSA",
+              "name": "Buscador",
+              "width": 440,
+              "height": 40,
+              "fill": "$superficie",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                0,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "COHDu",
+                  "name": "Icono buscar",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "$texto-terciario"
+                },
+                {
+                  "type": "text",
+                  "id": "eJXdw",
+                  "name": "Marcador de posición",
+                  "fill": "$texto-terciario",
+                  "content": "Buscar trámites, materias o certificados",
+                  "fontFamily": "$fuente",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dnfpy",
+              "name": "Menú de usuario",
+              "height": 44,
+              "gap": 10,
+              "padding": [
+                0,
+                4
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "apTLE",
+                  "name": "Avatar",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$amarillo-eafit",
+                  "cornerRadius": 16,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g4CM0o",
+                      "name": "Iniciales",
+                      "fill": "$azul-oscuro",
+                      "content": "JY",
+                      "fontFamily": "$fuente",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eObjs",
+                  "name": "Datos de usuario",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "T35yk",
+                      "name": "Nombre",
+                      "fill": "$texto-sobre-azul",
+                      "content": "Juan Andrés Young",
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RELML",
+                      "name": "Usuario",
+                      "fill": "#BFD4E6",
+                      "content": "jayoungh",
+                      "fontFamily": "$fuente",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "c2DPyj",
+                  "name": "Abrir menú",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "chevron-down",
+                  "library": "lucide",
+                  "fill": "$texto-sobre-azul"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SGfAS",
+          "name": "Cuerpo",
+          "width": "fill_container",
+          "height": "fill_container",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JWixy",
+              "name": "Navegación lateral",
+              "width": 264,
+              "height": "fill_container",
+              "fill": "$superficie",
+              "stroke": "$borde",
+              "strokeWidth": {
+                "right": 1
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                20,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "I05Rmy",
+                  "name": "Grupo Inicio",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bsGrI",
+                      "name": "Inicio",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#00000000",
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "MaFKI",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yKP7Q",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "mOTlw",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "house",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Llcmv",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Inicio",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e08iIt",
+                  "name": "Grupo Académico",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CUwmb",
+                      "name": "Académico",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "t1VJo",
+                          "name": "Indicador",
+                          "fill": "$amarillo-eafit",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DFwtG",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "MScb4",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "graduation-cap",
+                              "library": "lucide",
+                              "fill": "$azul-eafit"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Pei75",
+                              "name": "Etiqueta",
+                              "fill": "$azul-eafit",
+                              "content": "Académico",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZmpPH",
+                      "name": "Mi horario",
+                      "width": "fill_container",
+                      "height": 36,
+                      "fill": "$azul-suave",
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "c2H4k",
+                          "name": "Etiqueta",
+                          "fill": "$azul-eafit",
+                          "content": "Mi horario",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mbW6i",
+                      "name": "Mis notas",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aAC4g",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Mis notas",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j9PhK",
+                  "name": "Grupo Financiero",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YD3bu",
+                      "name": "Financiero",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "R4QAp",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mLogc",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "rlWPX",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "credit-card",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Mzx44",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Financiero",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hi7uY",
+                      "name": "Pagar",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e75LQa",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Pagar",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OCVPd",
+                  "name": "Grupo Trámites",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BJLmU",
+                      "name": "Trámites",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "K1P9IX",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "naE66",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ARssz",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "file-text",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Lwqtm",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Trámites",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BipAq",
+                      "name": "Certificados",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xJsXw",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Certificados",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xsj1q",
+                  "name": "Grupo Inscripciones",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DNaC5",
+                      "name": "Inscripciones",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "xk5UT",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GPnsT",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "F7f9A",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "clipboard-list",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zT1iW",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Inscripciones",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "q6dpfT",
+                  "name": "Espaciador",
+                  "width": "fill_container",
+                  "height": "fill_container"
+                },
+                {
+                  "type": "frame",
+                  "id": "isqsc",
+                  "name": "Bloque Accesos rápidos",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "hiCYN",
+                      "name": "Separador",
+                      "fill": "$borde",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "l0uBbI",
+                      "name": "Encabezado accesos",
+                      "width": "fill_container",
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fpapQ",
+                          "name": "Título",
+                          "fill": "$texto-terciario",
+                          "content": "ACCESOS RÁPIDOS",
+                          "fontFamily": "$fuente",
+                          "fontSize": 11,
+                          "fontWeight": "600",
+                          "letterSpacing": 0.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "kd1Iz",
+                          "name": "Editar",
+                          "fill": "$azul-eafit",
+                          "content": "Editar",
+                          "fontFamily": "$fuente",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "vN6ZE",
+                      "name": "Lista de accesos",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "inlb3",
+                          "name": "Adjuntar documentos",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "Uy9MG",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "paperclip",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "z6jke",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Adjuntar documentos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kM8jI",
+                          "name": "Reserva de espacios",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "GhQp3",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "calendar-check",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "WhsDK",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Reserva de espacios",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "t3Dyqk",
+                          "name": "Historia académica",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "b9h2L1",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "scroll-text",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "c8ADBv",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Historia académica",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Q5dWMY",
+                          "name": "Centro de pagos",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "pjaNc",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "credit-card",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "h6yPD",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Centro de pagos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j7G2OE",
+                          "name": "Evaluación docente",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ZQMGm",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "star",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "xcRTA",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Evaluación docente",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "J8p2X0",
+                  "name": "Espaciador",
+                  "width": "fill_container",
+                  "height": "fill_container(24)"
+                },
+                {
+                  "type": "frame",
+                  "id": "myZs1",
+                  "name": "Pie / Accesos rápidos",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "G8GmJ",
+                      "name": "Separador",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$borde"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Y0PqGL",
+                      "name": "Lista de accesos",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hQvvN",
+                          "name": "Encabezado accesos",
+                          "width": "fill_container",
+                          "padding": [
+                            0,
+                            12,
+                            6,
+                            12
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "swwS2",
+                              "name": "Título",
+                              "fill": "$texto-terciario",
+                              "content": "ACCESOS RÁPIDOS",
+                              "fontFamily": "$fuente",
+                              "fontSize": 11,
+                              "fontWeight": "600",
+                              "letterSpacing": 0.8
+                            },
+                            {
+                              "type": "text",
+                              "id": "yONBB",
+                              "name": "Editar",
+                              "fill": "$azul-eafit",
+                              "content": "Editar",
+                              "fontFamily": "$fuente",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UtfjR",
+                          "name": "Adjuntar documentos",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "RBNNf",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "paperclip",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "quruR",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Adjuntar documentos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PcE0G",
+                          "name": "Reserva de espacios",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "E9d8F",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "calendar-check",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Y2EVp",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Reserva de espacios",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Nbnre",
+                          "name": "Historia académica",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "r6Jos",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "scroll-text",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NiaR4",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Historia académica",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ysprl",
+                          "name": "Centro de pagos",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "cNK4Q",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "credit-card",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ExMkL",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Centro de pagos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j3RXfn",
+                          "name": "Evaluación docente",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ou6Jp",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "clipboard-check",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "EX8Kl",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Evaluación docente",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gbRaH",
+              "name": "Contenido principal",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "aMvWX",
+                  "name": "Barra de contexto",
+                  "width": "fill_container",
+                  "fill": "$superficie",
+                  "cornerRadius": "$radio",
+                  "stroke": "$borde",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "padding": [
+                    16,
+                    20
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DXscc",
+                      "name": "Periodo",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "HFDrs",
+                          "name": "Etiqueta",
+                          "fill": "$texto-terciario",
+                          "content": "PERIODO ACADÉMICO",
+                          "fontFamily": "$fuente",
+                          "fontSize": 10,
+                          "fontWeight": "600",
+                          "letterSpacing": 1.2
+                        },
+                        {
+                          "type": "text",
+                          "id": "Jjymo",
+                          "name": "Valor",
+                          "fill": "$texto-principal",
+                          "content": "Segundo semestre 2026 · Pregrado · 6 asignaturas",
+                          "fontFamily": "$fuente",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "r3CeKG",
+                      "name": "Cambiar periodo",
+                      "height": 40,
+                      "cornerRadius": 8,
+                      "stroke": "$azul-eafit",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "gap": 8,
+                      "padding": [
+                        0,
+                        18
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rShjq",
+                          "name": "Etiqueta",
+                          "fill": "$azul-eafit",
+                          "content": "Cambiar periodo",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "U8cdl0",
+                          "name": "Icono",
+                          "width": 16,
+                          "height": 16,
+                          "icon": "chevron-down",
+                          "library": "lucide",
+                          "fill": "$azul-eafit"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZkTNc",
+                  "name": "Encabezado",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CWoy2",
+                      "name": "Título",
+                      "fill": "$texto-principal",
+                      "content": "Mi horario",
+                      "fontFamily": "$fuente",
+                      "fontSize": 28,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "txKuZ",
+                      "name": "Subtítulo",
+                      "fill": "$texto-secundario",
+                      "content": "Semana del lunes 17 al viernes 21 de agosto de 2026",
+                      "fontFamily": "$fuente",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "g4jCk",
+                  "name": "Tarjeta / Horario semanal",
+                  "width": "fill_container",
+                  "fill": "$superficie",
+                  "cornerRadius": "$radio",
+                  "stroke": "$borde",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oNBT1",
+                      "name": "Encabezado tarjeta",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "tIr5k",
+                          "name": "Título",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "m5a96b",
+                              "name": "Título",
+                              "fill": "$texto-principal",
+                              "content": "Horario semanal",
+                              "fontFamily": "$fuente",
+                              "fontSize": 18,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "E4iPt0",
+                              "name": "Resumen",
+                              "fill": "$texto-secundario",
+                              "content": "7 sesiones · 18 horas de clase a la semana",
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "iaPNp",
+                          "name": "Rango",
+                          "height": 32,
+                          "fill": "$fondo",
+                          "cornerRadius": 8,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "IFYDn",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "calendar",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "N7WpR",
+                              "name": "Rango horario",
+                              "fill": "$texto-secundario",
+                              "content": "06:00 – 19:00",
+                              "fontFamily": "$fuente-cifras",
+                              "fontSize": 12,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yqBht",
+                      "name": "Rejilla",
+                      "width": 1038,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "f9ZJ8Q",
+                          "name": "Encabezado de días",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ICnXK",
+                              "name": "Espaciador",
+                              "width": 48,
+                              "height": 44
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Pifbs",
+                              "name": "Día Lunes",
+                              "width": 190,
+                              "height": 44,
+                              "fill": "$azul-suave",
+                              "cornerRadius": 8,
+                              "gap": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "rhh0J",
+                                  "name": "Nombre",
+                                  "fill": "$azul-eafit",
+                                  "content": "Lunes",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "vUA7D",
+                                  "name": "Fecha",
+                                  "fill": "$azul-eafit",
+                                  "content": "17",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "uWNlF",
+                                  "name": "Marca Hoy",
+                                  "height": 18,
+                                  "fill": "$azul-eafit",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    6
+                                  ],
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "h9WFGX",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-sobre-azul",
+                                      "content": "HOY",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 9,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.8
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "D8N2C",
+                              "name": "Día Martes",
+                              "width": 190,
+                              "height": 44,
+                              "fill": "#00000000",
+                              "cornerRadius": 8,
+                              "gap": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "jInxt",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "content": "Martes",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "sWU8H",
+                                  "name": "Fecha",
+                                  "fill": "$texto-terciario",
+                                  "content": "18",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ZIQKr",
+                              "name": "Día Miércoles",
+                              "width": 190,
+                              "height": 44,
+                              "fill": "#00000000",
+                              "cornerRadius": 8,
+                              "gap": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vcggH",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "content": "Miércoles",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Vzs1V",
+                                  "name": "Fecha",
+                                  "fill": "$texto-terciario",
+                                  "content": "19",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "tt2dI",
+                              "name": "Día Jueves",
+                              "width": 190,
+                              "height": 44,
+                              "fill": "#00000000",
+                              "cornerRadius": 8,
+                              "gap": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "HmESG",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "content": "Jueves",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "tb2eL",
+                                  "name": "Fecha",
+                                  "fill": "$texto-terciario",
+                                  "content": "20",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IHNsq",
+                              "name": "Día Viernes",
+                              "width": 190,
+                              "height": 44,
+                              "fill": "#00000000",
+                              "cornerRadius": 8,
+                              "gap": 8,
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "yIYvb",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "content": "Viernes",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ijsDy",
+                                  "name": "Fecha",
+                                  "fill": "$texto-terciario",
+                                  "content": "21",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "U6Xkl",
+                          "name": "Cuerpo de la rejilla",
+                          "width": 1038,
+                          "height": 728,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "b3reXn",
+                              "x": 56,
+                              "y": 0,
+                              "name": "Realce día actual",
+                              "fill": "#004B850A",
+                              "width": 190,
+                              "height": 728
+                            },
+                            {
+                              "type": "frame",
+                              "id": "CWoql",
+                              "x": 56,
+                              "y": 0,
+                              "name": "Líneas de hora",
+                              "width": 982,
+                              "height": 728,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "strokeAlignment": "inner",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "h2fNm",
+                                  "name": "Línea 6",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "V4M29S",
+                                  "name": "Línea 7",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "OkbCI",
+                                  "name": "Línea 8",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "QF9xk",
+                                  "name": "Línea 9",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "e0BSzk",
+                                  "name": "Línea 10",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "zF9tN",
+                                  "name": "Línea 11",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "t3eiBg",
+                                  "name": "Línea 12",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "jCZLe",
+                                  "name": "Línea 13",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "MYkev",
+                                  "name": "Línea 14",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "luwSI",
+                                  "name": "Línea 15",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "LTT8u",
+                                  "name": "Línea 16",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "N7e5Tt",
+                                  "name": "Línea 17",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "TQmRE",
+                                  "name": "Línea 18",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "top": 1
+                                  },
+                                  "strokeAlignment": "inner"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "h6JiqA",
+                              "x": 0,
+                              "y": 0,
+                              "name": "Columna de horas",
+                              "width": 56,
+                              "height": 728,
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "sbfnk",
+                                  "name": "Hora 6",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "o8lMu",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "06:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "DQB7k",
+                                  "name": "Hora 7",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "s9QdEf",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "07:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ZJP6v",
+                                  "name": "Hora 8",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "rmk97",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "08:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "PfCMj",
+                                  "name": "Hora 9",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "h4eOxF",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "09:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "NaAf5",
+                                  "name": "Hora 10",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "n4w3Rp",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "10:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "avCMA",
+                                  "name": "Hora 11",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "jbSO7",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "11:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "nI3nU",
+                                  "name": "Hora 12",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "WDfei",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "12:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "c9z7pj",
+                                  "name": "Hora 13",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "gez4E",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "13:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "NwTVt",
+                                  "name": "Hora 14",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "n2FuF",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "14:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "FAGLo",
+                                  "name": "Hora 15",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "x1ATnw",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "15:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "hslfa",
+                                  "name": "Hora 16",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "fY5h7",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "16:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Pj1jz",
+                                  "name": "Hora 17",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "H56Rr",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "17:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "T9tSd",
+                                  "name": "Hora 18",
+                                  "width": "fill_container",
+                                  "height": 56,
+                                  "padding": [
+                                    0,
+                                    10,
+                                    0,
+                                    0
+                                  ],
+                                  "justifyContent": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "LQYin",
+                                      "name": "Etiqueta",
+                                      "fill": "$texto-terciario",
+                                      "content": "18:00",
+                                      "fontFamily": "$fuente-cifras",
+                                      "fontSize": 11,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vvuxM",
+                              "x": 56,
+                              "y": 0,
+                              "name": "Columnas de clases",
+                              "width": 982,
+                              "height": 728,
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "gWro9",
+                                  "name": "Columna Lunes",
+                                  "width": 190,
+                                  "height": "fill_container",
+                                  "layout": "vertical",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "UMnDD",
+                                      "name": "Espacio",
+                                      "width": "fill_container",
+                                      "height": 168
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "N6yAp",
+                                      "name": "Bloque Métodos Cuantitativos",
+                                      "clip": true,
+                                      "width": "fill_container",
+                                      "height": 84,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 6,
+                                      "children": [
+                                        {
+                                          "type": "rectangle",
+                                          "id": "dTYGg",
+                                          "name": "Acento",
+                                          "fill": "$azul-eafit",
+                                          "width": 3,
+                                          "height": "fill_container"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "ADLgO",
+                                          "name": "Contenido",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "layout": "vertical",
+                                          "gap": 4,
+                                          "padding": [
+                                            9,
+                                            10
+                                          ],
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "a4Lkyr",
+                                              "name": "Nombre",
+                                              "fill": "$azul-oscuro",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Métodos Cuantitativos",
+                                              "lineHeight": 1.3,
+                                              "fontFamily": "$fuente",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "s8ZxUI",
+                                              "name": "Hora",
+                                              "fill": "$azul-eafit",
+                                              "content": "09:00 – 10:30",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "500"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "nYq7W",
+                                              "name": "Clase y salón",
+                                              "fill": "$texto-secundario",
+                                              "content": "Clase 3831 · 35-203",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "gC6qg",
+                                      "name": "Espacio",
+                                      "width": "fill_container",
+                                      "height": 252
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "r2PJc",
+                                      "name": "Bloque Internet, Arquitectura y Protocolos",
+                                      "clip": true,
+                                      "width": "fill_container",
+                                      "height": 168,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 6,
+                                      "children": [
+                                        {
+                                          "type": "rectangle",
+                                          "id": "HEd3B",
+                                          "name": "Acento",
+                                          "fill": "$azul-eafit",
+                                          "width": 3,
+                                          "height": "fill_container"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "trdBD",
+                                          "name": "Contenido",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "layout": "vertical",
+                                          "gap": 4,
+                                          "padding": [
+                                            9,
+                                            10
+                                          ],
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "RYJPV",
+                                              "name": "Nombre",
+                                              "fill": "$azul-oscuro",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Internet, Arquitectura y Protocolos",
+                                              "lineHeight": 1.3,
+                                              "fontFamily": "$fuente",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "KmnR1",
+                                              "name": "Hora",
+                                              "fill": "$azul-eafit",
+                                              "content": "15:00 – 18:00",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "500"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "Q1JHr3",
+                                              "name": "Clase y salón",
+                                              "fill": "$texto-secundario",
+                                              "content": "Clase 4595 · 18-417",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "xrZUy",
+                                  "name": "Columna Martes",
+                                  "width": 190,
+                                  "height": "fill_container",
+                                  "layout": "vertical",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "FjMu4",
+                                      "name": "Sin clases",
+                                      "fill": "$texto-terciario",
+                                      "content": "Sin clases",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 12,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "N5jgzN",
+                                  "name": "Columna Miércoles",
+                                  "width": 190,
+                                  "height": "fill_container",
+                                  "layout": "vertical",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "FFtWx",
+                                      "name": "Espacio",
+                                      "width": "fill_container",
+                                      "height": 168
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "b56v5",
+                                      "name": "Bloque Métodos Cuantitativos",
+                                      "clip": true,
+                                      "width": "fill_container",
+                                      "height": 84,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 6,
+                                      "children": [
+                                        {
+                                          "type": "rectangle",
+                                          "id": "ihMHU",
+                                          "name": "Acento",
+                                          "fill": "$azul-eafit",
+                                          "width": 3,
+                                          "height": "fill_container"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "eA59T",
+                                          "name": "Contenido",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "layout": "vertical",
+                                          "gap": 4,
+                                          "padding": [
+                                            9,
+                                            10
+                                          ],
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "kQucE",
+                                              "name": "Nombre",
+                                              "fill": "$azul-oscuro",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Métodos Cuantitativos",
+                                              "lineHeight": 1.3,
+                                              "fontFamily": "$fuente",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "U6Rfj",
+                                              "name": "Hora",
+                                              "fill": "$azul-eafit",
+                                              "content": "09:00 – 10:30",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "500"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "p7Mza",
+                                              "name": "Clase y salón",
+                                              "fill": "$texto-secundario",
+                                              "content": "Clase 3831 · 17-304",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "D9iX03",
+                                      "name": "Espacio",
+                                      "width": "fill_container",
+                                      "height": 252
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "RiSKm",
+                                      "name": "Bloque Proyecto 2",
+                                      "clip": true,
+                                      "width": "fill_container",
+                                      "height": 168,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 6,
+                                      "children": [
+                                        {
+                                          "type": "rectangle",
+                                          "id": "Tk8Kn",
+                                          "name": "Acento",
+                                          "fill": "$azul-eafit",
+                                          "width": 3,
+                                          "height": "fill_container"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "rWkow",
+                                          "name": "Contenido",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "layout": "vertical",
+                                          "gap": 4,
+                                          "padding": [
+                                            9,
+                                            10
+                                          ],
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "y5GP9v",
+                                              "name": "Nombre",
+                                              "fill": "$azul-oscuro",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Proyecto 2",
+                                              "lineHeight": 1.3,
+                                              "fontFamily": "$fuente",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "hKibq",
+                                              "name": "Hora",
+                                              "fill": "$azul-eafit",
+                                              "content": "15:00 – 18:00",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "500"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "u27zZ",
+                                              "name": "Clase y salón",
+                                              "fill": "$texto-secundario",
+                                              "content": "Clase 4617 · 34-501",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "MTn5Z",
+                                  "name": "Columna Jueves",
+                                  "width": 190,
+                                  "height": "fill_container",
+                                  "layout": "vertical",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "YZaYa",
+                                      "name": "Espacio",
+                                      "width": "fill_container",
+                                      "height": 504
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "JNSg6",
+                                      "name": "Bloque Proyecto en Desarrollo de Software",
+                                      "clip": true,
+                                      "width": "fill_container",
+                                      "height": 168,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 6,
+                                      "children": [
+                                        {
+                                          "type": "rectangle",
+                                          "id": "uW7FE",
+                                          "name": "Acento",
+                                          "fill": "$azul-eafit",
+                                          "width": 3,
+                                          "height": "fill_container"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "xRt7F",
+                                          "name": "Contenido",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "layout": "vertical",
+                                          "gap": 4,
+                                          "padding": [
+                                            9,
+                                            10
+                                          ],
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "pEodd",
+                                              "name": "Nombre",
+                                              "fill": "$azul-oscuro",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Proyecto en Desarrollo de Software",
+                                              "lineHeight": 1.3,
+                                              "fontFamily": "$fuente",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "LwdI6",
+                                              "name": "Hora",
+                                              "fill": "$azul-eafit",
+                                              "content": "15:00 – 18:00",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "500"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "ch2SG",
+                                              "name": "Clase y salón",
+                                              "fill": "$texto-secundario",
+                                              "content": "Clase 7150 · 07-103",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "X99Sqd",
+                                  "name": "Columna Viernes",
+                                  "width": 190,
+                                  "height": "fill_container",
+                                  "layout": "vertical",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "x9xU1",
+                                      "name": "Bloque Tópicos Especiales y Aplicaciones en Inteligencia Artificial",
+                                      "clip": true,
+                                      "width": "fill_container",
+                                      "height": 168,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 6,
+                                      "children": [
+                                        {
+                                          "type": "rectangle",
+                                          "id": "iwiI5",
+                                          "name": "Acento",
+                                          "fill": "$azul-eafit",
+                                          "width": 3,
+                                          "height": "fill_container"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "VKv2n",
+                                          "name": "Contenido",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "layout": "vertical",
+                                          "gap": 4,
+                                          "padding": [
+                                            9,
+                                            10
+                                          ],
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "a6jJHi",
+                                              "name": "Nombre",
+                                              "fill": "$azul-oscuro",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Tópicos Especiales y Aplicaciones en Inteligencia Artificial",
+                                              "lineHeight": 1.3,
+                                              "fontFamily": "$fuente",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "L6XOxU",
+                                              "name": "Hora",
+                                              "fill": "$azul-eafit",
+                                              "content": "06:00 – 09:00",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "500"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "ddMXX",
+                                              "name": "Clase y salón",
+                                              "fill": "$texto-secundario",
+                                              "content": "Clase 7079 · 17-302",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "sQgDJ",
+                                      "name": "Espacio",
+                                      "width": "fill_container",
+                                      "height": 336
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "ELp44",
+                                      "name": "Bloque Interacción Humano Computador",
+                                      "clip": true,
+                                      "width": "fill_container",
+                                      "height": 168,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 6,
+                                      "children": [
+                                        {
+                                          "type": "rectangle",
+                                          "id": "XkVAb",
+                                          "name": "Acento",
+                                          "fill": "$azul-eafit",
+                                          "width": 3,
+                                          "height": "fill_container"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "LGo3x",
+                                          "name": "Contenido",
+                                          "width": "fill_container",
+                                          "height": "fill_container",
+                                          "layout": "vertical",
+                                          "gap": 4,
+                                          "padding": [
+                                            9,
+                                            10
+                                          ],
+                                          "children": [
+                                            {
+                                              "type": "text",
+                                              "id": "BAGJU",
+                                              "name": "Nombre",
+                                              "fill": "$azul-oscuro",
+                                              "textGrowth": "fixed-width",
+                                              "width": "fill_container",
+                                              "content": "Interacción Humano Computador",
+                                              "lineHeight": 1.3,
+                                              "fontFamily": "$fuente",
+                                              "fontSize": 12,
+                                              "fontWeight": "600"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "NGDFP",
+                                              "name": "Hora",
+                                              "fill": "$azul-eafit",
+                                              "content": "15:00 – 18:00",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "500"
+                                            },
+                                            {
+                                              "type": "text",
+                                              "id": "VHKUL",
+                                              "name": "Clase y salón",
+                                              "fill": "$texto-secundario",
+                                              "content": "Clase 7025 · 34-502",
+                                              "fontFamily": "$fuente-cifras",
+                                              "fontSize": 11,
+                                              "fontWeight": "normal"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zSzES",
+                  "name": "Tarjeta / Asignaturas inscritas",
+                  "width": "fill_container",
+                  "fill": "$superficie",
+                  "cornerRadius": "$radio",
+                  "stroke": "$borde",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RZSaj",
+                      "name": "Encabezado tarjeta",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Sqy6Y",
+                          "name": "Título",
+                          "fill": "$texto-principal",
+                          "content": "Asignaturas inscritas",
+                          "fontFamily": "$fuente",
+                          "fontSize": 18,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "a3t3M",
+                          "name": "Subtítulo",
+                          "fill": "$texto-secundario",
+                          "content": "6 asignaturas · todas presenciales, en español, sede Poblado · del 13/07/2026 al 07/11/2026",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "u8iF7B",
+                      "name": "Tabla",
+                      "clip": true,
+                      "width": "fill_container",
+                      "cornerRadius": 8,
+                      "stroke": "$borde",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "layout": "vertical",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "cMphF",
+                          "name": "Fila de encabezado",
+                          "width": "fill_container",
+                          "height": 44,
+                          "fill": "$azul-suave",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "rxvfZ",
+                              "name": "Celda ASIGNATURA",
+                              "width": "fill_container",
+                              "height": "fill_container",
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "HpIy4",
+                                  "name": "Etiqueta",
+                                  "fill": "$azul-oscuro",
+                                  "content": "ASIGNATURA",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "t0EiW",
+                              "name": "Celda CÓDIGO",
+                              "width": 88,
+                              "height": "fill_container",
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "UeAkr",
+                                  "name": "Etiqueta",
+                                  "fill": "$azul-oscuro",
+                                  "content": "CÓDIGO",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "iXfxs",
+                              "name": "Celda CLASE",
+                              "width": 72,
+                              "height": "fill_container",
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "yOlEq",
+                                  "name": "Etiqueta",
+                                  "fill": "$azul-oscuro",
+                                  "content": "CLASE",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "KZ6EM",
+                              "name": "Celda CRÉDITOS",
+                              "width": 76,
+                              "height": "fill_container",
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "justifyContent": "end",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "PQsJo",
+                                  "name": "Etiqueta",
+                                  "fill": "$azul-oscuro",
+                                  "content": "CRÉDITOS",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "P240sn",
+                              "name": "Celda DOCENTE",
+                              "width": 224,
+                              "height": "fill_container",
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "J8aiS",
+                                  "name": "Etiqueta",
+                                  "fill": "$azul-oscuro",
+                                  "content": "DOCENTE",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kUuGp",
+                              "name": "Celda SALÓN",
+                              "width": 120,
+                              "height": "fill_container",
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "eRhiJ",
+                                  "name": "Etiqueta",
+                                  "fill": "$azul-oscuro",
+                                  "content": "SALÓN",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IoCRs",
+                              "name": "Celda HORARIO",
+                              "width": 180,
+                              "height": "fill_container",
+                              "padding": [
+                                0,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "CGnex",
+                                  "name": "Etiqueta",
+                                  "fill": "$azul-oscuro",
+                                  "content": "HORARIO",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 10,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "P0gN6A",
+                          "name": "Fila Métodos Cuantitativos",
+                          "width": "fill_container",
+                          "stroke": "$borde",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mZAIX",
+                              "name": "Celda",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "wE9kF",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Métodos Cuantitativos",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "iZUyb",
+                              "name": "Celda",
+                              "width": 88,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "byOsU",
+                                  "name": "Código",
+                                  "fill": "$texto-principal",
+                                  "content": "CM0245",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rTq2x",
+                              "name": "Celda",
+                              "width": 72,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "iq7HL",
+                                  "name": "Clase",
+                                  "fill": "$texto-principal",
+                                  "content": "3831",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "x23wyd",
+                              "name": "Celda",
+                              "width": 76,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "IKD8b",
+                                  "name": "Créditos",
+                                  "fill": "$texto-principal",
+                                  "content": "3",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NQDP9",
+                              "name": "Celda",
+                              "width": 224,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "dZog1",
+                                  "name": "Docente",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Juan Carlos Rivera Agudelo",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "CkQkW",
+                              "name": "Celda",
+                              "width": 120,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ELCGb",
+                                  "name": "Salón",
+                                  "fill": "$texto-secundario",
+                                  "content": "35-203 (Lun)",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Q61wx",
+                                  "name": "Salón",
+                                  "fill": "$texto-secundario",
+                                  "content": "17-304 (Mié)",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hzLHG",
+                              "name": "Celda",
+                              "width": 180,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "AFcSh",
+                                  "name": "Días",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Lunes y miércoles",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "tsQXb",
+                                  "name": "Horas",
+                                  "fill": "$texto-principal",
+                                  "content": "09:00 – 10:30",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "iodde",
+                          "name": "Fila Internet, Arquitectura y Protocolos",
+                          "width": "fill_container",
+                          "stroke": "$borde",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "x9jrfi",
+                              "name": "Celda",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Y78Z0T",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Internet, Arquitectura y Protocolos",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "AoRa1",
+                              "name": "Celda",
+                              "width": 88,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "dBa8y",
+                                  "name": "Código",
+                                  "fill": "$texto-principal",
+                                  "content": "SI3002",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "M8Sn9y",
+                              "name": "Celda",
+                              "width": 72,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "FP73z",
+                                  "name": "Clase",
+                                  "fill": "$texto-principal",
+                                  "content": "4595",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IL652",
+                              "name": "Celda",
+                              "width": 76,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "AOFxN",
+                                  "name": "Créditos",
+                                  "fill": "$texto-principal",
+                                  "content": "3",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "cqiHc",
+                              "name": "Celda",
+                              "width": 224,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "UaWZU",
+                                  "name": "Docente",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Alber Oswaldo Montoya Benitez",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "JfgeA",
+                              "name": "Celda",
+                              "width": 120,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "hW8kw",
+                                  "name": "Salón",
+                                  "fill": "$texto-secundario",
+                                  "content": "18-417",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "iJjTX",
+                              "name": "Celda",
+                              "width": 180,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "y77BB",
+                                  "name": "Días",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Lunes",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ZaJ2G",
+                                  "name": "Horas",
+                                  "fill": "$texto-principal",
+                                  "content": "15:00 – 18:00",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Cmyaw",
+                          "name": "Fila Proyecto 2",
+                          "width": "fill_container",
+                          "stroke": "$borde",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "lNDwQ",
+                              "name": "Celda",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "k7L8P",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Proyecto 2",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "apnDb",
+                              "name": "Celda",
+                              "width": 88,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "prEm9",
+                                  "name": "Código",
+                                  "fill": "$texto-principal",
+                                  "content": "SI3004",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "n7Vm24",
+                              "name": "Celda",
+                              "width": 72,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "rEiYm",
+                                  "name": "Clase",
+                                  "fill": "$texto-principal",
+                                  "content": "4617",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "f0Xdf",
+                              "name": "Celda",
+                              "width": 76,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "eTzcl",
+                                  "name": "Créditos",
+                                  "fill": "$texto-principal",
+                                  "content": "3",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Bc3LV",
+                              "name": "Celda",
+                              "width": 224,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "GGdfl",
+                                  "name": "Docente",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Wilmer Alberto Gil Moreno",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wu1FG",
+                              "name": "Celda",
+                              "width": 120,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Za0y8",
+                                  "name": "Salón",
+                                  "fill": "$texto-secundario",
+                                  "content": "34-501",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "S0iQvm",
+                              "name": "Celda",
+                              "width": 180,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "P4E7U",
+                                  "name": "Días",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Miércoles",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "qfJ2k",
+                                  "name": "Horas",
+                                  "fill": "$texto-principal",
+                                  "content": "15:00 – 18:00",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "m8ZnJO",
+                          "name": "Fila Proyecto en Desarrollo de Software",
+                          "width": "fill_container",
+                          "stroke": "$borde",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "tcHbA",
+                              "name": "Celda",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "X8viBT",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Proyecto en Desarrollo de Software",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fTDGI",
+                              "name": "Celda",
+                              "width": 88,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "xwOBa",
+                                  "name": "Código",
+                                  "fill": "$texto-principal",
+                                  "content": "SI4005",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "u0KB1z",
+                              "name": "Celda",
+                              "width": 72,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "DQDku",
+                                  "name": "Clase",
+                                  "fill": "$texto-principal",
+                                  "content": "7150",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "h7TVZz",
+                              "name": "Celda",
+                              "width": 76,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "REACW",
+                                  "name": "Créditos",
+                                  "fill": "$texto-terciario",
+                                  "content": "—",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "uvMwa",
+                              "name": "Celda",
+                              "width": 224,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "P1zeF",
+                                  "name": "Docente",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "—",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "TfZgE",
+                              "name": "Celda",
+                              "width": 120,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "CcsYo",
+                                  "name": "Salón",
+                                  "fill": "$texto-secundario",
+                                  "content": "07-103",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YOVT4",
+                              "name": "Celda",
+                              "width": 180,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "hUyeI",
+                                  "name": "Días",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Jueves",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "T08st",
+                                  "name": "Horas",
+                                  "fill": "$texto-principal",
+                                  "content": "15:00 – 18:00",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eCuXR",
+                          "name": "Fila Interacción Humano Computador",
+                          "width": "fill_container",
+                          "stroke": "$borde",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vHHku",
+                              "name": "Celda",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "vKqeC",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Interacción Humano Computador",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Qdypv",
+                              "name": "Celda",
+                              "width": 88,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "bS1kn",
+                                  "name": "Código",
+                                  "fill": "$texto-principal",
+                                  "content": "SI4004",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qZ0rq",
+                              "name": "Celda",
+                              "width": 72,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "fSHWy",
+                                  "name": "Clase",
+                                  "fill": "$texto-principal",
+                                  "content": "7025",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Rfeck",
+                              "name": "Celda",
+                              "width": 76,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ByOpt",
+                                  "name": "Créditos",
+                                  "fill": "$texto-principal",
+                                  "content": "3",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "V4ydH",
+                              "name": "Celda",
+                              "width": 224,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "iDci2",
+                                  "name": "Docente",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Juan Camilo Lopez Cuartas",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "mQ1BI",
+                              "name": "Celda",
+                              "width": 120,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "qnhyI",
+                                  "name": "Salón",
+                                  "fill": "$texto-secundario",
+                                  "content": "34-502",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IfSLu",
+                              "name": "Celda",
+                              "width": 180,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "W5tV7d",
+                                  "name": "Días",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Viernes",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "PFKJH",
+                                  "name": "Horas",
+                                  "fill": "$texto-principal",
+                                  "content": "15:00 – 18:00",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "oR0Uw",
+                          "name": "Fila Tópicos Especiales y Aplicaciones en Inteligencia Artificial",
+                          "width": "fill_container",
+                          "stroke": "$borde",
+                          "strokeWidth": {
+                            "top": 1
+                          },
+                          "strokeAlignment": "inner",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "QX04E",
+                              "name": "Celda",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "qZl1J",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Tópicos Especiales y Aplicaciones en Inteligencia Artificial",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Hrfm2",
+                              "name": "Celda",
+                              "width": 88,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "cONFG",
+                                  "name": "Código",
+                                  "fill": "$texto-principal",
+                                  "content": "SI4006",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ISiTA",
+                              "name": "Celda",
+                              "width": 72,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "htNPw",
+                                  "name": "Clase",
+                                  "fill": "$texto-principal",
+                                  "content": "7079",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "t4aHUz",
+                              "name": "Celda",
+                              "width": 76,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Qk7BU",
+                                  "name": "Créditos",
+                                  "fill": "$texto-terciario",
+                                  "content": "—",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "f3HCZ",
+                              "name": "Celda",
+                              "width": 224,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Way1E",
+                                  "name": "Docente",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "—",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "C0NiR",
+                              "name": "Celda",
+                              "width": 120,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Z0ujnK",
+                                  "name": "Salón",
+                                  "fill": "$texto-secundario",
+                                  "content": "17-302",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "E24Ugk",
+                              "name": "Celda",
+                              "width": 180,
+                              "layout": "vertical",
+                              "gap": 3,
+                              "padding": 14,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "cm8eb",
+                                  "name": "Días",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Viernes",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "P3mVE",
+                                  "name": "Horas",
+                                  "fill": "$texto-principal",
+                                  "content": "06:00 – 09:00",
+                                  "fontFamily": "$fuente-cifras",
+                                  "fontSize": 12,
+                                  "fontWeight": "500"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oVpVv",
+                      "name": "Notas",
+                      "width": "fill_container",
+                      "fill": "$fondo",
+                      "cornerRadius": 8,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        12,
+                        14
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CAFLt",
+                          "name": "Nota",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "FHTzZ",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "info",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "eNBm3",
+                              "name": "Texto",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Los créditos de SI4005 y SI4006 no están disponibles en el sistema. Por eso esas celdas aparecen con un guion y no se muestra un total de créditos.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mGztI",
+                          "name": "Nota",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "uBZK4",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "mail",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QK8dn",
+                              "name": "Texto",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "¿Falta una asignatura o hay un dato incorrecto? Escribe a Registro Académico desde Trámites.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nSPpX",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "Biblioteca de componentes (no exportable)",
+          "enabled": false,
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "iZnDt",
+              "name": "Componente / Acción primaria",
+              "reusable": true,
+              "height": 48,
+              "fill": "$azul-eafit",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DRRwT",
+                  "name": "Etiqueta",
+                  "fill": "$texto-sobre-azul",
+                  "content": "Acción primaria",
+                  "fontFamily": "$fuente",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon",
+                  "id": "oXJt1",
+                  "name": "Icono",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "arrow-right",
+                  "library": "lucide",
+                  "fill": "$texto-sobre-azul"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "azul-eafit": {
+      "type": "color",
+      "value": "#004B85"
+    },
+    "azul-oscuro": {
+      "type": "color",
+      "value": "#003057"
+    },
+    "azul-suave": {
+      "type": "color",
+      "value": "#EAF1F7"
+    },
+    "amarillo-eafit": {
+      "type": "color",
+      "value": "#FFB903"
+    },
+    "fondo": {
+      "type": "color",
+      "value": "#F4F6F8"
+    },
+    "superficie": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "borde": {
+      "type": "color",
+      "value": "#E2E5EA"
+    },
+    "texto-principal": {
+      "type": "color",
+      "value": "#1A1D21"
+    },
+    "texto-secundario": {
+      "type": "color",
+      "value": "#5A6470"
+    },
+    "texto-terciario": {
+      "type": "color",
+      "value": "#6B7480"
+    },
+    "texto-sobre-azul": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "fuente": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "radio": {
+      "type": "number",
+      "value": 12
+    },
+    "espacio-interno": {
+      "type": "number",
+      "value": 16
+    },
+    "espacio-entre-grupos": {
+      "type": "number",
+      "value": 32
+    },
+    "fuente-cifras": {
+      "type": "string",
+      "value": "IBM Plex Mono"
+    }
+  },
+  "fileToken": "99e08a4c-22cf-47f0-a256-6f9bb7dba18a"
+}

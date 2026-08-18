@@ -1,0 +1,1673 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "WOh3J",
+      "x": 0,
+      "y": 0,
+      "name": "EPIK — Reserva de espacios (escritorio 1440)",
+      "clip": true,
+      "width": 1440,
+      "height": 1156,
+      "fill": "$fondo",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XFbUr",
+          "name": "Barra superior",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "$azul-eafit",
+          "padding": [
+            0,
+            32
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QVrTo",
+              "name": "Marca EAFIT",
+              "layout": "vertical",
+              "gap": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xFwG2",
+                  "name": "Universidad",
+                  "fill": "$texto-sobre-azul",
+                  "content": "UNIVERSIDAD",
+                  "fontFamily": "$fuente",
+                  "fontSize": 9,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.6
+                },
+                {
+                  "type": "text",
+                  "id": "wNzS6",
+                  "name": "EAFIT",
+                  "fill": "$texto-sobre-azul",
+                  "content": "EAFIT",
+                  "fontFamily": "$fuente",
+                  "fontSize": 21,
+                  "fontWeight": "800",
+                  "letterSpacing": 1.2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UFaSA",
+              "name": "Buscador",
+              "width": 440,
+              "height": 40,
+              "fill": "$superficie",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                0,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "COHDu",
+                  "name": "Icono buscar",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "$texto-terciario"
+                },
+                {
+                  "type": "text",
+                  "id": "eJXdw",
+                  "name": "Marcador de posición",
+                  "fill": "$texto-terciario",
+                  "content": "Buscar trámites, materias o certificados",
+                  "fontFamily": "$fuente",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dnfpy",
+              "name": "Menú de usuario",
+              "height": 44,
+              "gap": 10,
+              "padding": [
+                0,
+                4
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "apTLE",
+                  "name": "Avatar",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$amarillo-eafit",
+                  "cornerRadius": 16,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g4CM0o",
+                      "name": "Iniciales",
+                      "fill": "$azul-oscuro",
+                      "content": "JY",
+                      "fontFamily": "$fuente",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eObjs",
+                  "name": "Datos de usuario",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "T35yk",
+                      "name": "Nombre",
+                      "fill": "$texto-sobre-azul",
+                      "content": "Juan Andrés Young",
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RELML",
+                      "name": "Usuario",
+                      "fill": "#BFD4E6",
+                      "content": "jayoungh",
+                      "fontFamily": "$fuente",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "c2DPyj",
+                  "name": "Abrir menú",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "chevron-down",
+                  "library": "lucide",
+                  "fill": "$texto-sobre-azul"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SGfAS",
+          "name": "Cuerpo",
+          "width": "fill_container",
+          "height": "fill_container",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JWixy",
+              "name": "Navegación lateral",
+              "width": 264,
+              "height": "fill_container",
+              "fill": "$superficie",
+              "stroke": "$borde",
+              "strokeWidth": {
+                "right": 1
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                20,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "I05Rmy",
+                  "name": "Grupo Inicio",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bsGrI",
+                      "name": "Inicio",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#00000000",
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "MaFKI",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yKP7Q",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "mOTlw",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "house",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Llcmv",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Inicio",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e08iIt",
+                  "name": "Grupo Académico",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CUwmb",
+                      "name": "Académico",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "t1VJo",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DFwtG",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "MScb4",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "graduation-cap",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Pei75",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Académico",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZmpPH",
+                      "name": "Mi horario",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "c2H4k",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Mi horario",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mbW6i",
+                      "name": "Mis notas",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aAC4g",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Mis notas",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j9PhK",
+                  "name": "Grupo Financiero",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YD3bu",
+                      "name": "Financiero",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "R4QAp",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mLogc",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "rlWPX",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "credit-card",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Mzx44",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Financiero",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hi7uY",
+                      "name": "Pagar",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e75LQa",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Pagar",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OCVPd",
+                  "name": "Grupo Trámites",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BJLmU",
+                      "name": "Trámites",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "$azul-suave",
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "K1P9IX",
+                          "name": "Indicador",
+                          "fill": "$amarillo-eafit",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "naE66",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ARssz",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "file-text",
+                              "library": "lucide",
+                              "fill": "$azul-eafit"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Lwqtm",
+                              "name": "Etiqueta",
+                              "fill": "$azul-eafit",
+                              "content": "Trámites",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gdIIH",
+                      "name": "Certificados",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "PgWrZ",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Certificados",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xsj1q",
+                  "name": "Grupo Inscripciones",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DNaC5",
+                      "name": "Inscripciones",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "xk5UT",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GPnsT",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "F7f9A",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "clipboard-list",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zT1iW",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Inscripciones",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gbRaH",
+              "name": "Contenido principal",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Oulgg",
+                  "name": "Encabezado",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "C27EJB",
+                      "name": "Ruta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rKWmO",
+                          "name": "Ruta 1",
+                          "fill": "$texto-secundario",
+                          "content": "Trámites",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "E4dlW",
+                          "name": "Separador",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "chevron-right",
+                          "library": "lucide",
+                          "fill": "$texto-terciario"
+                        },
+                        {
+                          "type": "text",
+                          "id": "z4t5As",
+                          "name": "Ruta 2",
+                          "fill": "$texto-principal",
+                          "content": "Reserva de espacios",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "d1p6XG",
+                      "name": "Título",
+                      "fill": "$texto-principal",
+                      "content": "Nueva reserva",
+                      "fontFamily": "$fuente",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mOW15",
+                      "name": "Pestañas de sección",
+                      "width": "fill_container",
+                      "stroke": "$borde",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "strokeAlignment": "inner",
+                      "gap": 24,
+                      "padding": [
+                        14,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "y3q2Sx",
+                          "name": "Pestaña Nueva reserva",
+                          "stroke": "$azul-eafit",
+                          "strokeWidth": {
+                            "bottom": 2
+                          },
+                          "strokeAlignment": "inner",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            0,
+                            10,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "I6zyv8",
+                              "name": "Etiqueta",
+                              "fill": "$azul-eafit",
+                              "content": "Nueva reserva",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "y9rJSO",
+                          "name": "Pestaña Mis reservas",
+                          "stroke": "#00000000",
+                          "strokeWidth": {
+                            "bottom": 2
+                          },
+                          "strokeAlignment": "inner",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            0,
+                            10,
+                            0
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HJHCy",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Mis reservas",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OlPC7",
+                  "name": "Formulario de reserva",
+                  "width": "fill_container",
+                  "fill": "$superficie",
+                  "cornerRadius": "$radio",
+                  "stroke": "$borde",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 32,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kZjMu",
+                      "name": "Bloque Qué necesitas",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Q2tUw",
+                          "name": "Encabezado bloque",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SYKfc",
+                              "name": "Título",
+                              "fill": "$azul-oscuro",
+                              "content": "Qué necesitas",
+                              "fontFamily": "$fuente",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "L7im2",
+                              "name": "Línea",
+                              "fill": "$borde",
+                              "width": "fill_container",
+                              "height": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FXDsM",
+                          "name": "Fila",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "t2FEMF",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Tipo de instalación",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Tipo de instalación"
+                                },
+                                "ud16Q": {
+                                  "fill": "$azul-suave"
+                                },
+                                "Y2udT": {
+                                  "content": "Obligatorio",
+                                  "fill": "$azul-eafit"
+                                },
+                                "ghGLq": {
+                                  "content": "Selecciona una opción",
+                                  "fill": "$texto-terciario"
+                                },
+                                "h7voF3": {
+                                  "icon": "chevron-down"
+                                }
+                              }
+                            },
+                            {
+                              "id": "FqIaB",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Tipo de reserva",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Tipo de reserva"
+                                },
+                                "ud16Q": {
+                                  "fill": "$azul-suave"
+                                },
+                                "Y2udT": {
+                                  "content": "Obligatorio",
+                                  "fill": "$azul-eafit"
+                                },
+                                "ghGLq": {
+                                  "content": "Reserva",
+                                  "fill": "$texto-principal"
+                                },
+                                "h7voF3": {
+                                  "icon": "chevron-down"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ztdUf",
+                          "name": "Fila",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "F51VX",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Descripción",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Descripción"
+                                },
+                                "ud16Q": {
+                                  "fill": "$azul-suave"
+                                },
+                                "Y2udT": {
+                                  "content": "Obligatorio",
+                                  "fill": "$azul-eafit"
+                                },
+                                "ghGLq": {
+                                  "content": "Describe brevemente el uso del espacio",
+                                  "fill": "$texto-terciario"
+                                },
+                                "h7voF3": {
+                                  "enabled": false
+                                }
+                              }
+                            },
+                            {
+                              "id": "E0mEtY",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Característica",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Característica"
+                                },
+                                "ud16Q": {
+                                  "fill": "#EDEFF2"
+                                },
+                                "Y2udT": {
+                                  "content": "Opcional",
+                                  "fill": "$texto-secundario"
+                                },
+                                "ghGLq": {
+                                  "content": "Buscar característica",
+                                  "fill": "$texto-terciario"
+                                },
+                                "h7voF3": {
+                                  "icon": "search"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ehWkP",
+                      "name": "Bloque Cuándo",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "r1HWn",
+                          "name": "Encabezado bloque",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NsWdN",
+                              "name": "Título",
+                              "fill": "$azul-oscuro",
+                              "content": "Cuándo",
+                              "fontFamily": "$fuente",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "sGOCQ",
+                              "name": "Línea",
+                              "fill": "$borde",
+                              "width": "fill_container",
+                              "height": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zoLGr",
+                          "name": "Fila",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "MMfJX",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Fecha de la reserva",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Fecha de la reserva"
+                                },
+                                "ud16Q": {
+                                  "fill": "$azul-suave"
+                                },
+                                "Y2udT": {
+                                  "content": "Obligatorio",
+                                  "fill": "$azul-eafit"
+                                },
+                                "ghGLq": {
+                                  "content": "dd/mm/aaaa",
+                                  "fill": "$texto-terciario"
+                                },
+                                "h7voF3": {
+                                  "icon": "calendar"
+                                }
+                              }
+                            },
+                            {
+                              "id": "UruZh",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Hora de inicio",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Hora de inicio"
+                                },
+                                "ud16Q": {
+                                  "fill": "$azul-suave"
+                                },
+                                "Y2udT": {
+                                  "content": "Obligatorio",
+                                  "fill": "$azul-eafit"
+                                },
+                                "ghGLq": {
+                                  "content": "hh:mm",
+                                  "fill": "$texto-terciario"
+                                },
+                                "h7voF3": {
+                                  "icon": "clock"
+                                }
+                              }
+                            },
+                            {
+                              "id": "xmG3b",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Hora de fin",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Hora de fin"
+                                },
+                                "ud16Q": {
+                                  "fill": "$azul-suave"
+                                },
+                                "Y2udT": {
+                                  "content": "Obligatorio",
+                                  "fill": "$azul-eafit"
+                                },
+                                "ghGLq": {
+                                  "content": "hh:mm",
+                                  "fill": "$texto-terciario"
+                                },
+                                "h7voF3": {
+                                  "icon": "clock"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MaXTH",
+                          "name": "Casilla recurrente",
+                          "width": "fill_container",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 4,
+                              "id": "f0nayT",
+                              "name": "Casilla",
+                              "fill": "$superficie",
+                              "width": 20,
+                              "height": 20,
+                              "stroke": "$borde",
+                              "strokeWidth": 1.5
+                            },
+                            {
+                              "type": "text",
+                              "id": "Q9uSC",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Es una reserva recurrente",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NbfZe",
+                      "name": "Bloque Dónde y para cuántos",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "aB8sD",
+                          "name": "Encabezado bloque",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "oxu2L",
+                              "name": "Título",
+                              "fill": "$azul-oscuro",
+                              "content": "Dónde y para cuántos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "gUwUI",
+                              "name": "Línea",
+                              "fill": "$borde",
+                              "width": "fill_container",
+                              "height": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NEMdZ",
+                          "name": "Fila",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "EfBgD",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Ubicación",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Ubicación"
+                                },
+                                "ud16Q": {
+                                  "fill": "$azul-suave"
+                                },
+                                "Y2udT": {
+                                  "content": "Obligatorio",
+                                  "fill": "$azul-eafit"
+                                },
+                                "ghGLq": {
+                                  "content": "Buscar ubicación",
+                                  "fill": "$texto-terciario"
+                                },
+                                "h7voF3": {
+                                  "icon": "search"
+                                }
+                              }
+                            },
+                            {
+                              "id": "h7ohID",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Capacidad",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Capacidad"
+                                },
+                                "ud16Q": {
+                                  "fill": "$azul-suave"
+                                },
+                                "Y2udT": {
+                                  "content": "Obligatorio",
+                                  "fill": "$azul-eafit"
+                                },
+                                "ghGLq": {
+                                  "content": "Número de personas",
+                                  "fill": "$texto-terciario"
+                                },
+                                "h7voF3": {
+                                  "enabled": false
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "OrHCp",
+                      "name": "Bloque A nombre de quién",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "oJRF6",
+                          "name": "Encabezado bloque",
+                          "width": "fill_container",
+                          "gap": 16,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "iPHMn",
+                              "name": "Título",
+                              "fill": "$azul-oscuro",
+                              "content": "A nombre de quién",
+                              "fontFamily": "$fuente",
+                              "fontSize": 16,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "rectangle",
+                              "id": "l4WR9",
+                              "name": "Línea",
+                              "fill": "$borde",
+                              "width": "fill_container",
+                              "height": 1
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "A5n1S",
+                          "name": "Fila",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "Em8Uh",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Tipo de responsable",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Tipo de responsable"
+                                },
+                                "ud16Q": {
+                                  "fill": "$azul-suave"
+                                },
+                                "Y2udT": {
+                                  "content": "Obligatorio",
+                                  "fill": "$azul-eafit"
+                                },
+                                "ghGLq": {
+                                  "content": "A nombre propio",
+                                  "fill": "$texto-principal"
+                                },
+                                "h7voF3": {
+                                  "icon": "chevron-down"
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "l8W2Z",
+                              "name": "Responsable",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 8,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "VUozp",
+                                  "name": "Etiqueta",
+                                  "fill": "$texto-principal",
+                                  "content": "Responsable",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 14,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "f0kLmd",
+                                  "name": "Valor",
+                                  "width": "fill_container",
+                                  "height": 44,
+                                  "fill": "$fondo",
+                                  "cornerRadius": 8,
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "mNAZb",
+                                      "name": "Nombre",
+                                      "fill": "$texto-principal",
+                                      "content": "JUAN ANDRÉS YOUNG HOYOS",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jrhui",
+                          "name": "Fila",
+                          "width": "fill_container",
+                          "gap": 24,
+                          "children": [
+                            {
+                              "id": "V9Rnu",
+                              "type": "ref",
+                              "ref": "YPRWj",
+                              "name": "Grado académico",
+                              "width": "fill_container",
+                              "descendants": {
+                                "FZNCS": {
+                                  "content": "Grado académico"
+                                },
+                                "ud16Q": {
+                                  "fill": "#EDEFF2"
+                                },
+                                "Y2udT": {
+                                  "content": "Opcional",
+                                  "fill": "$texto-secundario"
+                                },
+                                "ghGLq": {
+                                  "content": "Selecciona una opción",
+                                  "fill": "$texto-terciario"
+                                },
+                                "h7voF3": {
+                                  "icon": "chevron-down"
+                                }
+                              }
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GVnDp",
+                              "name": "Espacio",
+                              "width": "fill_container",
+                              "height": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CmhEw",
+                  "name": "Barra de acciones",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "justifyContent": "end",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "GamJU",
+                      "name": "Cancelar",
+                      "height": 48,
+                      "fill": "$superficie",
+                      "cornerRadius": 8,
+                      "stroke": "$borde",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        20
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R3UBby",
+                          "name": "Etiqueta",
+                          "fill": "$texto-principal",
+                          "content": "Cancelar",
+                          "fontFamily": "$fuente",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zxYH3",
+                      "name": "Guardar",
+                      "height": 48,
+                      "fill": "$superficie",
+                      "cornerRadius": 8,
+                      "stroke": "$borde",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        20
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bJ3ZT",
+                          "name": "Etiqueta",
+                          "fill": "$texto-principal",
+                          "content": "Guardar",
+                          "fontFamily": "$fuente",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "k55UwH",
+                      "type": "ref",
+                      "ref": "iZnDt",
+                      "name": "Consultar disponibilidad",
+                      "descendants": {
+                        "DRRwT": {
+                          "content": "Consultar disponibilidad"
+                        },
+                        "oXJt1": {
+                          "icon": "search"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nSPpX",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "Biblioteca de componentes (no exportable)",
+          "enabled": false,
+          "width": 400,
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "iZnDt",
+              "name": "Componente / Acción primaria",
+              "reusable": true,
+              "height": 48,
+              "fill": "$azul-eafit",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DRRwT",
+                  "name": "Etiqueta",
+                  "fill": "$texto-sobre-azul",
+                  "content": "Acción primaria",
+                  "fontFamily": "$fuente",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon",
+                  "id": "oXJt1",
+                  "name": "Icono",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "arrow-right",
+                  "library": "lucide",
+                  "fill": "$texto-sobre-azul"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YPRWj",
+              "name": "Componente / Campo de formulario",
+              "reusable": true,
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kAZ1U",
+                  "name": "Fila etiqueta",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FZNCS",
+                      "name": "Etiqueta",
+                      "fill": "$texto-principal",
+                      "content": "Etiqueta",
+                      "fontFamily": "$fuente",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ud16Q",
+                      "name": "Marca",
+                      "fill": "$azul-suave",
+                      "cornerRadius": 4,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Y2udT",
+                          "name": "Texto marca",
+                          "fill": "$azul-eafit",
+                          "content": "Obligatorio",
+                          "fontFamily": "$fuente",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t2bfVz",
+                  "name": "Control",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "$superficie",
+                  "cornerRadius": 8,
+                  "stroke": "$borde",
+                  "strokeWidth": 1,
+                  "gap": 10,
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ghGLq",
+                      "name": "Valor",
+                      "fill": "$texto-terciario",
+                      "content": "Selecciona una opción",
+                      "fontFamily": "$fuente",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon",
+                      "id": "h7voF3",
+                      "name": "Icono",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "chevron-down",
+                      "library": "lucide",
+                      "fill": "$texto-secundario"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "azul-eafit": {
+      "type": "color",
+      "value": "#004B85"
+    },
+    "azul-oscuro": {
+      "type": "color",
+      "value": "#003057"
+    },
+    "azul-suave": {
+      "type": "color",
+      "value": "#EAF1F7"
+    },
+    "amarillo-eafit": {
+      "type": "color",
+      "value": "#FFB903"
+    },
+    "fondo": {
+      "type": "color",
+      "value": "#F4F6F8"
+    },
+    "superficie": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "borde": {
+      "type": "color",
+      "value": "#E2E5EA"
+    },
+    "texto-principal": {
+      "type": "color",
+      "value": "#1A1D21"
+    },
+    "texto-secundario": {
+      "type": "color",
+      "value": "#5A6470"
+    },
+    "texto-terciario": {
+      "type": "color",
+      "value": "#6B7480"
+    },
+    "texto-sobre-azul": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "fuente": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "radio": {
+      "type": "number",
+      "value": 12
+    },
+    "espacio-interno": {
+      "type": "number",
+      "value": 16
+    },
+    "espacio-entre-grupos": {
+      "type": "number",
+      "value": 32
+    }
+  },
+  "fileToken": "99e08a4c-22cf-47f0-a256-6f9bb7dba18a"
+}

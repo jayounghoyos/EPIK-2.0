@@ -1,0 +1,934 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "WOh3J",
+      "x": 0,
+      "y": 0,
+      "name": "EPIK — Ingreso (escritorio 1440)",
+      "clip": true,
+      "width": 1440,
+      "height": 1013,
+      "fill": "$fondo",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "nSPpX",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "Biblioteca de componentes (no exportable)",
+          "enabled": false,
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "iZnDt",
+              "name": "Componente / Acción primaria",
+              "reusable": true,
+              "height": 48,
+              "fill": "$azul-eafit",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DRRwT",
+                  "name": "Etiqueta",
+                  "fill": "$texto-sobre-azul",
+                  "content": "Acción primaria",
+                  "fontFamily": "$fuente",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon",
+                  "id": "oXJt1",
+                  "name": "Icono",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "arrow-right",
+                  "library": "lucide",
+                  "fill": "$texto-sobre-azul"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vlHs2",
+          "name": "Cabecera",
+          "width": "fill_container",
+          "height": 80,
+          "fill": "$azul-eafit",
+          "padding": [
+            0,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "AVBru",
+              "name": "Marca EAFIT",
+              "layout": "vertical",
+              "gap": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uQseU",
+                  "name": "Universidad",
+                  "fill": "$texto-sobre-azul",
+                  "content": "UNIVERSIDAD",
+                  "fontFamily": "$fuente",
+                  "fontSize": 9,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.6
+                },
+                {
+                  "type": "text",
+                  "id": "f57VZ4",
+                  "name": "EAFIT",
+                  "fill": "$texto-sobre-azul",
+                  "content": "EAFIT",
+                  "fontFamily": "$fuente",
+                  "fontSize": 21,
+                  "fontWeight": "800",
+                  "letterSpacing": 1.2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mQcrz",
+              "name": "Selector de idioma",
+              "cornerRadius": 6,
+              "gap": 8,
+              "padding": [
+                8,
+                12
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "UvxW8",
+                  "name": "Icono idioma",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "globe",
+                  "library": "lucide",
+                  "fill": "#FFFFFFCC"
+                },
+                {
+                  "type": "text",
+                  "id": "rzSqh",
+                  "name": "Idioma actual",
+                  "fill": "#FFFFFFE6",
+                  "content": "Español",
+                  "fontFamily": "$fuente",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                },
+                {
+                  "type": "icon",
+                  "id": "Xox8d",
+                  "name": "Abrir idiomas",
+                  "width": 14,
+                  "height": 14,
+                  "icon": "chevron-down",
+                  "library": "lucide",
+                  "fill": "#FFFFFFCC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PTCXw",
+          "name": "Área de ingreso",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            48,
+            64
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "D9qYNV",
+              "name": "Tarjeta de ingreso",
+              "width": 452,
+              "fill": "$superficie",
+              "cornerRadius": 16,
+              "stroke": "$borde",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#0F1E2E1F",
+                "offset": {
+                  "x": 0,
+                  "y": 8
+                },
+                "blur": 24,
+                "spread": -6
+              },
+              "layout": "vertical",
+              "gap": 24,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kCodn",
+                  "name": "Título",
+                  "fill": "$texto-principal",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Ingresa a EPIK",
+                  "fontFamily": "$fuente",
+                  "fontSize": 28,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.4
+                },
+                {
+                  "type": "frame",
+                  "id": "OtHhh",
+                  "name": "Formulario",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Aqwb5",
+                      "name": "Campo Usuario",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "C7oVWB",
+                          "name": "Etiqueta",
+                          "fill": "$texto-principal",
+                          "content": "Usuario",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fomdM",
+                          "name": "Control",
+                          "width": "fill_container",
+                          "height": 48,
+                          "fill": "$superficie",
+                          "cornerRadius": 8,
+                          "stroke": "$borde-control",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qnHgg",
+                              "name": "Valor",
+                              "fill": "$texto-principal",
+                              "content": "jayoungh",
+                              "fontFamily": "$fuente",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dfjqU",
+                      "name": "Campo Contraseña",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rAQE9",
+                          "name": "Etiqueta",
+                          "fill": "$texto-principal",
+                          "content": "Contraseña",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qXkjg",
+                          "name": "Control",
+                          "width": "fill_container",
+                          "height": 48,
+                          "fill": "$superficie",
+                          "cornerRadius": 8,
+                          "stroke": "$borde-control",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eB2sD",
+                              "name": "Valor",
+                              "fill": "$texto-principal",
+                              "content": "••••••••••",
+                              "fontFamily": "$fuente",
+                              "fontSize": 15,
+                              "fontWeight": "600",
+                              "letterSpacing": 2
+                            },
+                            {
+                              "type": "icon",
+                              "id": "QmjlW",
+                              "name": "Mostrar contraseña",
+                              "width": 20,
+                              "height": 20,
+                              "icon": "eye",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Y3m0lQ",
+                      "name": "Olvidaste tu contraseña",
+                      "fill": "$azul-eafit",
+                      "content": "¿Olvidaste tu contraseña?",
+                      "fontFamily": "$fuente",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "id": "EYDRp",
+                  "type": "ref",
+                  "ref": "iZnDt",
+                  "name": "Botón Ingresar",
+                  "width": "fill_container",
+                  "height": 48,
+                  "cornerRadius": 8,
+                  "descendants": {
+                    "DRRwT": {
+                      "content": "Ingresar",
+                      "fontSize": 16
+                    },
+                    "oXJt1": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "bhM3k",
+                  "name": "Crear cuenta",
+                  "width": "fill_container",
+                  "gap": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "otELr",
+                      "name": "Pregunta",
+                      "fill": "$texto-secundario",
+                      "content": "¿No tienes cuenta?",
+                      "fontFamily": "$fuente",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "P88sJ",
+                      "name": "Enlace crear cuenta",
+                      "fill": "$azul-eafit",
+                      "content": "Crear cuenta",
+                      "fontFamily": "$fuente",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LWD3x",
+          "name": "Pie de página",
+          "width": "fill_container",
+          "fill": "$pie-fondo",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            36,
+            64
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "p6oaJ",
+              "name": "Contacto general",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YskBo",
+                  "name": "Título sedes",
+                  "fill": "$texto-sobre-azul",
+                  "content": "Nuestras sedes",
+                  "fontFamily": "$fuente",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "frame",
+                  "id": "zAECU",
+                  "name": "Líneas de atención",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "y3idc",
+                      "name": "Línea nacional:",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nLdjh",
+                          "name": "Rótulo",
+                          "fill": "$texto-sobre-azul",
+                          "content": "Línea nacional:",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nWHAw",
+                          "name": "Valor",
+                          "fill": "$pie-texto",
+                          "content": "01 8000 515 900",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZeNOe",
+                      "name": "WhatsApp:",
+                      "gap": 6,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YEkuM",
+                          "name": "Rótulo",
+                          "fill": "$texto-sobre-azul",
+                          "content": "WhatsApp:",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "MtP6U",
+                          "name": "Valor",
+                          "fill": "$pie-texto",
+                          "content": "(57) 310 899 2908",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "pjh3T",
+              "name": "División superior",
+              "fill": "$pie-borde",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "iu3lA",
+              "name": "Sedes",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "C4Hpg",
+                  "name": "EAFIT Medellín",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fgotv",
+                      "name": "Nombre sede",
+                      "fill": "$texto-sobre-azul",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "EAFIT Medellín",
+                      "fontFamily": "$fuente",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "H90FD8",
+                      "name": "Carrera 49 N° 7 Sur-50",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Carrera 49 N° 7 Sur-50",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RFo3J",
+                      "name": "Línea nacional: 01 8000 515 900",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Línea nacional: 01 8000 515 900",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "X4xeg",
+                      "name": "Conmutador: (57) 604 2619500",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Conmutador: (57) 604 2619500",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "dfioO",
+                  "name": "EAFIT Pereira",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KPFDk",
+                      "name": "Nombre sede",
+                      "fill": "$texto-sobre-azul",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "EAFIT Pereira",
+                      "fontFamily": "$fuente",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a0WWe",
+                      "name": "Carrera 19 #12-70 Megacentro Pinares",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Carrera 19 #12-70 Megacentro Pinares",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lqwvh",
+                      "name": "Conmutador: (57) 606 3214115, (57) 606 3214119",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Conmutador: (57) 606 3214115, (57) 606 3214119",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BWiS2",
+                      "name": "Correo: eafit.pereira@eafit.edu.co",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Correo: eafit.pereira@eafit.edu.co",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Ze2kh",
+                  "name": "EAFIT Bogotá",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sOgID",
+                      "name": "Nombre sede",
+                      "fill": "$texto-sobre-azul",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "EAFIT Bogotá",
+                      "fontFamily": "$fuente",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "X6ElT",
+                      "name": "Carrera 15 #88-64 oficina 401",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Carrera 15 #88-64 oficina 401",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a50fix",
+                      "name": "Conmutador: (57) 601 6114618",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Conmutador: (57) 601 6114618",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NpoCM",
+                      "name": "Correo: eafit.bogota@eafit.edu.co",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Correo: eafit.bogota@eafit.edu.co",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tYHxK",
+                  "name": "EAFIT Llanogrande",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MpVSB",
+                      "name": "Nombre sede",
+                      "fill": "$texto-sobre-azul",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "EAFIT Llanogrande",
+                      "fontFamily": "$fuente",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "C7XRrD",
+                      "name": "Km 3.5 vía Don Diego – Rionegro",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Km 3.5 vía Don Diego – Rionegro",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Ouhe0",
+                      "name": "Conmutador: (57) 604 2619500, ext. 9188",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Conmutador: (57) 604 2619500, ext. 9188",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "LCdza",
+                      "name": "Correo: llanogrande@eafit.edu.co",
+                      "fill": "$pie-texto",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Correo: llanogrande@eafit.edu.co",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "rectangle",
+              "id": "B1PFQ",
+              "name": "División inferior",
+              "fill": "$pie-borde",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "Gvqt3",
+              "name": "Enlaces legales",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "njpp5",
+                  "name": "Ir al portal principal",
+                  "height": 44,
+                  "cornerRadius": 8,
+                  "stroke": "#FFFFFF66",
+                  "strokeWidth": 1,
+                  "strokeAlignment": "inner",
+                  "gap": 8,
+                  "padding": [
+                    0,
+                    20
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "GvnED",
+                      "name": "Flecha",
+                      "width": 16,
+                      "height": 16,
+                      "icon": "arrow-left",
+                      "library": "lucide",
+                      "fill": "$texto-sobre-azul"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AA4K1",
+                      "name": "Etiqueta",
+                      "fill": "$texto-sobre-azul",
+                      "content": "Ir al portal principal",
+                      "fontFamily": "$fuente",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ZasLs",
+                  "name": "Legales",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ziwvi",
+                      "name": "Política de protección de datos",
+                      "fill": "$pie-texto",
+                      "content": "Política de protección de datos",
+                      "fontFamily": "$fuente",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "m8rMKL",
+                      "name": "Separador",
+                      "fill": "$pie-borde",
+                      "width": 1,
+                      "height": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "pss0U",
+                      "name": "Contáctanos",
+                      "fill": "$pie-texto",
+                      "content": "Contáctanos",
+                      "fontFamily": "$fuente",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "azul-eafit": {
+      "type": "color",
+      "value": "#004B85"
+    },
+    "azul-oscuro": {
+      "type": "color",
+      "value": "#003057"
+    },
+    "azul-suave": {
+      "type": "color",
+      "value": "#EAF1F7"
+    },
+    "amarillo-eafit": {
+      "type": "color",
+      "value": "#FFB903"
+    },
+    "fondo": {
+      "type": "color",
+      "value": "#F4F6F8"
+    },
+    "superficie": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "borde": {
+      "type": "color",
+      "value": "#E2E5EA"
+    },
+    "texto-principal": {
+      "type": "color",
+      "value": "#1A1D21"
+    },
+    "texto-secundario": {
+      "type": "color",
+      "value": "#5A6470"
+    },
+    "texto-terciario": {
+      "type": "color",
+      "value": "#6B7480"
+    },
+    "texto-sobre-azul": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "fuente": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "radio": {
+      "type": "number",
+      "value": 12
+    },
+    "espacio-interno": {
+      "type": "number",
+      "value": 16
+    },
+    "espacio-entre-grupos": {
+      "type": "number",
+      "value": 32
+    },
+    "borde-control": {
+      "type": "color",
+      "value": "#8A94A0"
+    },
+    "pie-fondo": {
+      "type": "color",
+      "value": "#12161A"
+    },
+    "pie-texto": {
+      "type": "color",
+      "value": "#D7DCE2"
+    },
+    "pie-borde": {
+      "type": "color",
+      "value": "#333B44"
+    }
+  },
+  "fileToken": "99e08a4c-22cf-47f0-a256-6f9bb7dba18a"
+}

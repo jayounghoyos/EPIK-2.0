@@ -1,0 +1,3909 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "WOh3J",
+      "x": 0,
+      "y": 0,
+      "name": "EPIK — Mis notas (escritorio 1440)",
+      "clip": true,
+      "width": 1440,
+      "height": 1463,
+      "fill": "$fondo",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XFbUr",
+          "name": "Barra superior",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "$azul-eafit",
+          "padding": [
+            0,
+            32
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QVrTo",
+              "name": "Marca EAFIT",
+              "layout": "vertical",
+              "gap": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xFwG2",
+                  "name": "Universidad",
+                  "fill": "$texto-sobre-azul",
+                  "content": "UNIVERSIDAD",
+                  "fontFamily": "$fuente",
+                  "fontSize": 9,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.6
+                },
+                {
+                  "type": "text",
+                  "id": "wNzS6",
+                  "name": "EAFIT",
+                  "fill": "$texto-sobre-azul",
+                  "content": "EAFIT",
+                  "fontFamily": "$fuente",
+                  "fontSize": 21,
+                  "fontWeight": "800",
+                  "letterSpacing": 1.2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UFaSA",
+              "name": "Buscador",
+              "width": 440,
+              "height": 40,
+              "fill": "$superficie",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                0,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "COHDu",
+                  "name": "Icono buscar",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "$texto-terciario"
+                },
+                {
+                  "type": "text",
+                  "id": "eJXdw",
+                  "name": "Marcador de posición",
+                  "fill": "$texto-terciario",
+                  "content": "Buscar trámites, materias o certificados",
+                  "fontFamily": "$fuente",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dnfpy",
+              "name": "Menú de usuario",
+              "height": 44,
+              "gap": 10,
+              "padding": [
+                0,
+                4
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "apTLE",
+                  "name": "Avatar",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$amarillo-eafit",
+                  "cornerRadius": 16,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g4CM0o",
+                      "name": "Iniciales",
+                      "fill": "$azul-oscuro",
+                      "content": "JY",
+                      "fontFamily": "$fuente",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eObjs",
+                  "name": "Datos de usuario",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "T35yk",
+                      "name": "Nombre",
+                      "fill": "$texto-sobre-azul",
+                      "content": "Juan Andrés Young",
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RELML",
+                      "name": "Usuario",
+                      "fill": "#BFD4E6",
+                      "content": "jayoungh",
+                      "fontFamily": "$fuente",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "c2DPyj",
+                  "name": "Abrir menú",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "chevron-down",
+                  "library": "lucide",
+                  "fill": "$texto-sobre-azul"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SGfAS",
+          "name": "Cuerpo",
+          "width": "fill_container",
+          "height": "fill_container",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JWixy",
+              "name": "Navegación lateral",
+              "width": 264,
+              "height": "fill_container",
+              "fill": "$superficie",
+              "stroke": "$borde",
+              "strokeWidth": {
+                "right": 1
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                20,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "I05Rmy",
+                  "name": "Grupo Inicio",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bsGrI",
+                      "name": "Inicio",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#00000000",
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "MaFKI",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yKP7Q",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "mOTlw",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "house",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Llcmv",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Inicio",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e08iIt",
+                  "name": "Grupo Académico",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CUwmb",
+                      "name": "Académico",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "t1VJo",
+                          "name": "Indicador",
+                          "fill": "$amarillo-eafit",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DFwtG",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "MScb4",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "graduation-cap",
+                              "library": "lucide",
+                              "fill": "$azul-eafit"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Pei75",
+                              "name": "Etiqueta",
+                              "fill": "$azul-eafit",
+                              "content": "Académico",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZmpPH",
+                      "name": "Mi horario",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "c2H4k",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Mi horario",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mbW6i",
+                      "name": "Mis notas",
+                      "width": "fill_container",
+                      "height": 36,
+                      "fill": "$azul-suave",
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aAC4g",
+                          "name": "Etiqueta",
+                          "fill": "$azul-eafit",
+                          "content": "Mis notas",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j9PhK",
+                  "name": "Grupo Financiero",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YD3bu",
+                      "name": "Financiero",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "R4QAp",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mLogc",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "rlWPX",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "credit-card",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Mzx44",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Financiero",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hi7uY",
+                      "name": "Pagar",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e75LQa",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Pagar",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OCVPd",
+                  "name": "Grupo Trámites",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BJLmU",
+                      "name": "Trámites",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "K1P9IX",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "naE66",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ARssz",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "file-text",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Lwqtm",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Trámites",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BipAq",
+                      "name": "Certificados",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xJsXw",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Certificados",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xsj1q",
+                  "name": "Grupo Inscripciones",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DNaC5",
+                      "name": "Inscripciones",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "xk5UT",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GPnsT",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "F7f9A",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "clipboard-list",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zT1iW",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Inscripciones",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "J8p2X0",
+                  "name": "Espaciador",
+                  "width": "fill_container",
+                  "height": "fill_container(24)"
+                },
+                {
+                  "type": "frame",
+                  "id": "myZs1",
+                  "name": "Pie / Accesos rápidos",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "G8GmJ",
+                      "name": "Separador",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$borde"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Y0PqGL",
+                      "name": "Lista de accesos",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hQvvN",
+                          "name": "Encabezado accesos",
+                          "width": "fill_container",
+                          "padding": [
+                            0,
+                            12,
+                            6,
+                            12
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "swwS2",
+                              "name": "Título",
+                              "fill": "$texto-terciario",
+                              "content": "ACCESOS RÁPIDOS",
+                              "fontFamily": "$fuente",
+                              "fontSize": 11,
+                              "fontWeight": "600",
+                              "letterSpacing": 0.8
+                            },
+                            {
+                              "type": "text",
+                              "id": "yONBB",
+                              "name": "Editar",
+                              "fill": "$azul-eafit",
+                              "content": "Editar",
+                              "fontFamily": "$fuente",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UtfjR",
+                          "name": "Adjuntar documentos",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "RBNNf",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "paperclip",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "quruR",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Adjuntar documentos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PcE0G",
+                          "name": "Reserva de espacios",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "E9d8F",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "calendar-check",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Y2EVp",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Reserva de espacios",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Nbnre",
+                          "name": "Historia académica",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "r6Jos",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "scroll-text",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NiaR4",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Historia académica",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ysprl",
+                          "name": "Centro de pagos",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "cNK4Q",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "credit-card",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ExMkL",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Centro de pagos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j3RXfn",
+                          "name": "Evaluación docente",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ou6Jp",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "clipboard-check",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "EX8Kl",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Evaluación docente",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gbRaH",
+              "name": "Contenido principal",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jEjIW",
+                  "name": "Encabezado",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wUa3Z",
+                      "name": "Sección",
+                      "fill": "$texto-secundario",
+                      "content": "Académico",
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.2
+                    },
+                    {
+                      "type": "text",
+                      "id": "i58Fsq",
+                      "name": "Título",
+                      "fill": "$texto-principal",
+                      "content": "Mis notas",
+                      "fontFamily": "$fuente",
+                      "fontSize": 30,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YLOVB",
+                      "name": "Datos del estudiante",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ATaUC",
+                          "name": "Computer Science",
+                          "fill": "$texto-secundario",
+                          "content": "Computer Science",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "x4pPp",
+                          "name": "Separador",
+                          "fill": "$texto-terciario",
+                          "width": 3,
+                          "height": 3
+                        },
+                        {
+                          "type": "text",
+                          "id": "oUDDd",
+                          "name": "Pregrado",
+                          "fill": "$texto-secundario",
+                          "content": "Pregrado",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "RPKRW",
+                          "name": "Separador",
+                          "fill": "$texto-terciario",
+                          "width": 3,
+                          "height": 3
+                        },
+                        {
+                          "type": "text",
+                          "id": "x2MqL",
+                          "name": "Medellín",
+                          "fill": "$texto-secundario",
+                          "content": "Medellín",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "Y5vnM",
+                          "name": "Separador",
+                          "fill": "$texto-terciario",
+                          "width": 3,
+                          "height": 3
+                        },
+                        {
+                          "type": "text",
+                          "id": "QHqvN",
+                          "name": "ID 1000••••97",
+                          "fill": "$texto-secundario",
+                          "content": "ID 1000••••97",
+                          "fontFamily": "$fuente",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JRiAd",
+                  "name": "Región · Historia académica",
+                  "width": "fill_container",
+                  "fill": "$superficie",
+                  "cornerRadius": "$radio",
+                  "stroke": "$borde",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vCwan",
+                      "name": "Cabecera de la región",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "qkpiT",
+                          "name": "Título",
+                          "gap": 10,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "B5fC5j",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "graduation-cap",
+                              "library": "lucide",
+                              "fill": "$azul-eafit"
+                            },
+                            {
+                              "type": "text",
+                              "id": "g81WV",
+                              "name": "Texto",
+                              "fill": "$texto-principal",
+                              "content": "Historia académica",
+                              "fontFamily": "$fuente",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qfrsa",
+                          "name": "Total",
+                          "gap": 6,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "YE3kF",
+                              "name": "Cantidad (cifras tabulares)",
+                              "fill": "$texto-principal",
+                              "content": "71",
+                              "fontFamily": "$fuente",
+                              "fontSize": 15,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.2
+                            },
+                            {
+                              "type": "text",
+                              "id": "Yusxl",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "registros en total",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BFQdF",
+                      "name": "Barra de filtros",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "MqJa9",
+                          "name": "Buscar",
+                          "width": 300,
+                          "height": 40,
+                          "fill": "$fondo",
+                          "cornerRadius": 8,
+                          "stroke": "$borde",
+                          "strokeWidth": 1,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "eOG0R",
+                              "name": "Icono",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "search",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "U1AZo",
+                              "name": "Marcador de posición",
+                              "fill": "$texto-terciario",
+                              "content": "Buscar asignatura o código",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YrA2X",
+                          "name": "Filtro Periodo",
+                          "height": 40,
+                          "fill": "$superficie",
+                          "cornerRadius": 8,
+                          "stroke": "$borde",
+                          "strokeWidth": 1,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "w2IaiG",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Periodo:",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "DAPCO",
+                              "name": "Valor",
+                              "fill": "$texto-principal",
+                              "content": "Todos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "M8a0L1",
+                              "name": "Icono",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qwQjE",
+                          "name": "Filtro Estado",
+                          "height": 40,
+                          "fill": "$superficie",
+                          "cornerRadius": 8,
+                          "stroke": "$borde",
+                          "strokeWidth": 1,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            14
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lMOPU",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Estado:",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QkjsJ",
+                              "name": "Valor",
+                              "fill": "$texto-principal",
+                              "content": "Todos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "us7oV",
+                              "name": "Icono",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "chevron-down",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yzyiE",
+                          "name": "Espaciador",
+                          "width": "fill_container",
+                          "height": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YbD4Q",
+                          "name": "Descargar",
+                          "height": 40,
+                          "cornerRadius": 8,
+                          "stroke": "$borde",
+                          "strokeWidth": 1,
+                          "gap": 8,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "Y0fwV6",
+                              "name": "Icono",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "download",
+                              "library": "lucide",
+                              "fill": "$azul-eafit"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OThr8",
+                              "name": "Etiqueta",
+                              "fill": "$azul-eafit",
+                              "content": "Descargar historia académica",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "peR4b",
+                      "name": "Leyenda de notas no numéricas",
+                      "width": "fill_container",
+                      "fill": "$fondo",
+                      "cornerRadius": 8,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "QzgR5",
+                          "name": "Aviso",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "rktHl",
+                              "name": "Icono",
+                              "width": 16,
+                              "height": 16,
+                              "icon": "info",
+                              "library": "lucide",
+                              "fill": "$azul-eafit"
+                            },
+                            {
+                              "type": "text",
+                              "id": "MPVeW",
+                              "name": "Texto",
+                              "fill": "$texto-principal",
+                              "content": "Cómo leer las notas que no son numéricas",
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "700"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "c8pBFt",
+                          "name": "Definiciones",
+                          "width": "fill_container",
+                          "gap": 32,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "b7no76",
+                              "name": "Ítem EX",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "ucUwb",
+                                  "name": "Sigla",
+                                  "width": 26,
+                                  "height": 22,
+                                  "fill": "$superficie",
+                                  "cornerRadius": 4,
+                                  "stroke": "$borde",
+                                  "strokeWidth": 1,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "pLCYG",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "content": "EX",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 12,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "QLjDy",
+                                  "name": "Definición",
+                                  "fill": "$texto-secundario",
+                                  "content": "Exento — aprobada por prueba de suficiencia",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "j3xaa",
+                              "name": "Ítem C",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "bfdGx",
+                                  "name": "Sigla",
+                                  "width": 26,
+                                  "height": 22,
+                                  "fill": "$superficie",
+                                  "cornerRadius": 4,
+                                  "stroke": "$borde",
+                                  "strokeWidth": 1,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "JgV02",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "content": "C",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 12,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "z25LFP",
+                                  "name": "Definición",
+                                  "fill": "$texto-secundario",
+                                  "content": "Cumplió — homologada, no promedia",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "zwrVA",
+                              "name": "Ítem A",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Tci2R",
+                                  "name": "Sigla",
+                                  "width": 26,
+                                  "height": 22,
+                                  "fill": "$superficie",
+                                  "cornerRadius": 4,
+                                  "stroke": "$borde",
+                                  "strokeWidth": 1,
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "dijHI",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "content": "A",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 12,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.2
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "j1BQSk",
+                                  "name": "Definición",
+                                  "fill": "$texto-secundario",
+                                  "content": "Escala alfabética del Centro de Idiomas",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CU5kr",
+                      "name": "Tabla agrupada por periodo",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bgd5W",
+                          "name": "Encabezado de columnas",
+                          "width": "fill_container",
+                          "height": 36,
+                          "stroke": "$borde",
+                          "strokeWidth": {
+                            "bottom": 1
+                          },
+                          "gap": 16,
+                          "padding": [
+                            0,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ILrNK",
+                              "name": "Celda Código",
+                              "width": 156,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "E6yYI",
+                                  "name": "Texto",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "CÓDIGO",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 11,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "d9Hu1b",
+                              "name": "Celda Asignatura",
+                              "width": 440,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "CadGF",
+                                  "name": "Texto",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "ASIGNATURA",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 11,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "tT2aU",
+                              "name": "Celda Nota",
+                              "width": 84,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Y3Lbwr",
+                                  "name": "Texto",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "NOTA",
+                                  "textAlign": "right",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 11,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vkMdl",
+                              "name": "Celda Créditos",
+                              "width": 80,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "n7eXA9",
+                                  "name": "Texto",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "CRÉDITOS",
+                                  "textAlign": "right",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 11,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "A8zpA",
+                              "name": "Celda Estado",
+                              "width": 190,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "O0E03",
+                                  "name": "Texto",
+                                  "fill": "$texto-secundario",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "ESTADO",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 11,
+                                  "fontWeight": "700",
+                                  "letterSpacing": 0.8
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Z5SDD",
+                          "name": "Grupo · Primer semestre 2025",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "VqxzU",
+                              "name": "Cabecera del grupo",
+                              "width": "fill_container",
+                              "height": 48,
+                              "fill": "$azul-suave",
+                              "cornerRadius": [
+                                8,
+                                8,
+                                0,
+                                0
+                              ],
+                              "gap": 10,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "l3ZXC",
+                                  "name": "Icono plegar",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "chevron-down",
+                                  "library": "lucide",
+                                  "fill": "$azul-eafit"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Mp5n1",
+                                  "name": "Periodo",
+                                  "fill": "$azul-oscuro",
+                                  "content": "Primer semestre 2025",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 15,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ouhNQ",
+                                  "name": "Espaciador",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "w3VPuN",
+                                  "name": "Conteo",
+                                  "gap": 5,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "zNL5N",
+                                      "name": "Cantidad (cifras tabulares)",
+                                      "fill": "$azul-oscuro",
+                                      "content": "6",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.2
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "thHti",
+                                      "name": "Etiqueta",
+                                      "fill": "$azul-oscuro",
+                                      "content": "asignaturas",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "EAXKP",
+                              "name": "Fila · 14 LE0001",
+                              "width": "fill_container",
+                              "height": 56,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "C6YSYP",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "iV8Pl",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "14 LE0001",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ll6Fx",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "EeLgK",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Prueba de Lectura 1",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "nis8B",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "MTnh5",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "EX",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "BWHni",
+                                      "name": "Glosa",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Exento",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "aj1ZU",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "KHHl9",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "—",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "l3ua7",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "l7GMWh",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "l6925",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "check",
+                                          "library": "lucide",
+                                          "fill": "$azul-oscuro"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "NAV7k",
+                                          "name": "Texto",
+                                          "fill": "$azul-oscuro",
+                                          "content": "Cursada · Aprobada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "j2aED",
+                              "name": "Fila · 14 LE0002",
+                              "width": "fill_container",
+                              "height": 56,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "x4UHLw",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "nXz5H",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "14 LE0002",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Chlzy",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "N2rGyk",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Prueba de Escritura 1",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "DcguS",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "g6W09",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "EX",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "B5l0a3",
+                                      "name": "Glosa",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Exento",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iexw0",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "PlvEd",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "—",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "vQLGy",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "BTorL",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "CSTdk",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "check",
+                                          "library": "lucide",
+                                          "fill": "$azul-oscuro"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "BPOnu",
+                                          "name": "Texto",
+                                          "fill": "$azul-oscuro",
+                                          "content": "Cursada · Aprobada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Zjk0J",
+                              "name": "Fila · 14 LE0003",
+                              "width": "fill_container",
+                              "height": 56,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "coSUG",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "U6ixwy",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "14 LE0003",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "G56fn",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "JmweN",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Prueba de Lectura 2",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "BssDQ",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "xBq82",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "EX",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "CRYHd",
+                                      "name": "Glosa",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Exento",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "mIio3",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "s0gM2",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "—",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "g9RICh",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "LsqlT",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "rLCyk",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "check",
+                                          "library": "lucide",
+                                          "fill": "$azul-oscuro"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "HBTwt",
+                                          "name": "Texto",
+                                          "fill": "$azul-oscuro",
+                                          "content": "Cursada · Aprobada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "IiHse",
+                              "name": "Fila · 14 LE0004",
+                              "width": "fill_container",
+                              "height": 56,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "BRK5M",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "iL6kg",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "14 LE0004",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "TfgU9",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "gkHei",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Prueba de Escritura 2",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "jT9PC",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ZBhAL",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "EX",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "LOPOh",
+                                      "name": "Glosa",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Exento",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "hVkhS",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "j0eNwg",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "—",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "u7k1X",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Iziu4",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "jZbXQ",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "check",
+                                          "library": "lucide",
+                                          "fill": "$azul-oscuro"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "jOXYR",
+                                          "name": "Texto",
+                                          "fill": "$azul-oscuro",
+                                          "content": "Cursada · Aprobada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "zlnFN",
+                              "name": "Fila · C_21 FH1003",
+                              "width": "fill_container",
+                              "height": 56,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "ub9Vv",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "pSuoo",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "C_21 FH1003",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "IHBIK",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "WVsda",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Arte y Ciudadanía",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "JryBh",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "q5D4E",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "5.0",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "SfTYY",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "o1sznG",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "3.00",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "VR5iR",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Vphah",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "pdT7U",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "check",
+                                          "library": "lucide",
+                                          "fill": "$azul-oscuro"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "aDcI8",
+                                          "name": "Texto",
+                                          "fill": "$azul-oscuro",
+                                          "content": "Cursada · Aprobada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "FhXlD",
+                              "name": "Fila · C_3 TA2003",
+                              "width": "fill_container",
+                              "height": 56,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Ok7VB",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "DMHg4",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "C_3 TA2003",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ElA8y",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Dpafu",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Talento I - Esc Ccias e Ingeni",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "vCGMm",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "F3ljxn",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "EX",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "vjD9m",
+                                      "name": "Glosa",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Exento",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iC9Fn",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "i1VYu",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "—",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "cefxm",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "FhiM7",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "J3k7f",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "check",
+                                          "library": "lucide",
+                                          "fill": "$azul-oscuro"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "z3YjCt",
+                                          "name": "Texto",
+                                          "fill": "$azul-oscuro",
+                                          "content": "Cursada · Aprobada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "d4QoYI",
+                          "name": "Grupo · Primer período académico 2025",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "okoEE",
+                              "name": "Cabecera del grupo",
+                              "width": "fill_container",
+                              "height": 48,
+                              "fill": "$azul-suave",
+                              "cornerRadius": [
+                                8,
+                                8,
+                                0,
+                                0
+                              ],
+                              "gap": 10,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "UKzvb",
+                                  "name": "Icono plegar",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "chevron-down",
+                                  "library": "lucide",
+                                  "fill": "$azul-eafit"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "C71kW",
+                                  "name": "Periodo",
+                                  "fill": "$azul-oscuro",
+                                  "content": "Primer período académico 2025",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 15,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "x07Fd",
+                                  "name": "Etiqueta de programa",
+                                  "height": 22,
+                                  "fill": "$superficie",
+                                  "cornerRadius": 4,
+                                  "padding": [
+                                    0,
+                                    8
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "G7pCQE",
+                                      "name": "Texto",
+                                      "fill": "$azul-eafit",
+                                      "content": "Idiomas",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 12,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Nw2bB",
+                                  "name": "Espaciador",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "tJmjm",
+                                  "name": "Conteo",
+                                  "gap": 5,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "UyP4C",
+                                      "name": "Cantidad (cifras tabulares)",
+                                      "fill": "$azul-oscuro",
+                                      "content": "9",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.2
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "B7bhcd",
+                                      "name": "Etiqueta",
+                                      "fill": "$azul-oscuro",
+                                      "content": "asignaturas",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "D8V5v",
+                              "name": "Fila · 20 IAD000",
+                              "width": "fill_container",
+                              "height": 56,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "ahqGb",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "oYzWU",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "20 IAD000",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ILNec",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Y5U6e",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Preparatory course English",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "tvl12",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "GLnZL",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "C",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "aWBjN",
+                                      "name": "Glosa",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Cumplió",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Z5KDN",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ibaYh",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "—",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "WSRyF",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "JVvJ6",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "#F0F2F4",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "azONw",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "repeat",
+                                          "library": "lucide",
+                                          "fill": "$texto-secundario"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "NLPGD",
+                                          "name": "Texto",
+                                          "fill": "$texto-secundario",
+                                          "content": "Homologada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kmVEq",
+                              "name": "Fila · 20 IAD001 – 20 IAD007",
+                              "width": "fill_container",
+                              "height": 64,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "xbjcn",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "GSg43",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "20 IAD001 – 20 IAD007",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "lXdtK",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "p0GtB",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Course 1 a Course 7 English for adults",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "jBnqQ",
+                                      "name": "Detalle del grupo",
+                                      "fill": "$azul-eafit",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "7 asignaturas con el mismo resultado · Ver detalle",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 12,
+                                      "fontWeight": "500"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iSHqi",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "mJVVm",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "C",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "i2dS9",
+                                      "name": "Glosa",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Cumplió",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "rFytn",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "azGUE",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "—",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "mQiDu",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "VNK4I",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "#F0F2F4",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "qGlWJ",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "repeat",
+                                          "library": "lucide",
+                                          "fill": "$texto-secundario"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "d3GwQ",
+                                          "name": "Texto",
+                                          "fill": "$texto-secundario",
+                                          "content": "Homologada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "N14p8l",
+                              "name": "Fila · 20 IADP08",
+                              "width": "fill_container",
+                              "height": 56,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "fYjlj",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "tYhQw",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "20 IADP08",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "BfUfA",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "tXYWP",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Curso 8 Inglés adultos",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "vVsQc",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Xk86A",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "A",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "HnIFo",
+                                      "name": "Glosa",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Alfabética",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "V9sOs",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "RHAHq",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "1.00",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "KkfXv",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Kb8qF",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "SxUBJ",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "check",
+                                          "library": "lucide",
+                                          "fill": "$azul-oscuro"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "odh2M",
+                                          "name": "Texto",
+                                          "fill": "$azul-oscuro",
+                                          "content": "Cursada · Aprobada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EIqwf",
+                          "name": "Grupo · Segundo semestre 2023",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "eP0b4",
+                              "name": "Cabecera del grupo",
+                              "width": "fill_container",
+                              "height": 48,
+                              "fill": "$azul-suave",
+                              "cornerRadius": [
+                                8,
+                                8,
+                                0,
+                                0
+                              ],
+                              "gap": 10,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "rnoiR",
+                                  "name": "Icono plegar",
+                                  "width": 16,
+                                  "height": 16,
+                                  "icon": "chevron-down",
+                                  "library": "lucide",
+                                  "fill": "$azul-eafit"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "evbKm",
+                                  "name": "Periodo",
+                                  "fill": "$azul-oscuro",
+                                  "content": "Segundo semestre 2023",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 15,
+                                  "fontWeight": "700"
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Wcaae",
+                                  "name": "Espaciador",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "P9GsR",
+                                  "name": "Conteo",
+                                  "gap": 5,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "Hr9v1",
+                                      "name": "Cantidad (cifras tabulares)",
+                                      "fill": "$azul-oscuro",
+                                      "content": "2",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.2
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "Dlp3C",
+                                      "name": "Etiqueta",
+                                      "fill": "$azul-oscuro",
+                                      "content": "asignaturas",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "LNlfo",
+                              "name": "Fila · 14 BU0600",
+                              "width": "fill_container",
+                              "height": 56,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "LYyJW",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "rbto1",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "14 BU0600",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "HdJhl",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "JSlgb",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Taller de Salud",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "PgyEX",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "d1oi09",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "5.0",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "qghWG",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "V065tk",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-terciario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "—",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "jxQmb",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "QFQ2N",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "QQBjd",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "check",
+                                          "library": "lucide",
+                                          "fill": "$azul-oscuro"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "UUdEb",
+                                          "name": "Texto",
+                                          "fill": "$azul-oscuro",
+                                          "content": "Cursada · Aprobada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "solY1",
+                              "name": "Fila · 14 DE0520",
+                              "width": "fill_container",
+                              "height": 56,
+                              "stroke": "$borde",
+                              "strokeWidth": {
+                                "bottom": 1
+                              },
+                              "gap": 16,
+                              "padding": [
+                                0,
+                                16
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "npAf8",
+                                  "name": "Celda Código",
+                                  "width": 156,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "KrFOa",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "14 DE0520",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "pzwGo",
+                                  "name": "Celda Asignatura",
+                                  "width": 440,
+                                  "layout": "vertical",
+                                  "gap": 2,
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "uXJ77",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Ciudadanía y Democracia",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "ZZfrz",
+                                  "name": "Celda Nota",
+                                  "width": 84,
+                                  "layout": "vertical",
+                                  "gap": 1,
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "dZRJQ",
+                                      "name": "Valor (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "4.7",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 15,
+                                      "fontWeight": "700",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "MYFGq",
+                                  "name": "Celda Créditos",
+                                  "width": 80,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "b6M0Lk",
+                                      "name": "Texto (cifras tabulares)",
+                                      "fill": "$texto-principal",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "3.00",
+                                      "textAlign": "right",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "600",
+                                      "letterSpacing": 0.3
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "HnFFR",
+                                  "name": "Celda Estado",
+                                  "width": 190,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "cCHwe",
+                                      "name": "Estado",
+                                      "height": 24,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 4,
+                                      "gap": 6,
+                                      "padding": [
+                                        0,
+                                        10
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "PYlqZ",
+                                          "name": "Icono",
+                                          "width": 13,
+                                          "height": 13,
+                                          "icon": "check",
+                                          "library": "lucide",
+                                          "fill": "$azul-oscuro"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "U5N3J9",
+                                          "name": "Texto",
+                                          "fill": "$azul-oscuro",
+                                          "content": "Cursada · Aprobada",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "xW0rf",
+                      "name": "Divisor",
+                      "fill": "$borde",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "X6ixY2",
+                      "name": "Pie · Más periodos",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "K2ke5",
+                          "name": "Texto del pie",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "qCyBq",
+                              "name": "Alcance (cifras tabulares)",
+                              "fill": "$texto-principal",
+                              "content": "Se muestran 17 de 71 registros",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "600",
+                              "letterSpacing": 0.2
+                            },
+                            {
+                              "type": "text",
+                              "id": "QO02G",
+                              "name": "Aclaración",
+                              "fill": "$texto-secundario",
+                              "content": "Los demás periodos se cargan por grupos, sin listas largas.",
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "eVGDR",
+                          "type": "ref",
+                          "ref": "iZnDt",
+                          "name": "Ver los demás periodos",
+                          "descendants": {
+                            "DRRwT": {
+                              "content": "Ver los demás periodos"
+                            },
+                            "oXJt1": {
+                              "icon": "chevron-down"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nSPpX",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "Biblioteca de componentes (no exportable)",
+          "enabled": false,
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "iZnDt",
+              "name": "Componente / Acción primaria",
+              "reusable": true,
+              "height": 48,
+              "fill": "$azul-eafit",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DRRwT",
+                  "name": "Etiqueta",
+                  "fill": "$texto-sobre-azul",
+                  "content": "Acción primaria",
+                  "fontFamily": "$fuente",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon",
+                  "id": "oXJt1",
+                  "name": "Icono",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "arrow-right",
+                  "library": "lucide",
+                  "fill": "$texto-sobre-azul"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "azul-eafit": {
+      "type": "color",
+      "value": "#004B85"
+    },
+    "azul-oscuro": {
+      "type": "color",
+      "value": "#003057"
+    },
+    "azul-suave": {
+      "type": "color",
+      "value": "#EAF1F7"
+    },
+    "amarillo-eafit": {
+      "type": "color",
+      "value": "#FFB903"
+    },
+    "fondo": {
+      "type": "color",
+      "value": "#F4F6F8"
+    },
+    "superficie": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "borde": {
+      "type": "color",
+      "value": "#E2E5EA"
+    },
+    "texto-principal": {
+      "type": "color",
+      "value": "#1A1D21"
+    },
+    "texto-secundario": {
+      "type": "color",
+      "value": "#5A6470"
+    },
+    "texto-terciario": {
+      "type": "color",
+      "value": "#6B7480"
+    },
+    "texto-sobre-azul": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "fuente": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "radio": {
+      "type": "number",
+      "value": 12
+    },
+    "espacio-interno": {
+      "type": "number",
+      "value": 16
+    },
+    "espacio-entre-grupos": {
+      "type": "number",
+      "value": 32
+    }
+  },
+  "fileToken": "99e08a4c-22cf-47f0-a256-6f9bb7dba18a"
+}

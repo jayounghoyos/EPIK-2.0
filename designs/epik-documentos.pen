@@ -1,0 +1,2588 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "WOh3J",
+      "x": 0,
+      "y": 0,
+      "name": "EPIK — Adjuntar documentos (escritorio 1440)",
+      "clip": true,
+      "width": 1440,
+      "height": 1231,
+      "fill": "$fondo",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XFbUr",
+          "name": "Barra superior",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "$azul-eafit",
+          "padding": [
+            0,
+            32
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QVrTo",
+              "name": "Marca EAFIT",
+              "layout": "vertical",
+              "gap": 1,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xFwG2",
+                  "name": "Universidad",
+                  "fill": "$texto-sobre-azul",
+                  "content": "UNIVERSIDAD",
+                  "fontFamily": "$fuente",
+                  "fontSize": 9,
+                  "fontWeight": "600",
+                  "letterSpacing": 2.6
+                },
+                {
+                  "type": "text",
+                  "id": "wNzS6",
+                  "name": "EAFIT",
+                  "fill": "$texto-sobre-azul",
+                  "content": "EAFIT",
+                  "fontFamily": "$fuente",
+                  "fontSize": 21,
+                  "fontWeight": "800",
+                  "letterSpacing": 1.2
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UFaSA",
+              "name": "Buscador",
+              "width": 440,
+              "height": 40,
+              "fill": "$superficie",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                0,
+                14
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "COHDu",
+                  "name": "Icono buscar",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "$texto-terciario"
+                },
+                {
+                  "type": "text",
+                  "id": "eJXdw",
+                  "name": "Marcador de posición",
+                  "fill": "$texto-terciario",
+                  "content": "Buscar trámites, materias o certificados",
+                  "fontFamily": "$fuente",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dnfpy",
+              "name": "Menú de usuario",
+              "height": 44,
+              "gap": 10,
+              "padding": [
+                0,
+                4
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "apTLE",
+                  "name": "Avatar",
+                  "width": 32,
+                  "height": 32,
+                  "fill": "$amarillo-eafit",
+                  "cornerRadius": 16,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g4CM0o",
+                      "name": "Iniciales",
+                      "fill": "$azul-oscuro",
+                      "content": "JY",
+                      "fontFamily": "$fuente",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eObjs",
+                  "name": "Datos de usuario",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "T35yk",
+                      "name": "Nombre",
+                      "fill": "$texto-sobre-azul",
+                      "content": "Juan Andrés Young",
+                      "fontFamily": "$fuente",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "RELML",
+                      "name": "Usuario",
+                      "fill": "#BFD4E6",
+                      "content": "jayoungh",
+                      "fontFamily": "$fuente",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "icon",
+                  "id": "c2DPyj",
+                  "name": "Abrir menú",
+                  "width": 16,
+                  "height": 16,
+                  "icon": "chevron-down",
+                  "library": "lucide",
+                  "fill": "$texto-sobre-azul"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SGfAS",
+          "name": "Cuerpo",
+          "width": "fill_container",
+          "height": "fill_container",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JWixy",
+              "name": "Navegación lateral",
+              "width": 264,
+              "height": "fill_container",
+              "fill": "$superficie",
+              "stroke": "$borde",
+              "strokeWidth": {
+                "right": 1
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": [
+                20,
+                16
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "I05Rmy",
+                  "name": "Grupo Inicio",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bsGrI",
+                      "name": "Inicio",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "#00000000",
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "MaFKI",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yKP7Q",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "mOTlw",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "house",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Llcmv",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Inicio",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e08iIt",
+                  "name": "Grupo Académico",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "CUwmb",
+                      "name": "Académico",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "t1VJo",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DFwtG",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "MScb4",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "graduation-cap",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Pei75",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Académico",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZmpPH",
+                      "name": "Mi horario",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "c2H4k",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Mi horario",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mbW6i",
+                      "name": "Mis notas",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aAC4g",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Mis notas",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "j9PhK",
+                  "name": "Grupo Financiero",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "YD3bu",
+                      "name": "Financiero",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "R4QAp",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mLogc",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "rlWPX",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "credit-card",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Mzx44",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Financiero",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Hi7uY",
+                      "name": "Pagar",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e75LQa",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Pagar",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OCVPd",
+                  "name": "Grupo Trámites",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BJLmU",
+                      "name": "Trámites",
+                      "width": "fill_container",
+                      "height": 44,
+                      "fill": "$azul-suave",
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "K1P9IX",
+                          "name": "Indicador",
+                          "fill": "$amarillo-eafit",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "naE66",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ARssz",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "file-text",
+                              "library": "lucide",
+                              "fill": "$azul-eafit"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Lwqtm",
+                              "name": "Etiqueta",
+                              "fill": "$azul-eafit",
+                              "content": "Trámites",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BipAq",
+                      "name": "Certificados",
+                      "width": "fill_container",
+                      "height": 36,
+                      "cornerRadius": 8,
+                      "padding": [
+                        0,
+                        12,
+                        0,
+                        36
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xJsXw",
+                          "name": "Etiqueta",
+                          "fill": "$texto-secundario",
+                          "content": "Certificados",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xsj1q",
+                  "name": "Grupo Inscripciones",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "DNaC5",
+                      "name": "Inscripciones",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 8,
+                      "gap": 9,
+                      "padding": [
+                        0,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 2,
+                          "id": "xk5UT",
+                          "name": "Indicador",
+                          "fill": "#00000000",
+                          "width": 3,
+                          "height": 20
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GPnsT",
+                          "name": "Contenido",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "F7f9A",
+                              "name": "Icono",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "clipboard-list",
+                              "library": "lucide",
+                              "fill": "$texto-secundario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "zT1iW",
+                              "name": "Etiqueta",
+                              "fill": "$texto-principal",
+                              "content": "Inscripciones",
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "J8p2X0",
+                  "name": "Espaciador",
+                  "width": "fill_container",
+                  "height": "fill_container(24)"
+                },
+                {
+                  "type": "frame",
+                  "id": "myZs1",
+                  "name": "Pie / Accesos rápidos",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "G8GmJ",
+                      "name": "Separador",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$borde"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Y0PqGL",
+                      "name": "Lista de accesos",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hQvvN",
+                          "name": "Encabezado accesos",
+                          "width": "fill_container",
+                          "padding": [
+                            0,
+                            12,
+                            6,
+                            12
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "swwS2",
+                              "name": "Título",
+                              "fill": "$texto-terciario",
+                              "content": "ACCESOS RÁPIDOS",
+                              "fontFamily": "$fuente",
+                              "fontSize": 11,
+                              "fontWeight": "600",
+                              "letterSpacing": 0.8
+                            },
+                            {
+                              "type": "text",
+                              "id": "yONBB",
+                              "name": "Editar",
+                              "fill": "$azul-eafit",
+                              "content": "Editar",
+                              "fontFamily": "$fuente",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UtfjR",
+                          "name": "Adjuntar documentos",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "RBNNf",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "paperclip",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "quruR",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Adjuntar documentos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PcE0G",
+                          "name": "Reserva de espacios",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "E9d8F",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "calendar-check",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Y2EVp",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Reserva de espacios",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Nbnre",
+                          "name": "Historia académica",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "r6Jos",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "scroll-text",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NiaR4",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Historia académica",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ysprl",
+                          "name": "Centro de pagos",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "cNK4Q",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "credit-card",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ExMkL",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Centro de pagos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j3RXfn",
+                          "name": "Evaluación docente",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "ou6Jp",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "clipboard-check",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "EX8Kl",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Evaluación docente",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gbRaH",
+              "name": "Contenido principal",
+              "width": "fill_container",
+              "height": "fill_container",
+              "layout": "vertical",
+              "gap": 32,
+              "padding": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uoKK8",
+                  "name": "Encabezado",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v5YCo3",
+                      "name": "Ruta",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZMVtN",
+                          "name": "Trámites",
+                          "fill": "$texto-secundario",
+                          "content": "Trámites",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "icon",
+                          "id": "VDRDp",
+                          "name": "Separador",
+                          "width": 14,
+                          "height": 14,
+                          "icon": "chevron-right",
+                          "library": "lucide",
+                          "fill": "$texto-terciario"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HIOUJ",
+                          "name": "Actual",
+                          "fill": "$texto-principal",
+                          "content": "Adjuntar documentos",
+                          "fontFamily": "$fuente",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "CwDm0",
+                      "name": "Título",
+                      "fill": "$texto-principal",
+                      "content": "Adjuntar documentos",
+                      "fontFamily": "$fuente",
+                      "fontSize": 30,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "MpZtf",
+                      "name": "Descripción",
+                      "fill": "$texto-secundario",
+                      "textGrowth": "fixed-width",
+                      "width": 760,
+                      "content": "Revisa el estado de cada documento requerido para tu matrícula. Los documentos con observación deben reemplazarse para continuar.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$fuente",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "VNKVw",
+                      "name": "Resumen de estados",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "b6I4Mh",
+                          "name": "5 documentos requeridos",
+                          "fill": "$neutro-fondo",
+                          "cornerRadius": 999,
+                          "stroke": "$neutro-borde",
+                          "strokeWidth": 1,
+                          "gap": 6,
+                          "padding": [
+                            5,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "qj1bf",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "files",
+                              "library": "lucide",
+                              "fill": "$neutro-texto"
+                            },
+                            {
+                              "type": "text",
+                              "id": "PZWl5",
+                              "name": "Etiqueta",
+                              "fill": "$neutro-texto",
+                              "content": "5 documentos requeridos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "plhlF",
+                          "name": "3 aprobados",
+                          "fill": "$exito-fondo",
+                          "cornerRadius": 999,
+                          "stroke": "$exito-borde",
+                          "strokeWidth": 1,
+                          "gap": 6,
+                          "padding": [
+                            5,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "M9H7vT",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$exito-texto"
+                            },
+                            {
+                              "type": "text",
+                              "id": "hyfxR",
+                              "name": "Etiqueta",
+                              "fill": "$exito-texto",
+                              "content": "3 aprobados",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IwyEe",
+                          "name": "1 con observación",
+                          "fill": "$alerta-fondo",
+                          "cornerRadius": 999,
+                          "stroke": "$alerta-borde",
+                          "strokeWidth": 1,
+                          "gap": 6,
+                          "padding": [
+                            5,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "z7LsA",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "triangle-alert",
+                              "library": "lucide",
+                              "fill": "$alerta-texto"
+                            },
+                            {
+                              "type": "text",
+                              "id": "w3C4AH",
+                              "name": "Etiqueta",
+                              "fill": "$alerta-texto",
+                              "content": "1 con observación",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xh492",
+                          "name": "1 pendiente",
+                          "fill": "$neutro-fondo",
+                          "cornerRadius": 999,
+                          "stroke": "$neutro-borde",
+                          "strokeWidth": 1,
+                          "gap": 6,
+                          "padding": [
+                            5,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "f5jBgI",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "clock-3",
+                              "library": "lucide",
+                              "fill": "$neutro-texto"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rbUmv",
+                              "name": "Etiqueta",
+                              "fill": "$neutro-texto",
+                              "content": "1 pendiente",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k61C1",
+                  "name": "Región · Declaración de veracidad",
+                  "width": "fill_container",
+                  "fill": "$superficie",
+                  "cornerRadius": "$radio",
+                  "stroke": "$borde",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JyUSX",
+                      "name": "Cabecera",
+                      "width": "fill_container",
+                      "gap": 10,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "C4MDk3",
+                          "name": "Icono",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "shield-check",
+                          "library": "lucide",
+                          "fill": "$azul-eafit"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HsWZu",
+                          "name": "Título",
+                          "fill": "$texto-principal",
+                          "content": "Declaración de veracidad de datos",
+                          "fontFamily": "$fuente",
+                          "fontSize": 17,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zYxsW",
+                      "name": "Casilla y texto",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "v2ULV",
+                          "name": "Casilla de aceptación",
+                          "width": 24,
+                          "height": 24,
+                          "fill": "$azul-eafit",
+                          "cornerRadius": 6,
+                          "stroke": "$azul-oscuro",
+                          "strokeWidth": 1,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "tPvsq",
+                              "name": "Marca",
+                              "width": 15,
+                              "height": 15,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "$texto-sobre-azul"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uhHw0",
+                          "name": "Texto de la declaración",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "o2d7MR",
+                              "name": "Frase principal",
+                              "fill": "$texto-principal",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Declaro que la información y/o documentación aportada es completa, cierta y veraz.",
+                              "lineHeight": 1.55,
+                              "fontFamily": "$fuente",
+                              "fontSize": 14.5,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "fVAub",
+                              "name": "Cuerpo legal",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "En consecuencia, autorizo a la Universidad EAFIT para que consulte o acceda a estos con la finalidad de llevar a cabo el proceso de admisión y matrícula. Así mismo, la Universidad estará autorizada para que, a través de los controles que esta considere pertinentes, verifique su autenticidad o exactitud. Me comprometo a entregar soporte de la información en medio físico cuando así sea requerido por la Universidad EAFIT.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Cs939",
+                              "name": "Cuerpo legal 2",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Del mismo modo, declaro que conozco que el incumplimiento de lo anterior dará lugar a las consecuencias señaladas en las políticas y reglamentos institucionales, sin perjuicio de las sanciones y penas previstas en la legislación colombiana. La presente declaración hace parte de la autorización otorgada a la Universidad en desarrollo de la Ley 1581 de 2012 o la norma que la sustituya, modifique o derogue.",
+                              "lineHeight": 1.6,
+                              "fontFamily": "$fuente",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "OHMeH",
+                              "name": "Estado de aceptación",
+                              "fill": "$exito-texto",
+                              "content": "Aceptaste las condiciones. Ya puedes adjuntar tus documentos.",
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "x5qGp6",
+                  "name": "Región · Documentos requeridos",
+                  "clip": true,
+                  "width": "fill_container",
+                  "fill": "$superficie",
+                  "cornerRadius": "$radio",
+                  "stroke": "$borde",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "LPN73",
+                      "name": "Cabecera de la sección",
+                      "width": "fill_container",
+                      "stroke": "$borde",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 12,
+                      "padding": [
+                        18,
+                        24
+                      ],
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "x3rmQh",
+                          "name": "Título y detalle",
+                          "layout": "vertical",
+                          "gap": 3,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "kPaYn",
+                              "name": "Título",
+                              "fill": "$texto-principal",
+                              "content": "Documentos requeridos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 17,
+                              "fontWeight": "700"
+                            },
+                            {
+                              "type": "text",
+                              "id": "KfdTd",
+                              "name": "Detalle",
+                              "fill": "$texto-secundario",
+                              "content": "Los documentos con observación deben reemplazarse para completar tu matrícula.",
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F4NpJ",
+                      "name": "Fila de encabezados",
+                      "width": "fill_container",
+                      "fill": "$cabecera-tabla",
+                      "stroke": "$borde",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        12,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "mNA8S",
+                          "name": "Celda · Categoría",
+                          "width": 150,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "U2Njv",
+                              "name": "Encabezado",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Categoría",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eSqPk",
+                          "name": "Celda · Documento",
+                          "width": 170,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "AzePp",
+                              "name": "Encabezado",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Documento",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bSOLQ",
+                          "name": "Celda · Archivo",
+                          "width": 205,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ncQIl",
+                              "name": "Encabezado",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Archivo",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "A3wTi",
+                          "name": "Celda · Estado",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "I1uiwr",
+                              "name": "Encabezado",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Estado",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xD71G",
+                          "name": "Celda · Observación",
+                          "width": "fill_container",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "puzYc",
+                              "name": "Encabezado",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Observación",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "700",
+                              "letterSpacing": 0.6
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WoHfu",
+                      "name": "Fila · Documento de identidad",
+                      "width": "fill_container",
+                      "fill": "$fila-alerta",
+                      "stroke": "$borde",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        16,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "C45Vc",
+                          "name": "Celda · Categoría",
+                          "width": 150,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "dR62V",
+                              "name": "Texto",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Documentos Transversales",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "y7CkKT",
+                          "name": "Celda · Documento",
+                          "width": 170,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "u5PszG",
+                              "name": "Texto",
+                              "fill": "$texto-principal",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Documento de identidad",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13.5,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BHFq3",
+                          "name": "Celda · Archivo",
+                          "width": 205,
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vgdOZ",
+                              "name": "Archivo adjunto",
+                              "width": "fill_container",
+                              "fill": "$fondo",
+                              "cornerRadius": 8,
+                              "stroke": "$borde",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                7,
+                                10
+                              ],
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "uqKWs",
+                                  "name": "Icono",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "file-text",
+                                  "library": "lucide",
+                                  "fill": "$azul-eafit"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "bzgWw",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Copia_del_Documento_de_identidad_TI.pdf",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "l5sdEx",
+                          "name": "Celda · Estado",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Rrroq",
+                              "name": "Insignia · Con observación",
+                              "fill": "$alerta-fondo",
+                              "cornerRadius": 6,
+                              "stroke": "$alerta-borde",
+                              "strokeWidth": 1,
+                              "gap": 6,
+                              "padding": [
+                                5,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "m2ZwA",
+                                  "name": "Icono",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "triangle-alert",
+                                  "library": "lucide",
+                                  "fill": "$alerta-texto"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ds98H",
+                                  "name": "Etiqueta",
+                                  "fill": "$alerta-texto",
+                                  "textGrowth": "fixed-width",
+                                  "width": 120,
+                                  "content": "Con observación",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TrzTO",
+                          "name": "Celda · Observación",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "thh67",
+                              "name": "Texto",
+                              "fill": "$texto-principal",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "El documento adjunto no corresponde al solicitado. Debe adjuntarse un certificado con membrete y firmas.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "H2sryS",
+                              "name": "Acción · Reemplazar archivo",
+                              "fill": "$azul-eafit",
+                              "cornerRadius": 8,
+                              "stroke": "$azul-oscuro",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                8,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "W0Jok",
+                                  "name": "Icono",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "refresh-cw",
+                                  "library": "lucide",
+                                  "fill": "$texto-sobre-azul"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "zelq2",
+                                  "name": "Etiqueta",
+                                  "fill": "$texto-sobre-azul",
+                                  "content": "Reemplazar archivo",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PxKzu",
+                      "name": "Fila · Certificado de notas bachiller",
+                      "width": "fill_container",
+                      "stroke": "$borde",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        16,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "iq6Jq",
+                          "name": "Celda · Categoría",
+                          "width": 150,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vwHYF",
+                              "name": "Texto",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Documentos Admisión Pregrado",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pplbi",
+                          "name": "Celda · Documento",
+                          "width": 170,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t2L0dv",
+                              "name": "Texto",
+                              "fill": "$texto-principal",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Certificado de notas bachiller",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13.5,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "n7dCG",
+                          "name": "Celda · Archivo",
+                          "width": 205,
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "XpGI6",
+                              "name": "Archivo adjunto",
+                              "width": "fill_container",
+                              "fill": "$fondo",
+                              "cornerRadius": 8,
+                              "stroke": "$borde",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                7,
+                                10
+                              ],
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "joEfa",
+                                  "name": "Icono",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "file-text",
+                                  "library": "lucide",
+                                  "fill": "$azul-eafit"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "pvHC3",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Notas_11.pdf",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aJNVg",
+                          "name": "Celda · Estado",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "B8ZlNl",
+                              "name": "Insignia · Aprobado",
+                              "fill": "$exito-fondo",
+                              "cornerRadius": 6,
+                              "stroke": "$exito-borde",
+                              "strokeWidth": 1,
+                              "gap": 6,
+                              "padding": [
+                                5,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "SoGJM",
+                                  "name": "Icono",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "check",
+                                  "library": "lucide",
+                                  "fill": "$exito-texto"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "wvBqS",
+                                  "name": "Etiqueta",
+                                  "fill": "$exito-texto",
+                                  "textGrowth": "fixed-width",
+                                  "width": 120,
+                                  "content": "Aprobado",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZyXJm",
+                          "name": "Celda · Observación",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Okw3E",
+                              "name": "Texto",
+                              "fill": "$texto-terciario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sin observaciones.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pM37F",
+                      "name": "Fila · Certificado Saber 11",
+                      "width": "fill_container",
+                      "stroke": "$borde",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        16,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "w6XvZ2",
+                          "name": "Celda · Categoría",
+                          "width": 150,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "S6fgXh",
+                              "name": "Texto",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Documentos Matrícula Pregrado",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CwxWN",
+                          "name": "Celda · Documento",
+                          "width": 170,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "n8Nvs",
+                              "name": "Texto",
+                              "fill": "$texto-principal",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Certificado Saber 11",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13.5,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TtJwZ",
+                          "name": "Celda · Archivo",
+                          "width": 205,
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "b1Da5",
+                              "name": "Archivo adjunto",
+                              "width": "fill_container",
+                              "fill": "$fondo",
+                              "cornerRadius": 8,
+                              "stroke": "$borde",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                7,
+                                10
+                              ],
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "z7s7o",
+                                  "name": "Icono",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "file-text",
+                                  "library": "lucide",
+                                  "fill": "$azul-eafit"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Eck9w",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Resultados_ICFES_AC202243235470.pdf",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "W0euEL",
+                          "name": "Celda · Estado",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "s70G2",
+                              "name": "Insignia · Aprobado",
+                              "fill": "$exito-fondo",
+                              "cornerRadius": 6,
+                              "stroke": "$exito-borde",
+                              "strokeWidth": 1,
+                              "gap": 6,
+                              "padding": [
+                                5,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "i5mpfo",
+                                  "name": "Icono",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "check",
+                                  "library": "lucide",
+                                  "fill": "$exito-texto"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "q51gIQ",
+                                  "name": "Etiqueta",
+                                  "fill": "$exito-texto",
+                                  "textGrowth": "fixed-width",
+                                  "width": 120,
+                                  "content": "Aprobado",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kEBsS",
+                          "name": "Celda · Observación",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "T1TLX",
+                              "name": "Texto",
+                              "fill": "$texto-terciario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sin observaciones.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sf3gv",
+                      "name": "Fila · Acta de grado bachillerato",
+                      "width": "fill_container",
+                      "stroke": "$borde",
+                      "strokeWidth": {
+                        "bottom": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        16,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ioCNd",
+                          "name": "Celda · Categoría",
+                          "width": 150,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "I3xv89",
+                              "name": "Texto",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Documentos Matrícula Pregrado",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NeqZb",
+                          "name": "Celda · Documento",
+                          "width": 170,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wJOX8",
+                              "name": "Texto",
+                              "fill": "$texto-principal",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Acta de grado bachillerato",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13.5,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rHXrw",
+                          "name": "Celda · Archivo",
+                          "width": 205,
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "J4geMT",
+                              "name": "Archivo adjunto",
+                              "width": "fill_container",
+                              "fill": "$fondo",
+                              "cornerRadius": 8,
+                              "stroke": "$borde",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                7,
+                                10
+                              ],
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "R4xfNY",
+                                  "name": "Icono",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "file-text",
+                                  "library": "lucide",
+                                  "fill": "$azul-eafit"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "XfwG3",
+                                  "name": "Nombre",
+                                  "fill": "$texto-principal",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "Acta_de_grado.pdf",
+                                  "lineHeight": 1.4,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SltHl",
+                          "name": "Celda · Estado",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "yE26v",
+                              "name": "Insignia · Aprobado",
+                              "fill": "$exito-fondo",
+                              "cornerRadius": 6,
+                              "stroke": "$exito-borde",
+                              "strokeWidth": 1,
+                              "gap": 6,
+                              "padding": [
+                                5,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "ETvpZ",
+                                  "name": "Icono",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "check",
+                                  "library": "lucide",
+                                  "fill": "$exito-texto"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LiM46",
+                                  "name": "Etiqueta",
+                                  "fill": "$exito-texto",
+                                  "textGrowth": "fixed-width",
+                                  "width": 120,
+                                  "content": "Aprobado",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZFjYl",
+                          "name": "Celda · Observación",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "d3ijW",
+                              "name": "Texto",
+                              "fill": "$texto-terciario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Sin observaciones.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F79UBG",
+                      "name": "Fila · Cédula de ciudadanía",
+                      "width": "fill_container",
+                      "fill": "$fila-neutra",
+                      "gap": 20,
+                      "padding": [
+                        16,
+                        24
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "C2APUw",
+                          "name": "Celda · Categoría",
+                          "width": 150,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "U622L",
+                              "name": "Texto",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Documentos Transversales",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ylMTp",
+                          "name": "Celda · Documento",
+                          "width": 170,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WlYLZ",
+                              "name": "Texto",
+                              "fill": "$texto-principal",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Cédula de ciudadanía",
+                              "lineHeight": 1.45,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13.5,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QbTNk",
+                          "name": "Celda · Archivo",
+                          "width": 205,
+                          "layout": "vertical",
+                          "gap": 6,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "nZnz1",
+                              "name": "Sin archivo",
+                              "width": "fill_container",
+                              "cornerRadius": 8,
+                              "stroke": "$neutro-borde",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                7,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "yXHNI",
+                                  "name": "Icono",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "file-x",
+                                  "library": "lucide",
+                                  "fill": "$neutro-texto"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "QCp7n",
+                                  "name": "Nombre",
+                                  "fill": "$neutro-texto",
+                                  "content": "Sin archivo adjunto",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12.5,
+                                  "fontWeight": "normal",
+                                  "fontStyle": "italic"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XLKPS",
+                          "name": "Celda · Estado",
+                          "width": 160,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Q8WNQ",
+                              "name": "Insignia · Pendiente de adjuntar",
+                              "fill": "$neutro-fondo",
+                              "cornerRadius": 6,
+                              "stroke": "$neutro-borde",
+                              "strokeWidth": 1,
+                              "gap": 6,
+                              "padding": [
+                                5,
+                                10
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "vrUzB",
+                                  "name": "Icono",
+                                  "width": 14,
+                                  "height": 14,
+                                  "icon": "clock-3",
+                                  "library": "lucide",
+                                  "fill": "$neutro-texto"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "BdYyY",
+                                  "name": "Etiqueta",
+                                  "fill": "$neutro-texto",
+                                  "textGrowth": "fixed-width",
+                                  "width": 120,
+                                  "content": "Pendiente de adjuntar",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 12,
+                                  "fontWeight": "700"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "q3jPn6",
+                          "name": "Celda · Observación",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 10,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HoRf4",
+                              "name": "Texto",
+                              "fill": "$texto-principal",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Aún no has adjuntado este documento. Es obligatorio para completar tu matrícula.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Ep11N",
+                              "name": "Acción · Adjuntar archivo",
+                              "fill": "$superficie",
+                              "cornerRadius": 8,
+                              "stroke": "$azul-eafit",
+                              "strokeWidth": 1,
+                              "gap": 8,
+                              "padding": [
+                                8,
+                                14
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "v4U7lN",
+                                  "name": "Icono",
+                                  "width": 15,
+                                  "height": 15,
+                                  "icon": "paperclip",
+                                  "library": "lucide",
+                                  "fill": "$azul-eafit"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "gHwyg",
+                                  "name": "Etiqueta",
+                                  "fill": "$azul-eafit",
+                                  "content": "Adjuntar archivo",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nSPpX",
+          "layoutPosition": "absolute",
+          "x": 0,
+          "y": 0,
+          "name": "Biblioteca de componentes (no exportable)",
+          "enabled": false,
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "iZnDt",
+              "name": "Componente / Acción primaria",
+              "reusable": true,
+              "height": 48,
+              "fill": "$azul-eafit",
+              "cornerRadius": 8,
+              "gap": 10,
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DRRwT",
+                  "name": "Etiqueta",
+                  "fill": "$texto-sobre-azul",
+                  "content": "Acción primaria",
+                  "fontFamily": "$fuente",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "icon",
+                  "id": "oXJt1",
+                  "name": "Icono",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "arrow-right",
+                  "library": "lucide",
+                  "fill": "$texto-sobre-azul"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "azul-eafit": {
+      "type": "color",
+      "value": "#004B85"
+    },
+    "azul-oscuro": {
+      "type": "color",
+      "value": "#003057"
+    },
+    "azul-suave": {
+      "type": "color",
+      "value": "#EAF1F7"
+    },
+    "amarillo-eafit": {
+      "type": "color",
+      "value": "#FFB903"
+    },
+    "fondo": {
+      "type": "color",
+      "value": "#F4F6F8"
+    },
+    "superficie": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "borde": {
+      "type": "color",
+      "value": "#E2E5EA"
+    },
+    "texto-principal": {
+      "type": "color",
+      "value": "#1A1D21"
+    },
+    "texto-secundario": {
+      "type": "color",
+      "value": "#5A6470"
+    },
+    "texto-terciario": {
+      "type": "color",
+      "value": "#6B7480"
+    },
+    "texto-sobre-azul": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "fuente": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "radio": {
+      "type": "number",
+      "value": 12
+    },
+    "espacio-interno": {
+      "type": "number",
+      "value": 16
+    },
+    "espacio-entre-grupos": {
+      "type": "number",
+      "value": 32
+    },
+    "exito-fondo": {
+      "type": "color",
+      "value": "#E7F4EC"
+    },
+    "exito-borde": {
+      "type": "color",
+      "value": "#A9D5BC"
+    },
+    "exito-texto": {
+      "type": "color",
+      "value": "#1B6B3F"
+    },
+    "alerta-fondo": {
+      "type": "color",
+      "value": "#FDF1DC"
+    },
+    "alerta-borde": {
+      "type": "color",
+      "value": "#E2B15C"
+    },
+    "alerta-texto": {
+      "type": "color",
+      "value": "#7A4E06"
+    },
+    "neutro-fondo": {
+      "type": "color",
+      "value": "#EDF0F3"
+    },
+    "neutro-borde": {
+      "type": "color",
+      "value": "#C7CDD5"
+    },
+    "neutro-texto": {
+      "type": "color",
+      "value": "#4A535E"
+    },
+    "fila-alerta": {
+      "type": "color",
+      "value": "#FFFBF3"
+    },
+    "fila-neutra": {
+      "type": "color",
+      "value": "#FAFBFC"
+    },
+    "cabecera-tabla": {
+      "type": "color",
+      "value": "#F2F5F8"
+    }
+  },
+  "fileToken": "99e08a4c-22cf-47f0-a256-6f9bb7dba18a"
+}

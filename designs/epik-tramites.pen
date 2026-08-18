@@ -6,7 +6,7 @@
       "id": "WOh3J",
       "x": 0,
       "y": 0,
-      "name": "EPIK — Inicio (escritorio 1440)",
+      "name": "EPIK — Certificados (escritorio 1440)",
       "clip": true,
       "width": 1440,
       "height": 1013,
@@ -212,7 +212,7 @@
                       "name": "Inicio",
                       "width": "fill_container",
                       "height": 44,
-                      "fill": "$azul-suave",
+                      "fill": "#00000000",
                       "cornerRadius": 8,
                       "gap": 9,
                       "padding": [
@@ -226,7 +226,7 @@
                           "cornerRadius": 2,
                           "id": "MaFKI",
                           "name": "Indicador",
-                          "fill": "$amarillo-eafit",
+                          "fill": "#00000000",
                           "width": 3,
                           "height": 20
                         },
@@ -245,17 +245,17 @@
                               "height": 18,
                               "icon": "house",
                               "library": "lucide",
-                              "fill": "$azul-eafit"
+                              "fill": "$texto-secundario"
                             },
                             {
                               "type": "text",
                               "id": "Llcmv",
                               "name": "Etiqueta",
-                              "fill": "$azul-eafit",
+                              "fill": "$texto-principal",
                               "content": "Inicio",
                               "fontFamily": "$fuente",
                               "fontSize": 14,
-                              "fontWeight": "600"
+                              "fontWeight": "500"
                             }
                           ]
                         }
@@ -499,7 +499,7 @@
                           "cornerRadius": 2,
                           "id": "K1P9IX",
                           "name": "Indicador",
-                          "fill": "#00000000",
+                          "fill": "$amarillo-eafit",
                           "width": 3,
                           "height": 20
                         },
@@ -518,17 +518,17 @@
                               "height": 18,
                               "icon": "file-text",
                               "library": "lucide",
-                              "fill": "$texto-secundario"
+                              "fill": "$azul-eafit"
                             },
                             {
                               "type": "text",
                               "id": "Lwqtm",
                               "name": "Etiqueta",
-                              "fill": "$texto-principal",
+                              "fill": "$azul-eafit",
                               "content": "Trámites",
                               "fontFamily": "$fuente",
                               "fontSize": 14,
-                              "fontWeight": "500"
+                              "fontWeight": "600"
                             }
                           ]
                         }
@@ -540,6 +540,7 @@
                       "name": "Certificados",
                       "width": "fill_container",
                       "height": 36,
+                      "fill": "$azul-suave",
                       "cornerRadius": 8,
                       "padding": [
                         0,
@@ -553,11 +554,11 @@
                           "type": "text",
                           "id": "xJsXw",
                           "name": "Etiqueta",
-                          "fill": "$texto-secundario",
+                          "fill": "$azul-eafit",
                           "content": "Certificados",
                           "fontFamily": "$fuente",
                           "fontSize": 13,
-                          "fontWeight": "normal"
+                          "fontWeight": "600"
                         }
                       ]
                     }
@@ -650,9 +651,9 @@
                     {
                       "type": "text",
                       "id": "F6siMr",
-                      "name": "Fecha de hoy",
+                      "name": "Sección",
                       "fill": "$texto-secundario",
-                      "content": "Lunes, 17 de agosto de 2026",
+                      "content": "Trámites",
                       "fontFamily": "$fuente",
                       "fontSize": 13,
                       "fontWeight": "500",
@@ -663,7 +664,7 @@
                       "id": "OUDRK",
                       "name": "Saludo",
                       "fill": "$texto-principal",
-                      "content": "Hola, Juan Andrés",
+                      "content": "Certificados",
                       "fontFamily": "$fuente",
                       "fontSize": 30,
                       "fontWeight": "700",
@@ -715,7 +716,7 @@
                         {
                           "type": "text",
                           "id": "kD0dB",
-                          "name": "Medellín",
+                          "name": "Sede",
                           "fill": "$texto-secundario",
                           "content": "Medellín",
                           "fontFamily": "$fuente",
@@ -733,9 +734,9 @@
                         {
                           "type": "text",
                           "id": "W1Bf1",
-                          "name": "ID 1000••••97",
+                          "name": "Periodo",
                           "fill": "$texto-secundario",
-                          "content": "ID 1000••••97",
+                          "content": "Segundo semestre 2026",
                           "fontFamily": "$fuente",
                           "fontSize": 14,
                           "fontWeight": "normal"
@@ -746,905 +747,292 @@
                 },
                 {
                   "type": "frame",
-                  "id": "VeHHB",
-                  "name": "Fila 1",
+                  "id": "Wl7yP",
+                  "name": "Fila principal",
                   "width": "fill_container",
                   "gap": 32,
                   "children": [
                     {
                       "type": "frame",
-                      "id": "DGkWB",
-                      "name": "Región · Clases de hoy",
+                      "id": "kNUIS",
+                      "name": "Columna izquierda",
                       "width": "fill_container",
-                      "fill": "$superficie",
-                      "cornerRadius": "$radio",
-                      "stroke": "$borde",
-                      "strokeWidth": 1,
                       "layout": "vertical",
-                      "gap": 16,
-                      "padding": 24,
+                      "gap": 24,
                       "children": [
                         {
                           "type": "frame",
-                          "id": "GOqDN",
-                          "name": "Cabecera",
+                          "id": "FkQWS",
+                          "name": "Región · Nueva solicitud",
                           "width": "fill_container",
-                          "justifyContent": "space_between",
-                          "alignItems": "center",
+                          "fill": "$superficie",
+                          "cornerRadius": "$radio",
+                          "stroke": "$borde",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 24,
                           "children": [
                             {
                               "type": "frame",
-                              "id": "ANhcu",
+                              "id": "MyTSq",
                               "name": "Título",
                               "gap": 10,
                               "alignItems": "center",
                               "children": [
                                 {
                                   "type": "icon",
-                                  "id": "t7S9K",
+                                  "id": "MEW3N",
                                   "name": "Icono",
                                   "width": 18,
                                   "height": 18,
-                                  "icon": "book-open",
+                                  "icon": "file-plus",
                                   "library": "lucide",
                                   "fill": "$azul-eafit"
                                 },
                                 {
                                   "type": "text",
-                                  "id": "G37FLJ",
+                                  "id": "KOKdO",
                                   "name": "Texto",
                                   "fill": "$texto-principal",
-                                  "content": "Clases de hoy",
+                                  "content": "Nueva solicitud",
                                   "fontFamily": "$fuente",
                                   "fontSize": 17,
-                                  "fontWeight": "700"
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.2
                                 }
                               ]
                             },
                             {
                               "type": "text",
-                              "id": "aGuoD",
-                              "name": "Conteo",
+                              "id": "kY1Kg",
+                              "name": "Explicación",
                               "fill": "$texto-secundario",
-                              "content": "2 clases",
-                              "fontFamily": "$fuente",
-                              "fontSize": 13,
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "f3lweh",
-                          "name": "Lista de clases",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 8,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "L0WSU5",
-                              "name": "Métodos Cuantitativos",
+                              "textGrowth": "fixed-width",
                               "width": "fill_container",
-                              "height": 76,
-                              "fill": "#F8FAFC",
-                              "cornerRadius": 10,
-                              "gap": 16,
-                              "padding": [
-                                0,
-                                16,
-                                0,
-                                0
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "rectangle",
-                                  "cornerRadius": [
-                                    10,
-                                    0,
-                                    0,
-                                    10
-                                  ],
-                                  "id": "Hxwfo",
-                                  "name": "Acento",
-                                  "fill": "$amarillo-eafit",
-                                  "width": 4,
-                                  "height": "fill_container"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "IthCW",
-                                  "name": "Horario (cifras tabulares)",
-                                  "width": 78,
-                                  "layout": "vertical",
-                                  "gap": 2,
-                                  "padding": [
-                                    0,
-                                    0,
-                                    0,
-                                    16
-                                  ],
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "hLJfJ",
-                                      "name": "Hora inicio",
-                                      "fill": "$azul-eafit",
-                                      "content": "09:00",
-                                      "fontFamily": "$fuente",
-                                      "fontSize": 17,
-                                      "fontWeight": "700",
-                                      "letterSpacing": 0.2
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "fWvMw",
-                                      "name": "Hora fin",
-                                      "fill": "$texto-secundario",
-                                      "content": "10:30",
-                                      "fontFamily": "$fuente",
-                                      "fontSize": 13,
-                                      "fontWeight": "normal",
-                                      "letterSpacing": 0.2
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "rectangle",
-                                  "id": "Kgkzc",
-                                  "name": "Divisor",
-                                  "fill": "$borde",
-                                  "width": 1,
-                                  "height": 40
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "I7yaga",
-                                  "name": "Detalle",
-                                  "width": "fill_container",
-                                  "layout": "vertical",
-                                  "gap": 4,
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "oaavu",
-                                      "name": "Asignatura",
-                                      "fill": "$texto-principal",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Métodos Cuantitativos",
-                                      "fontFamily": "$fuente",
-                                      "fontSize": 15,
-                                      "fontWeight": "600"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "bUI7O",
-                                      "name": "Salón",
-                                      "gap": 6,
-                                      "alignItems": "center",
-                                      "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "gq3t9",
-                                          "name": "Icono",
-                                          "width": 14,
-                                          "height": 14,
-                                          "icon": "map-pin",
-                                          "library": "lucide",
-                                          "fill": "$texto-terciario"
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "WXHCL",
-                                          "name": "Texto",
-                                          "fill": "$texto-secundario",
-                                          "content": "Salón 35-203",
-                                          "fontFamily": "$fuente",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal",
-                                          "letterSpacing": 0.2
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "Hqt1F",
-                              "name": "Internet, Arquitectura y Protocolos",
-                              "width": "fill_container",
-                              "height": 76,
-                              "fill": "#F8FAFC",
-                              "cornerRadius": 10,
-                              "gap": 16,
-                              "padding": [
-                                0,
-                                16,
-                                0,
-                                0
-                              ],
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "rectangle",
-                                  "cornerRadius": [
-                                    10,
-                                    0,
-                                    0,
-                                    10
-                                  ],
-                                  "id": "xJQmP",
-                                  "name": "Acento",
-                                  "fill": "$amarillo-eafit",
-                                  "width": 4,
-                                  "height": "fill_container"
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "VC9wm",
-                                  "name": "Horario (cifras tabulares)",
-                                  "width": 78,
-                                  "layout": "vertical",
-                                  "gap": 2,
-                                  "padding": [
-                                    0,
-                                    0,
-                                    0,
-                                    16
-                                  ],
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "wMftx",
-                                      "name": "Hora inicio",
-                                      "fill": "$azul-eafit",
-                                      "content": "15:00",
-                                      "fontFamily": "$fuente",
-                                      "fontSize": 17,
-                                      "fontWeight": "700",
-                                      "letterSpacing": 0.2
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "SMVkD",
-                                      "name": "Hora fin",
-                                      "fill": "$texto-secundario",
-                                      "content": "18:00",
-                                      "fontFamily": "$fuente",
-                                      "fontSize": 13,
-                                      "fontWeight": "normal",
-                                      "letterSpacing": 0.2
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "rectangle",
-                                  "id": "HoIXf",
-                                  "name": "Divisor",
-                                  "fill": "$borde",
-                                  "width": 1,
-                                  "height": 40
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "NEmc3",
-                                  "name": "Detalle",
-                                  "width": "fill_container",
-                                  "layout": "vertical",
-                                  "gap": 4,
-                                  "children": [
-                                    {
-                                      "type": "text",
-                                      "id": "s6knfE",
-                                      "name": "Asignatura",
-                                      "fill": "$texto-principal",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Internet, Arquitectura y Protocolos",
-                                      "fontFamily": "$fuente",
-                                      "fontSize": 15,
-                                      "fontWeight": "600"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "fJNEt",
-                                      "name": "Salón",
-                                      "gap": 6,
-                                      "alignItems": "center",
-                                      "children": [
-                                        {
-                                          "type": "icon",
-                                          "id": "S0bb5y",
-                                          "name": "Icono",
-                                          "width": 14,
-                                          "height": 14,
-                                          "icon": "map-pin",
-                                          "library": "lucide",
-                                          "fill": "$texto-terciario"
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "iAtju",
-                                          "name": "Texto",
-                                          "fill": "$texto-secundario",
-                                          "content": "Salón 18-417",
-                                          "fontFamily": "$fuente",
-                                          "fontSize": 13,
-                                          "fontWeight": "normal",
-                                          "letterSpacing": 0.2
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "id": "hMA2c",
-                          "type": "ref",
-                          "ref": "iZnDt",
-                          "name": "Acción · Ver mi horario",
-                          "descendants": {
-                            "DRRwT": {
-                              "content": "Ver mi horario completo"
-                            }
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "KCAqa",
-                      "name": "Región · Periodo académico",
-                      "width": 340,
-                      "fill": "$superficie",
-                      "cornerRadius": "$radio",
-                      "stroke": "$borde",
-                      "strokeWidth": 1,
-                      "layout": "vertical",
-                      "gap": 16,
-                      "padding": 24,
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "kqR5U",
-                          "name": "Título",
-                          "gap": 10,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "yDMUQ",
-                              "name": "Icono",
-                              "width": 18,
-                              "height": 18,
-                              "icon": "calendar",
-                              "library": "lucide",
-                              "fill": "$azul-eafit"
-                            },
-                            {
-                              "type": "text",
-                              "id": "JHr3K",
-                              "name": "Texto",
-                              "fill": "$texto-principal",
-                              "content": "Periodo académico",
-                              "fontFamily": "$fuente",
-                              "fontSize": 17,
-                              "fontWeight": "700"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "j6Oh7",
-                          "name": "Datos del periodo",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 4,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "PJLnL",
-                              "name": "Semestre",
-                              "fill": "$texto-principal",
-                              "content": "Segundo semestre 2026",
-                              "fontFamily": "$fuente",
-                              "fontSize": 15,
-                              "fontWeight": "600"
-                            },
-                            {
-                              "type": "text",
-                              "id": "X19D2g",
-                              "name": "Fechas (cifras tabulares)",
-                              "fill": "$texto-secundario",
-                              "content": "13/07/2026 — 07/11/2026",
-                              "fontFamily": "$fuente",
-                              "fontSize": 13,
-                              "fontWeight": "normal",
-                              "letterSpacing": 0.2
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "rQ0Zu",
-                          "name": "Avance",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 8,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "Har4z",
-                              "name": "Pista",
-                              "clip": true,
-                              "width": "fill_container",
-                              "height": 8,
-                              "fill": "#E7EBF0",
-                              "cornerRadius": 4,
-                              "children": [
-                                {
-                                  "type": "rectangle",
-                                  "cornerRadius": 4,
-                                  "id": "J46H0",
-                                  "name": "Avance recorrido",
-                                  "fill": "$azul-eafit",
-                                  "width": 102,
-                                  "height": "fill_container"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "text",
-                              "id": "l9wd8X",
-                              "name": "Semana (cifras tabulares)",
-                              "fill": "$texto-secundario",
-                              "content": "Semana 6 de 17",
-                              "fontFamily": "$fuente",
-                              "fontSize": 13,
-                              "fontWeight": "normal",
-                              "letterSpacing": 0.2
-                            }
-                          ]
-                        },
-                        {
-                          "type": "rectangle",
-                          "id": "QyRS3",
-                          "name": "Divisor",
-                          "fill": "$borde",
-                          "width": "fill_container",
-                          "height": 1
-                        },
-                        {
-                          "type": "frame",
-                          "id": "zDhHV",
-                          "name": "Asignaturas inscritas",
-                          "width": "fill_container",
-                          "gap": 10,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "sVh6C",
-                              "name": "Cantidad (cifras tabulares)",
-                              "fill": "$azul-eafit",
-                              "content": "6",
-                              "fontFamily": "$fuente",
-                              "fontSize": 26,
-                              "fontWeight": "700",
-                              "letterSpacing": 0.2
-                            },
-                            {
-                              "type": "text",
-                              "id": "y2o93",
-                              "name": "Etiqueta",
-                              "fill": "$texto-secundario",
-                              "content": "asignaturas inscritas",
+                              "content": "Confirma el periodo y el programa sobre los que necesitas el certificado; con esos datos te mostramos los certificados que puedes solicitar.",
+                              "lineHeight": 1.5,
                               "fontFamily": "$fuente",
                               "fontSize": 14,
                               "fontWeight": "normal"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "VQGqN",
-                  "name": "Fila 2",
-                  "width": "fill_container",
-                  "gap": 32,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "s16fZf",
-                      "name": "Región · Financiero",
-                      "width": "fill_container",
-                      "fill": "$superficie",
-                      "cornerRadius": "$radio",
-                      "stroke": "$borde",
-                      "strokeWidth": 1,
-                      "layout": "vertical",
-                      "gap": 16,
-                      "padding": 24,
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "hyQwM",
-                          "name": "Título",
-                          "gap": 10,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "Pnuia",
-                              "name": "Icono",
-                              "width": 18,
-                              "height": 18,
-                              "icon": "credit-card",
-                              "library": "lucide",
-                              "fill": "$azul-eafit"
-                            },
-                            {
-                              "type": "text",
-                              "id": "DzIbo",
-                              "name": "Texto",
-                              "fill": "$texto-principal",
-                              "content": "Financiero",
-                              "fontFamily": "$fuente",
-                              "fontSize": 17,
-                              "fontWeight": "700"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "sS253",
-                          "name": "Estado de cuenta",
-                          "width": "fill_container",
-                          "fill": "$azul-suave",
-                          "cornerRadius": 10,
-                          "gap": 14,
-                          "padding": 16,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "Uqmqh",
-                              "name": "Marca de verificación",
-                              "width": 36,
-                              "height": 36,
-                              "fill": "$azul-eafit",
-                              "cornerRadius": 18,
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "cuG6E",
-                                  "name": "Icono",
-                                  "width": 18,
-                                  "height": 18,
-                                  "icon": "check",
-                                  "library": "lucide",
-                                  "fill": "$texto-sobre-azul"
-                                }
-                              ]
                             },
                             {
                               "type": "frame",
-                              "id": "otPcr",
-                              "name": "Texto del estado",
+                              "id": "mVVov",
+                              "name": "Campos",
                               "width": "fill_container",
-                              "layout": "vertical",
-                              "gap": 3,
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "Lukak",
-                                  "name": "Titular",
-                                  "fill": "$texto-principal",
-                                  "content": "Sin cargos pendientes",
-                                  "fontFamily": "$fuente",
-                                  "fontSize": 15,
-                                  "fontWeight": "600"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "QaJGo",
-                                  "name": "Detalle",
-                                  "fill": "$texto-secundario",
-                                  "textGrowth": "fixed-width",
-                                  "width": "fill_container",
-                                  "content": "No tienes pagos por realizar en este momento.",
-                                  "fontFamily": "$fuente",
-                                  "fontSize": 13,
-                                  "fontWeight": "normal"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "id": "SvCEG",
-                          "type": "ref",
-                          "ref": "iZnDt",
-                          "name": "Acción · Ver estado de cuenta",
-                          "descendants": {
-                            "DRRwT": {
-                              "content": "Ver mi estado de cuenta"
-                            }
-                          }
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "DqFZp",
-                      "name": "Región · Trámites",
-                      "width": "fill_container",
-                      "fill": "$superficie",
-                      "cornerRadius": "$radio",
-                      "stroke": "$borde",
-                      "strokeWidth": 1,
-                      "layout": "vertical",
-                      "gap": 16,
-                      "padding": 24,
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "qzbgz",
-                          "name": "Título",
-                          "gap": 10,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "UcId0",
-                              "name": "Icono",
-                              "width": 18,
-                              "height": 18,
-                              "icon": "file-text",
-                              "library": "lucide",
-                              "fill": "$azul-eafit"
-                            },
-                            {
-                              "type": "text",
-                              "id": "L0nZyH",
-                              "name": "Texto",
-                              "fill": "$texto-principal",
-                              "content": "Trámites",
-                              "fontFamily": "$fuente",
-                              "fontSize": 17,
-                              "fontWeight": "700"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "xEogT",
-                          "name": "Certificados",
-                          "width": "fill_container",
-                          "fill": "#F8FAFC",
-                          "cornerRadius": 10,
-                          "gap": 14,
-                          "padding": 16,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "UMl92",
-                              "name": "Contenedor de icono",
-                              "width": 36,
-                              "height": 36,
-                              "fill": "$azul-suave",
-                              "cornerRadius": 18,
-                              "justifyContent": "center",
-                              "alignItems": "center",
-                              "children": [
-                                {
-                                  "type": "icon",
-                                  "id": "HSX69",
-                                  "name": "Icono",
-                                  "width": 18,
-                                  "height": 18,
-                                  "icon": "award",
-                                  "library": "lucide",
-                                  "fill": "$azul-eafit"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "D6dle3",
-                              "name": "Texto",
-                              "width": "fill_container",
-                              "layout": "vertical",
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "F5HjoJ",
-                                  "name": "Titular",
-                                  "fill": "$texto-principal",
-                                  "content": "Certificados",
-                                  "fontFamily": "$fuente",
-                                  "fontSize": 15,
-                                  "fontWeight": "600"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "id": "L6EO7R",
-                          "type": "ref",
-                          "ref": "iZnDt",
-                          "name": "Acción · Solicitar certificado",
-                          "descendants": {
-                            "DRRwT": {
-                              "content": "Solicitar un certificado"
-                            }
-                          }
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "LHuBl",
-                  "name": "Fila 3",
-                  "width": "fill_container",
-                  "gap": 32,
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "ru2r6",
-                      "name": "Región · Inscripciones",
-                      "width": "fill_container",
-                      "fill": "$superficie",
-                      "cornerRadius": "$radio",
-                      "stroke": "$borde",
-                      "strokeWidth": 1,
-                      "layout": "vertical",
-                      "gap": 16,
-                      "padding": 24,
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "c97Mn",
-                          "name": "Título",
-                          "gap": 10,
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "icon",
-                              "id": "B56EP",
-                              "name": "Icono",
-                              "width": 18,
-                              "height": 18,
-                              "icon": "clipboard-list",
-                              "library": "lucide",
-                              "fill": "$azul-eafit"
-                            },
-                            {
-                              "type": "text",
-                              "id": "lShle",
-                              "name": "Texto",
-                              "fill": "$texto-principal",
-                              "content": "Inscripciones",
-                              "fontFamily": "$fuente",
-                              "fontSize": 17,
-                              "fontWeight": "700"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "UoJqH",
-                          "name": "Tarjetas",
-                          "width": "fill_container",
-                          "height": 80,
-                          "gap": 16,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "JXsfL",
-                              "name": "Solicitud de admisión",
-                              "width": "fill_container",
-                              "height": "fill_container",
-                              "fill": "$azul-suave",
-                              "cornerRadius": 10,
-                              "gap": 14,
-                              "padding": 16,
-                              "alignItems": "center",
+                              "gap": 20,
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "GG8rb",
-                                  "name": "Contenedor de icono",
-                                  "width": 36,
-                                  "height": 36,
-                                  "fill": "$azul-eafit",
-                                  "cornerRadius": 18,
-                                  "justifyContent": "center",
-                                  "alignItems": "center",
-                                  "children": [
-                                    {
-                                      "type": "icon",
-                                      "id": "v9aUn",
-                                      "name": "Icono",
-                                      "width": 18,
-                                      "height": 18,
-                                      "icon": "graduation-cap",
-                                      "library": "lucide",
-                                      "fill": "$texto-sobre-azul"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "HRmJV",
-                                  "name": "Texto",
+                                  "id": "X7EO1y",
+                                  "name": "Campo · Periodo",
                                   "width": "fill_container",
                                   "layout": "vertical",
-                                  "gap": 3,
+                                  "gap": 6,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "F6bv9F",
-                                      "name": "Titular",
+                                      "id": "w6ePen",
+                                      "name": "Etiqueta",
                                       "fill": "$texto-principal",
-                                      "content": "Solicitud de admisión 34905",
+                                      "content": "Periodo académico",
                                       "fontFamily": "$fuente",
-                                      "fontSize": 15,
+                                      "fontSize": 13,
                                       "fontWeight": "600"
                                     },
                                     {
+                                      "type": "frame",
+                                      "id": "TtroO",
+                                      "name": "Control",
+                                      "width": "fill_container",
+                                      "height": 44,
+                                      "fill": "$superficie",
+                                      "cornerRadius": 8,
+                                      "stroke": "$borde-control",
+                                      "strokeWidth": 1,
+                                      "gap": 10,
+                                      "padding": [
+                                        0,
+                                        14
+                                      ],
+                                      "justifyContent": "space_between",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "j154nf",
+                                          "name": "Valor",
+                                          "fill": "$texto-principal",
+                                          "content": "Segundo semestre 2026",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 15,
+                                          "fontWeight": "500"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "VLNu4",
+                                          "name": "Desplegar",
+                                          "width": 18,
+                                          "height": 18,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$texto-secundario"
+                                        }
+                                      ]
+                                    },
+                                    {
                                       "type": "text",
-                                      "id": "x1YMo",
-                                      "name": "Detalle",
+                                      "id": "JT8oM",
+                                      "name": "Ayuda",
                                       "fill": "$texto-secundario",
                                       "textGrowth": "fixed-width",
                                       "width": "fill_container",
-                                      "content": "Computer Science · Pregrado · Medellín",
+                                      "content": "Periodo en el que estás matriculado.",
                                       "fontFamily": "$fuente",
-                                      "fontSize": 13,
+                                      "fontSize": 12,
                                       "fontWeight": "normal"
                                     }
                                   ]
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "NnqJA",
-                                  "name": "Estado",
-                                  "fill": "$superficie",
-                                  "cornerRadius": 999,
-                                  "stroke": "$borde",
-                                  "strokeWidth": 1,
-                                  "padding": [
-                                    6,
-                                    12
-                                  ],
-                                  "alignItems": "center",
+                                  "id": "MU6D4",
+                                  "name": "Campo · Programa",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 6,
                                   "children": [
                                     {
                                       "type": "text",
-                                      "id": "V3cUev",
+                                      "id": "O6D3Dz",
                                       "name": "Etiqueta",
-                                      "fill": "$azul-eafit",
-                                      "content": "Activo en el programa",
+                                      "fill": "$texto-principal",
+                                      "content": "Programa académico",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 13,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "gsazq",
+                                      "name": "Control",
+                                      "width": "fill_container",
+                                      "height": 44,
+                                      "fill": "$superficie",
+                                      "cornerRadius": 8,
+                                      "stroke": "$borde-control",
+                                      "strokeWidth": 1,
+                                      "gap": 10,
+                                      "padding": [
+                                        0,
+                                        14
+                                      ],
+                                      "justifyContent": "space_between",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "jotAE",
+                                          "name": "Valor",
+                                          "fill": "$texto-principal",
+                                          "content": "Computer Science · Pregrado",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 15,
+                                          "fontWeight": "500"
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "zhVOg",
+                                          "name": "Desplegar",
+                                          "width": 18,
+                                          "height": 18,
+                                          "icon": "chevron-down",
+                                          "library": "lucide",
+                                          "fill": "$texto-secundario"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "N7Qpu",
+                                      "name": "Ayuda",
+                                      "fill": "$texto-secundario",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Programa al que quedará asociado el certificado.",
                                       "fontFamily": "$fuente",
                                       "fontSize": 12,
-                                      "fontWeight": "600"
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "ZyO7H",
+                              "type": "ref",
+                              "ref": "iZnDt",
+                              "name": "Acción · Buscar certificados",
+                              "descendants": {
+                                "DRRwT": {
+                                  "content": "Buscar certificados disponibles"
+                                },
+                                "oXJt1": {
+                                  "icon": "search"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FRZ20",
+                          "name": "Región · Mis solicitudes",
+                          "width": "fill_container",
+                          "fill": "$superficie",
+                          "cornerRadius": "$radio",
+                          "stroke": "$borde",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 16,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vlbzU",
+                              "name": "Cabecera",
+                              "width": "fill_container",
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "r34mke",
+                                  "name": "Título",
+                                  "gap": 10,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "icon",
+                                      "id": "WgdJb",
+                                      "name": "Icono",
+                                      "width": 18,
+                                      "height": 18,
+                                      "icon": "inbox",
+                                      "library": "lucide",
+                                      "fill": "$azul-eafit"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "musKO",
+                                      "name": "Texto",
+                                      "fill": "$texto-principal",
+                                      "content": "Mis solicitudes",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 17,
+                                      "fontWeight": "700",
+                                      "letterSpacing": -0.2
                                     }
                                   ]
                                 }
@@ -1652,34 +1040,473 @@
                             },
                             {
                               "type": "frame",
-                              "id": "n0JsQn",
-                              "name": "Programa de Idiomas",
+                              "id": "PFDrv",
+                              "name": "Tabla de solicitudes",
+                              "clip": true,
                               "width": "fill_container",
-                              "height": "fill_container",
-                              "fill": "#F8FAFC",
                               "cornerRadius": 10,
-                              "gap": 14,
-                              "padding": 16,
-                              "alignItems": "center",
+                              "stroke": "$borde",
+                              "strokeWidth": 1,
+                              "layout": "vertical",
                               "children": [
                                 {
                                   "type": "frame",
-                                  "id": "Q2Fe56",
-                                  "name": "Contenedor de icono",
-                                  "width": 36,
-                                  "height": 36,
-                                  "fill": "$azul-suave",
-                                  "cornerRadius": 18,
+                                  "id": "McEdO",
+                                  "name": "Fila de encabezados",
+                                  "width": "fill_container",
+                                  "height": 44,
+                                  "fill": "#F8FAFC",
+                                  "stroke": "$borde",
+                                  "strokeWidth": {
+                                    "bottom": 1
+                                  },
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "xFVO3",
+                                      "name": "Celda · Número",
+                                      "width": 170,
+                                      "height": "fill_container",
+                                      "padding": [
+                                        0,
+                                        16
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "LqrnD",
+                                          "name": "Encabezado",
+                                          "fill": "$texto-secundario",
+                                          "content": "Número",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "700",
+                                          "letterSpacing": 0.4
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "TOxAN",
+                                      "name": "Celda · Tipo",
+                                      "width": "fill_container",
+                                      "height": "fill_container",
+                                      "padding": [
+                                        0,
+                                        16
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "wXfFz",
+                                          "name": "Encabezado",
+                                          "fill": "$texto-secundario",
+                                          "content": "Tipo",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "700",
+                                          "letterSpacing": 0.4
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "NWPtF",
+                                      "name": "Celda · Fecha de solicitud",
+                                      "width": 190,
+                                      "height": "fill_container",
+                                      "padding": [
+                                        0,
+                                        16
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "A4vENw",
+                                          "name": "Encabezado",
+                                          "fill": "$texto-secundario",
+                                          "content": "Fecha de solicitud",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "700",
+                                          "letterSpacing": 0.4
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "ivqhI",
+                                      "name": "Celda · Estado",
+                                      "width": 130,
+                                      "height": "fill_container",
+                                      "padding": [
+                                        0,
+                                        16
+                                      ],
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "text",
+                                          "id": "zhVHm",
+                                          "name": "Encabezado",
+                                          "fill": "$texto-secundario",
+                                          "content": "Estado",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 12,
+                                          "fontWeight": "700",
+                                          "letterSpacing": 0.4
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "fJrAr",
+                                  "name": "Estado vacío",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": 14,
+                                  "padding": [
+                                    44,
+                                    24
+                                  ],
                                   "justifyContent": "center",
                                   "alignItems": "center",
                                   "children": [
                                     {
+                                      "type": "frame",
+                                      "id": "Hs0ys",
+                                      "name": "Contenedor de icono",
+                                      "width": 48,
+                                      "height": 48,
+                                      "fill": "$azul-suave",
+                                      "cornerRadius": 24,
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "XAEzQ",
+                                          "name": "Icono",
+                                          "width": 22,
+                                          "height": 22,
+                                          "icon": "file-plus",
+                                          "library": "lucide",
+                                          "fill": "$azul-eafit"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "RVXUF",
+                                      "name": "Titular",
+                                      "fill": "$texto-principal",
+                                      "content": "Aún no tienes solicitudes registradas",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 16,
+                                      "fontWeight": "600"
+                                    },
+                                    {
+                                      "type": "text",
+                                      "id": "p4Xu5",
+                                      "name": "Descripción",
+                                      "fill": "$texto-secundario",
+                                      "textGrowth": "fixed-width",
+                                      "width": 420,
+                                      "content": "Cuando envíes tu primera solicitud, aquí aparecerá con su número, tipo, fecha y estado para que puedas seguirla.",
+                                      "lineHeight": 1.5,
+                                      "textAlign": "center",
+                                      "fontFamily": "$fuente",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "MNVoi",
+                                      "name": "Acción · Crear primera solicitud",
+                                      "height": 44,
+                                      "fill": "$superficie",
+                                      "cornerRadius": 8,
+                                      "stroke": "$azul-eafit",
+                                      "strokeWidth": 1,
+                                      "gap": 8,
+                                      "padding": [
+                                        0,
+                                        20
+                                      ],
+                                      "justifyContent": "center",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "inzuR",
+                                          "name": "Icono",
+                                          "width": 18,
+                                          "height": 18,
+                                          "icon": "plus",
+                                          "library": "lucide",
+                                          "fill": "$azul-eafit"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "fkSC0",
+                                          "name": "Etiqueta",
+                                          "fill": "$azul-eafit",
+                                          "content": "Crear mi primera solicitud",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 15,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rHRbb",
+                      "name": "Columna derecha",
+                      "width": 380,
+                      "layout": "vertical",
+                      "gap": 24,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "EHBsF",
+                          "name": "Región · Solicitudes disponibles",
+                          "width": "fill_container",
+                          "fill": "$superficie",
+                          "cornerRadius": "$radio",
+                          "stroke": "$borde",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 14,
+                          "padding": 24,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "qbEEe",
+                              "name": "Título",
+                              "gap": 10,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "L7Ki38",
+                                  "name": "Icono",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "file-text",
+                                  "library": "lucide",
+                                  "fill": "$azul-eafit"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "ILNTh",
+                                  "name": "Texto",
+                                  "fill": "$texto-principal",
+                                  "content": "Solicitudes disponibles",
+                                  "fontFamily": "$fuente",
+                                  "fontSize": 17,
+                                  "fontWeight": "700",
+                                  "letterSpacing": -0.2
+                                }
+                              ]
+                            },
+                            {
+                              "type": "text",
+                              "id": "R8bojn",
+                              "name": "Explicación",
+                              "fill": "$texto-secundario",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Estas son las solicitudes que puedes iniciar desde el portal.",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$fuente",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RVl3I",
+                              "name": "Lista de trámites",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "mDAC1",
+                                  "name": "Solicitud de servicios",
+                                  "width": "fill_container",
+                                  "fill": "#00000000",
+                                  "cornerRadius": 8,
+                                  "gap": 10,
+                                  "padding": 12,
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "X5yjyJ",
+                                      "name": "Contenido",
+                                      "width": "fill_container",
+                                      "gap": 10,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "oSgjO",
+                                          "name": "Icono",
+                                          "width": 18,
+                                          "height": 18,
+                                          "icon": "clipboard-list",
+                                          "library": "lucide",
+                                          "fill": "$texto-secundario"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "nqSSe",
+                                          "name": "Etiqueta",
+                                          "fill": "$texto-principal",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Solicitud de servicios",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 14,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    },
+                                    {
                                       "type": "icon",
-                                      "id": "CthVG",
-                                      "name": "Icono",
-                                      "width": 18,
-                                      "height": 18,
-                                      "icon": "languages",
+                                      "id": "V2JkhG",
+                                      "name": "Ir",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "chevron-right",
+                                      "library": "lucide",
+                                      "fill": "$texto-terciario"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "XT8Xm",
+                                  "name": "Solicitud de certificado de Idiomas",
+                                  "width": "fill_container",
+                                  "fill": "#00000000",
+                                  "cornerRadius": 8,
+                                  "gap": 10,
+                                  "padding": 12,
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "G2o7f",
+                                      "name": "Contenido",
+                                      "width": "fill_container",
+                                      "gap": 10,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "GYXXG",
+                                          "name": "Icono",
+                                          "width": 18,
+                                          "height": 18,
+                                          "icon": "award",
+                                          "library": "lucide",
+                                          "fill": "$texto-secundario"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "S1v854",
+                                          "name": "Etiqueta",
+                                          "fill": "$texto-principal",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Solicitud de certificado de Idiomas",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 14,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "lFxix",
+                                      "name": "Ir",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "chevron-right",
+                                      "library": "lucide",
+                                      "fill": "$texto-terciario"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "sGlt4",
+                                  "name": "Solicitud de certificados",
+                                  "width": "fill_container",
+                                  "fill": "$azul-suave",
+                                  "cornerRadius": 8,
+                                  "gap": 10,
+                                  "padding": 12,
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "kKFS2",
+                                      "name": "Contenido",
+                                      "width": "fill_container",
+                                      "gap": 10,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "R73L9n",
+                                          "name": "Icono",
+                                          "width": 18,
+                                          "height": 18,
+                                          "icon": "file-badge",
+                                          "library": "lucide",
+                                          "fill": "$azul-eafit"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "IPvNX",
+                                          "name": "Etiqueta",
+                                          "fill": "$azul-eafit",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Solicitud de certificados",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 14,
+                                          "fontWeight": "600"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "icon",
+                                      "id": "spDJm",
+                                      "name": "Ir",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "chevron-right",
                                       "library": "lucide",
                                       "fill": "$azul-eafit"
                                     }
@@ -1687,46 +1514,59 @@
                                 },
                                 {
                                   "type": "frame",
-                                  "id": "sF4ob",
-                                  "name": "Texto",
+                                  "id": "v4adOl",
+                                  "name": "Otros servicios",
                                   "width": "fill_container",
-                                  "layout": "vertical",
-                                  "gap": 3,
+                                  "fill": "#00000000",
+                                  "cornerRadius": 8,
+                                  "gap": 10,
+                                  "padding": 12,
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
                                   "children": [
                                     {
-                                      "type": "text",
-                                      "id": "yfZVJ",
-                                      "name": "Titular",
-                                      "fill": "$texto-principal",
-                                      "content": "Inglés adultos Medellín",
-                                      "fontFamily": "$fuente",
-                                      "fontSize": 15,
-                                      "fontWeight": "600"
+                                      "type": "frame",
+                                      "id": "AbzuU",
+                                      "name": "Contenido",
+                                      "width": "fill_container",
+                                      "gap": 10,
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "icon",
+                                          "id": "u94tE",
+                                          "name": "Icono",
+                                          "width": 18,
+                                          "height": 18,
+                                          "icon": "circle-ellipsis",
+                                          "library": "lucide",
+                                          "fill": "$texto-secundario"
+                                        },
+                                        {
+                                          "type": "text",
+                                          "id": "QHaMl",
+                                          "name": "Etiqueta",
+                                          "fill": "$texto-principal",
+                                          "textGrowth": "fixed-width",
+                                          "width": "fill_container",
+                                          "content": "Otros servicios",
+                                          "fontFamily": "$fuente",
+                                          "fontSize": 14,
+                                          "fontWeight": "500"
+                                        }
+                                      ]
                                     },
                                     {
-                                      "type": "text",
-                                      "id": "T884Vi",
-                                      "name": "Detalle",
-                                      "fill": "$texto-secundario",
-                                      "textGrowth": "fixed-width",
-                                      "width": "fill_container",
-                                      "content": "Programa de Idiomas · Inactivo",
-                                      "fontFamily": "$fuente",
-                                      "fontSize": 13,
-                                      "fontWeight": "normal"
+                                      "type": "icon",
+                                      "id": "Kkzvr",
+                                      "name": "Ir",
+                                      "width": 16,
+                                      "height": 16,
+                                      "icon": "chevron-right",
+                                      "library": "lucide",
+                                      "fill": "$texto-terciario"
                                     }
                                   ]
-                                },
-                                {
-                                  "id": "K0Oie",
-                                  "type": "ref",
-                                  "ref": "iZnDt",
-                                  "name": "Acción · Reanudar",
-                                  "descendants": {
-                                    "DRRwT": {
-                                      "content": "Reanudar"
-                                    }
-                                  }
                                 }
                               ]
                             }
@@ -1854,6 +1694,10 @@
     "espacio-entre-grupos": {
       "type": "number",
       "value": 32
+    },
+    "borde-control": {
+      "type": "color",
+      "value": "#8A94A6"
     }
   },
   "fileToken": "99e08a4c-22cf-47f0-a256-6f9bb7dba18a"
