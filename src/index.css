@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  /* Azul EAFIT · ancla #004b85 = Pantone 294C */
+  --color-eafit-50: #eaf2f8;
+  --color-eafit-100: #cce0ee;
+  --color-eafit-200: #99c1dd;
+  --color-eafit-300: #5c9cc7;
+  --color-eafit-400: #2a76ac;
+  --color-eafit-500: #004b85;
+  --color-eafit-600: #003f70;
+  --color-eafit-700: #00325a;
+  --color-eafit-800: #002544;
+  --color-eafit-900: #001a30;
+
+  /* Amarillo EAFIT · Pantone 123C. Solo superficie, nunca texto sobre blanco (1.72:1) */
+  --color-oro-300: #ffd666;
+  --color-oro-500: #ffb903;
+  --color-oro-700: #c98f00;
+  --color-oro-900: #7a5700;
+
+  /* Semánticos */
+  --color-exito: #0f7b4f;
+  --color-aviso: #b45309;
+  --color-error: #b3261e;
+
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* borde-control es el único legal en el contorno de un control interactivo:
+   los grises decorativos dan 1.30:1 y 1.65:1, por debajo del 3:1 de WCAG 1.4.11 */
+@utility borde-control {
+  border-color: var(--color-gray-500);
+}
+
+html {
+  font-family: var(--font-sans);
+}
