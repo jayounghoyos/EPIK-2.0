@@ -631,9 +631,9 @@
                 {
                   "type": "frame",
                   "id": "J8p2X0",
-                  "name": "Espaciador",
+                  "name": "Separación de grupo",
                   "width": "fill_container",
-                  "height": "fill_container(24)"
+                  "height": 16
                 },
                 {
                   "type": "frame",
@@ -647,9 +647,9 @@
                       "type": "rectangle",
                       "id": "G8GmJ",
                       "name": "Separador",
+                      "fill": "$borde",
                       "width": "fill_container",
-                      "height": 1,
-                      "fill": "$borde"
+                      "height": 1
                     },
                     {
                       "type": "frame",

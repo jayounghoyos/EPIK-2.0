@@ -627,6 +627,259 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fdagF",
+                  "name": "Separación de grupo",
+                  "width": "fill_container",
+                  "height": 24
+                },
+                {
+                  "type": "frame",
+                  "id": "k4hcH",
+                  "name": "Pie / Accesos rápidos",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "hBeGs",
+                      "name": "Separador",
+                      "fill": "$borde",
+                      "width": "fill_container",
+                      "height": 1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Z32D0y",
+                      "name": "Lista de accesos",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 2,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "oaoFF",
+                          "name": "Encabezado accesos",
+                          "width": "fill_container",
+                          "padding": [
+                            0,
+                            12,
+                            6,
+                            12
+                          ],
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "cCDcl",
+                              "name": "Título",
+                              "fill": "$texto-terciario",
+                              "content": "ACCESOS RÁPIDOS",
+                              "fontFamily": "$fuente",
+                              "fontSize": 11,
+                              "fontWeight": "600",
+                              "letterSpacing": 0.8
+                            },
+                            {
+                              "type": "text",
+                              "id": "xEYE2",
+                              "name": "Editar",
+                              "fill": "$azul-eafit",
+                              "content": "Editar",
+                              "fontFamily": "$fuente",
+                              "fontSize": 11,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tKERi",
+                          "name": "Adjuntar documentos",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "BXtxu",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "paperclip",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "tDDjC",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Adjuntar documentos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Sx22i",
+                          "name": "Reserva de espacios",
+                          "width": "fill_container",
+                          "height": 32,
+                          "fill": "$azul-suave",
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "zlrXo",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "calendar-check",
+                              "library": "lucide",
+                              "fill": "$azul-eafit"
+                            },
+                            {
+                              "type": "text",
+                              "id": "QYVo1",
+                              "name": "Etiqueta",
+                              "fill": "$azul-eafit",
+                              "content": "Reserva de espacios",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HWFfi",
+                          "name": "Historia académica",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "NUT9T",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "scroll-text",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "f2l8LU",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Historia académica",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ahGzr",
+                          "name": "Centro de pagos",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "MOEY9",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "credit-card",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "BXxIq",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Centro de pagos",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HxUOA",
+                          "name": "Evaluación docente",
+                          "width": "fill_container",
+                          "height": 32,
+                          "cornerRadius": 8,
+                          "gap": 10,
+                          "padding": [
+                            0,
+                            12
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "WJHPD",
+                              "name": "Icono",
+                              "width": 14,
+                              "height": 14,
+                              "icon": "clipboard-check",
+                              "library": "lucide",
+                              "fill": "$texto-terciario"
+                            },
+                            {
+                              "type": "text",
+                              "id": "EqMNr",
+                              "name": "Etiqueta",
+                              "fill": "$texto-secundario",
+                              "content": "Evaluación docente",
+                              "fontFamily": "$fuente",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
