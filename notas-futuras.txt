@@ -1,1 +1,4 @@
 possible use of driver.js and libraries to do the heatmap or tracking or flow  of the users in the page
+
+
+(driver.js can be really good to show on an expo in the course @SamuelRivero50 and probably the heatmaps too @dechouriog @caro0616 i am quite new using those libraries)

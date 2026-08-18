@@ -1,17 +1,8 @@
-import { Icon } from '../../lib/icons'
+import { NavLink } from 'react-router'
+import { Icon, type IconName } from '../../lib/icons'
 import { navigation, quickAccess } from './nav'
 
-export function Sidebar({
-  active,
-  onNavigate,
-  open,
-  onClose,
-}: {
-  active: string
-  onNavigate: (id: string) => void
-  open: boolean
-  onClose: () => void
-}) {
+export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
   return (
     <>
       {/* Figura y fondo: al abrir el cajón en móvil, el contenido se atenúa */}
@@ -40,29 +31,33 @@ export function Sidebar({
         <ul className="space-y-1 px-4 pt-6 pb-2">
           {navigation.map((item) => (
             <li key={item.id}>
-              <NavButton
-                label={item.label}
-                icon={item.icon}
-                active={active === item.id}
-                onClick={() => onNavigate(item.id)}
-              />
+              {item.path ? (
+                <TopLink to={item.path} icon={item.icon} label={item.label} onNavigate={onClose} />
+              ) : (
+                <p className="flex items-center gap-3 rounded-lg px-3 py-2.5 text-[15px] font-medium text-gray-700">
+                  <Icon name={item.icon} className="size-5 shrink-0" />
+                  {item.label}
+                </p>
+              )}
+
               {item.children && (
                 <ul className="mt-1 space-y-0.5">
                   {item.children.map((child) => (
                     <li key={child.id}>
-                      <button
-                        onClick={() => onNavigate(child.id)}
-                        aria-current={active === child.id ? 'page' : undefined}
-                        className={`w-full rounded-md py-2 pr-3 pl-12 text-left text-sm transition-colors
-                          focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-eafit-400
-                          ${
-                            active === child.id
-                              ? 'bg-eafit-50 font-semibold text-eafit-500'
-                              : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
-                          }`}
+                      <NavLink
+                        to={child.path}
+                        onClick={onClose}
+                        className={({ isActive }) =>
+                          `block rounded-md py-2 pr-3 pl-12 text-sm transition-colors
+                           focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-eafit-400 ${
+                             isActive
+                               ? 'bg-eafit-50 font-semibold text-eafit-500'
+                               : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                           }`
+                        }
                       >
                         {child.label}
-                      </button>
+                      </NavLink>
                     </li>
                   ))}
                 </ul>
@@ -84,20 +79,21 @@ export function Sidebar({
           <ul className="space-y-0.5">
             {quickAccess.map((item) => (
               <li key={item.id}>
-                <button
-                  onClick={() => onNavigate(item.id)}
-                  aria-current={active === item.id ? 'page' : undefined}
-                  className={`flex w-full items-center gap-2.5 rounded-md px-3 py-2 text-left text-sm transition-colors
-                    focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-eafit-400
-                    ${
-                      active === item.id
-                        ? 'bg-eafit-50 font-semibold text-eafit-500'
-                        : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
-                    }`}
+                <NavLink
+                  to={item.path}
+                  onClick={onClose}
+                  className={({ isActive }) =>
+                    `flex items-center gap-2.5 rounded-md px-3 py-2 text-sm transition-colors
+                     focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-eafit-400 ${
+                       isActive
+                         ? 'bg-eafit-50 font-semibold text-eafit-500'
+                         : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                     }`
+                  }
                 >
                   <Icon name={item.icon} className="size-4 shrink-0 text-gray-500" />
                   {item.label}
-                </button>
+                </NavLink>
               </li>
             ))}
           </ul>
@@ -107,31 +103,39 @@ export function Sidebar({
   )
 }
 
-function NavButton({
-  label,
+function TopLink({
+  to,
   icon,
-  active,
-  onClick,
+  label,
+  onNavigate,
 }: {
+  to: string
+  icon: IconName
   label: string
-  icon: Parameters<typeof Icon>[0]['name']
-  active: boolean
-  onClick: () => void
+  onNavigate: () => void
 }) {
   return (
-    <button
-      onClick={onClick}
-      aria-current={active ? 'page' : undefined}
-      className={`relative flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-left text-[15px] transition-colors
-        focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-eafit-400
-        ${active ? 'bg-eafit-50 font-semibold text-eafit-500' : 'font-medium text-gray-700 hover:bg-gray-50'}`}
+    <NavLink
+      to={to}
+      end
+      onClick={onNavigate}
+      className={({ isActive }) =>
+        `relative flex items-center gap-3 rounded-lg px-3 py-2.5 text-[15px] transition-colors
+         focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-eafit-400 ${
+           isActive ? 'bg-eafit-50 font-semibold text-eafit-500' : 'font-medium text-gray-700 hover:bg-gray-50'
+         }`
+      }
     >
-      {/* El amarillo institucional solo como superficie, nunca como texto */}
-      {active && (
-        <span className="absolute top-1/2 left-0 h-5 w-1 -translate-y-1/2 rounded-full bg-oro-500" />
+      {({ isActive }) => (
+        <>
+          {/* El amarillo institucional solo como superficie, nunca como texto */}
+          {isActive && (
+            <span className="absolute top-1/2 left-0 h-5 w-1 -translate-y-1/2 rounded-full bg-oro-500" />
+          )}
+          <Icon name={icon} className="size-5 shrink-0" />
+          {label}
+        </>
       )}
-      <Icon name={icon} className="size-5 shrink-0" />
-      {label}
-    </button>
+    </NavLink>
   )
 }
