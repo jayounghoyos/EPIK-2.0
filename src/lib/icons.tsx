@@ -28,6 +28,7 @@ const paths = {
   close: ['M6 6l12 12', 'M18 6 6 18'],
   pinned: ['M9 3.5h6', 'M10 3.5v5.2L7.5 13h9L14 8.7V3.5', 'M12 13v7.5'],
   plus: ['M12 5v14', 'M5 12h14'],
+  help: ['M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z', 'M9.6 9.2a2.5 2.5 0 0 1 4.9.8c0 1.7-2.5 2.2-2.5 3.8', 'M12 17.2h.01'],
 } as const
 
 export type IconName = keyof typeof paths

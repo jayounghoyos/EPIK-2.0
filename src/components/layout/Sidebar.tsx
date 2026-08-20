@@ -29,7 +29,7 @@ export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void 
           <Icon name="close" className="size-5" />
         </button>
 
-        <ul className="space-y-1 px-4 pt-6 pb-2">
+        <ul data-tour="nav" className="space-y-1 px-4 pt-6 pb-2">
           {navigation.map((item) => (
             <li key={item.id}>
               {item.path ? (
