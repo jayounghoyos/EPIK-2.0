@@ -22,8 +22,13 @@ export const destinationCatalogue: Destination[] = [
   { id: 'perfil', label: 'Mi perfil', icon: 'clipboard', path: '/perfil' },
 ]
 
-/** Defaults: four destinations that are not already menu shortcuts, to avoid repetition. */
-export const defaultShortcuts = ['documentos', 'reservas', 'pagos', 'evaluacion']
+/** Pinned by default: destinations that are not already menu shortcuts, to avoid repetition. */
+export const defaultShortcuts = ['documentos', 'reservas']
 
-/** Miller's law: a shortcut list longer than this stops being scannable at a glance. */
+/**
+ * Six in total, pinned and automatic together.
+ *
+ * Miller's law: a list longer than this stops being scannable at a glance, and the
+ * block would start competing with the main menu instead of complementing it.
+ */
 export const maxShortcuts = 6
