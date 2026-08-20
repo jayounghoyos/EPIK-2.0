@@ -1,5 +1,5 @@
-// El portal real responde "You have no outstanding charges at this time."
-// Es decir: el saldo es cero. No se inventa ningún monto, cuota ni vencimiento.
+// The real portal answers "You have no outstanding charges at this time."
+// The balance is therefore zero. No amount, instalment or due date is invented.
 
 export const balance = {
   amount: 0,
@@ -8,7 +8,7 @@ export const balance = {
   body: 'A la fecha no hay cargos por pagar en tu estado de cuenta. Si se genera un cargo nuevo, aparecerá en esta pantalla.',
 } as const
 
-/** Las cinco secciones que el portal actual lista en su menú lateral, en español. */
+/** The five sections the current portal lists in its sidebar, in Spanish. */
 export const sections = [
   {
     id: 'estado-de-cuenta',

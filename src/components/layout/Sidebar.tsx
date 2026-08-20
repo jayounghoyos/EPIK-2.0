@@ -5,7 +5,7 @@ import { navigation, quickAccess } from './nav'
 export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
   return (
     <>
-      {/* Figura y fondo: al abrir el cajón en móvil, el contenido se atenúa */}
+      {/* Figure and ground: opening the drawer on mobile dims the content behind it */}
       <div
         onClick={onClose}
         aria-hidden="true"
@@ -66,7 +66,7 @@ export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void 
           ))}
         </ul>
 
-        {/* Proximidad: separación mayor que la interna, para que se lea como otro grupo */}
+        {/* Proximity: a wider gap than the internal one, so it reads as a separate group */}
         <div className="mt-8 border-t border-gray-200 px-4 pt-5 pb-8">
           <div className="mb-2 flex items-baseline justify-between px-3">
             <h2 className="text-[11px] font-semibold tracking-[0.1em] text-gray-500 uppercase">
@@ -128,7 +128,7 @@ function TopLink({
     >
       {({ isActive }) => (
         <>
-          {/* El amarillo institucional solo como superficie, nunca como texto */}
+          {/* The institutional yellow only as a surface, never as text */}
           {isActive && (
             <span className="absolute top-1/2 left-0 h-5 w-1 -translate-y-1/2 rounded-full bg-oro-500" />
           )}

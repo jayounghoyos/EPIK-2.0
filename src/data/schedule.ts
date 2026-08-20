@@ -1,6 +1,6 @@
-// Horario y asignaturas tomados de los pantallazos de My Enrollment.
-// SI4005 y SI4006 no muestran créditos en ninguna captura: se dejan en null
-// y la pantalla NO calcula un total, porque no se puede sumar lo que no se sabe.
+// Schedule and courses taken from the My Enrollment screenshots.
+// SI4005 and SI4006 report no credits in any capture, so they stay null and the
+// screen computes no total: what is unknown cannot be summed.
 
 export type Weekday = 0 | 1 | 2 | 3 | 4
 
@@ -26,7 +26,7 @@ export type Course = {
 
 export const weekdays = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes'] as const
 
-/** Semana del lunes 17 al viernes 21 de agosto de 2026. */
+/** Week of Monday 17 to Friday 21 August 2026. */
 export const week = {
   label: 'Semana del lunes 17 al viernes 21 de agosto de 2026',
   dates: [17, 18, 19, 20, 21],
@@ -114,7 +114,7 @@ export const toMinutes = (t: string) => {
   return h * 60 + m
 }
 
-/** Se calculan, no se escriben a mano: si cambia una sesión, el resumen sigue siendo cierto. */
+/** Derived, never hardcoded: if a session changes, the summary stays true. */
 export const sessionCount = sessions.length
 export const weeklyHours =
   sessions.reduce((total, s) => total + (toMinutes(s.end) - toMinutes(s.start)), 0) / 60

@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useLocation } from 'react-router'
 import { startAnalytics, trackScreen } from './analytics'
 
-/** Arranca la analítica si ya hay consentimiento guardado, y reporta cada pantalla. */
+/** Starts analytics if consent is already stored, and reports every screen. */
 export function useScreenTracking() {
   const { pathname } = useLocation()
 

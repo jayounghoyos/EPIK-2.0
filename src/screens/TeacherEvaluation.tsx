@@ -3,16 +3,16 @@ import { EmptyState } from '../components/ui/EmptyState'
 import { PageHeader } from '../components/ui/PageHeader'
 
 /**
- * En el portal actual esta pantalla imprime literalmente:
+ * In the current portal this screen literally prints:
  *
  *     "(CLOB) En este momento no tiene información."
  *
- * CLOB es un tipo de dato de Oracle. Es jerga de base de datos filtrada a la
- * interfaz, entre comillas, y es el peor caso de "match between system and the
- * real world" de todo el producto.
+ * CLOB is an Oracle datatype. It is database jargon leaked into the interface, in
+ * quotation marks, and the worst "match between system and the real world" failure
+ * in the whole product.
  *
- * El contenido real es el mismo: no hay información. La diferencia es decirlo
- * en el idioma del estudiante y explicar cuándo sí la habrá.
+ * The actual content is the same: there is no information. The difference is saying
+ * so in the student's language and explaining when there will be.
  */
 export function TeacherEvaluation() {
   return (

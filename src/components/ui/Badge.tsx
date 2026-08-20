@@ -2,8 +2,8 @@ import type { ReactNode } from 'react'
 
 type Intent = 'neutral' | 'success' | 'warning' | 'danger' | 'brand'
 
-/** El estado y su explicación nunca pueden contradecirse: en el portal actual una
- *  fila aparece "Approved" en verde mientras su observación dice que el documento no sirve. */
+/** A status and its explanation can never contradict each other: in the current portal
+ *  a row reads green "Approved" while its note says the document is unusable. */
 export function Badge({
   intent = 'neutral',
   children,

@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 
-/** Miga de pan, título y contexto. Idéntico en todas las pantallas: la cabecera
- *  no puede llamarse distinto según dónde estés, que es lo que hace el portal actual. */
+/** Breadcrumb, title and context. Identical on every screen: a header cannot be named
+ *  differently depending on where you are, which is what the current portal does. */
 export function PageHeader({
   breadcrumb,
   title,

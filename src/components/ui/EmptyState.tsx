@@ -2,9 +2,9 @@ import type { ReactNode } from 'react'
 import { Icon, type IconName } from '../../lib/icons'
 
 /**
- * Un estado vacío bien resuelto responde tres cosas: qué pasa, por qué está bien,
- * y qué puedes hacer ahora. El portal actual deja pantallas en blanco, o una sola
- * frase centrada en 1920x1080, o imprime "(CLOB) En este momento no tiene información."
+ * A well-made empty state answers three things: what happened, why that is fine, and
+ * what can be done now. The current portal leaves blank pages, or a lone centred
+ * sentence on a 1920x1080 screen, or prints "(CLOB) En este momento no tiene información."
  */
 export function EmptyState({
   icon = 'file',

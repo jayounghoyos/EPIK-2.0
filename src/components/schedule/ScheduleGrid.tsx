@@ -13,12 +13,12 @@ const HOUR_HEIGHT = 64
 const hours = Array.from({ length: dayEnd - dayStart + 1 }, (_, i) => dayStart + i)
 
 /**
- * Cada bloque se posiciona por su hora de inicio y su duración, de modo que la
- * altura comunica cuánto dura la clase.
+ * Each block is positioned by its start time and duration, so height communicates how
+ * long a class runs.
  *
- * Si dos sesiones de un mismo día se solapan, se reparten en carriles paralelos
- * en lugar de encimarse. El portal actual las dibuja una sobre otra hasta que el
- * texto queda ilegible, y ese es el defecto concreto que esta rejilla corrige.
+ * When two sessions on the same day overlap, they are split into parallel lanes instead
+ * of stacking. The current portal draws them on top of each other until the text becomes
+ * illegible, and that is the specific defect this grid corrects.
  */
 function assignLanes(daySessions: Session[]) {
   const sorted = [...daySessions].sort((a, b) => toMinutes(a.start) - toMinutes(b.start))
@@ -100,7 +100,7 @@ export function ScheduleGrid() {
                   />
                 ))}
 
-                {/* Cierre: se ve que el día sigue más allá del último bloque */}
+                {/* Closure: the day is visibly continuing past the last block */}
                 {daySessions.length === 0 && (
                   <p className="absolute inset-x-0 top-1/2 -translate-y-1/2 text-center text-sm text-gray-500">
                     Sin clases

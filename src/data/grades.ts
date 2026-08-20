@@ -1,8 +1,8 @@
-// Historia académica tomada del pantallazo "Academic Records".
-// El portal reporta 71 registros en total; solo 17 son legibles en la captura.
-// No se inventan los 54 restantes ni se afirma cuáles son los más recientes:
-// el estudiante ingresó en 2023-2 y cursa 2026-2, así que los periodos visibles
-// no son los últimos.
+// Academic history taken from the "Academic Records" screenshot.
+// The portal reports 71 records in total; only 17 are legible in the capture.
+// The remaining 54 are neither invented nor claimed to be the most recent: the
+// student enrolled in 2023-2 and is in 2026-2, so the visible periods are not
+// the latest ones.
 
 export type GradeStatus = 'aprobada' | 'homologada'
 
@@ -23,7 +23,7 @@ export type GradePeriod = {
   rows: GradeRow[]
 }
 
-/** Se explican porque el portal actual nunca dice qué significan. */
+/** Spelled out because the current portal never explains what they mean. */
 export const gradeLegend = [
   { symbol: 'EX', meaning: 'Exento — aprobada por prueba de suficiencia' },
   { symbol: 'C', meaning: 'Cumplió — homologada, no promedia' },
@@ -73,7 +73,7 @@ export const periods: GradePeriod[] = [
 
 export const totalRecords = 71
 
-/** La fila agrupada representa 7 asignaturas, no 1: el conteo lo refleja. */
+/** The collapsed row stands for 7 courses, not 1: the count reflects that. */
 const rowWeight = (row: GradeRow) => (row.code.includes('–') ? 7 : 1)
 
 export const periodCounts = periods.map((p) => ({

@@ -4,8 +4,8 @@ import { Icon } from '../../lib/icons'
 type Variant = 'primary' | 'secondary'
 
 /**
- * Ley de Fitts: la acción primaria mide 44px de alto como mínimo.
- * Semejanza: todas las primarias son idénticas entre sí, sin excepción.
+ * Fitts's law: the primary action is at least 44px tall.
+ * Similarity: every primary button is identical to the others, without exception.
  */
 export function Button({
   variant = 'primary',

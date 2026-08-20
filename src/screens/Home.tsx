@@ -18,7 +18,7 @@ export function Home() {
       </p>
 
       <div className="mt-7 grid gap-5 lg:grid-cols-3">
-        {/* Visibilidad del estado: lo que pasa hoy, en la primera pantalla */}
+        {/* Visibility of system status: what is happening today, on the first screen */}
         <Card className="lg:col-span-2">
           <CardHeader
             icon="book"
@@ -90,7 +90,7 @@ export function Home() {
         <Card>
           <CardHeader icon="wallet" title="Financiero" />
           <div className="px-6 pb-6">
-            {/* El portal real informa que no hay cargos: se muestra como estado resuelto */}
+            {/* The real portal reports no charges, so this reads as a settled state */}
             <div className="flex items-start gap-3 rounded-lg bg-eafit-50 px-4 py-4">
               <Icon name="check" className="size-6 shrink-0 text-eafit-500" />
               <div>

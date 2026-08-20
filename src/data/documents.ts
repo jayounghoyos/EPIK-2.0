@@ -1,8 +1,8 @@
-// Los cinco documentos reales de la pantalla "Anexo documentos" del portal.
+// The five real documents from the portal's "Anexo documentos" screen.
 //
-// El estado y la observación nunca pueden contradecirse. El portal actual marca
-// la primera fila como "Approved" en verde mientras su propia observación dice
-// que el documento no corresponde al solicitado. Aquí esa fila es "Con observación".
+// A status and its note can never contradict each other. The current portal marks
+// the first row green "Approved" while its own note says the file does not match
+// what was requested. Here that row reads "Con observación".
 
 export type DocumentStatus = 'aprobado' | 'observacion' | 'pendiente'
 
@@ -58,7 +58,7 @@ export const documents: RequiredDocument[] = [
   },
 ]
 
-/** Los conteos se derivan de los datos: no se escriben a mano ni pueden desfasarse. */
+/** Counts are derived from the data, so they cannot drift out of sync. */
 export const counts = {
   total: documents.length,
   aprobados: documents.filter((d) => d.status === 'aprobado').length,

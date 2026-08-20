@@ -8,15 +8,15 @@ import { student } from '../data/student'
 import { gradeLegend, periodCounts, periods, shownRecords, totalRecords } from '../data/grades'
 
 /**
- * El portal actual lista 71 filas de corrido, con un único icono de filtro sin
- * explicación, encabezados en inglés sobre datos en español, y tres formas
- * distintas de escribir un periodo.
+ * The current portal lists 71 rows in one run, behind a single unexplained filter
+ * icon, with English headers over Spanish data and three different spellings of a
+ * period.
  *
- * Aquí se aplica la Ley de Miller: los registros se parten por periodo, en
- * grupos abarcables de un vistazo y con su propio conteo.
+ * Miller's law applies here: records are split by period, into groups small enough
+ * to take in at a glance, each with its own count.
  *
- * No se afirma que estos sean los periodos más recientes: el estudiante ingresó
- * en 2023-2 y cursa 2026-2, así que los visibles en la captura no son los últimos.
+ * These are not claimed to be the most recent periods: the student enrolled in
+ * 2023-2 and is in 2026-2, so the ones visible in the capture are not the latest.
  */
 export function Grades() {
   return (
@@ -70,7 +70,7 @@ export function Grades() {
           </Button>
         </div>
 
-        {/* El portal nunca explica qué significan EX, C ni A */}
+        {/* The portal never explains what EX, C or A mean */}
         <div className="mx-6 mb-5 rounded-lg bg-eafit-50 px-5 py-4">
           <p className="flex items-center gap-2 text-sm font-semibold text-gray-900">
             <Icon name="check" className="size-4 text-eafit-500" />

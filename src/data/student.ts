@@ -1,6 +1,6 @@
-// Datos tomados de los pantallazos reales de EPIK.
-// Lo que no aparece en ninguna captura se deja vacío: no se inventa.
-// Los identificadores personales van enmascarados por tratarse de un trabajo de curso.
+// Data taken from real EPIK screenshots.
+// Anything absent from every capture is left empty rather than invented.
+// Personal identifiers are masked because this is coursework.
 
 export const student = {
   fullName: 'Juan Andrés Young Hoyos',
@@ -22,7 +22,7 @@ export const term = {
   enrolledCourses: 6,
 } as const
 
-/** Lunes 17 de agosto de 2026, semana 6 de 17. */
+/** Monday 17 August 2026, week 6 of 17. */
 export const today = {
   label: 'Lunes, 17 de agosto de 2026',
   classes: [
@@ -31,7 +31,7 @@ export const today = {
   ],
 } as const
 
-/** El portal real informa que no hay cargos pendientes. */
+/** The real portal reports no outstanding charges. */
 export const finances = {
   hasOutstandingCharges: false,
   emptyTitle: 'Sin cargos pendientes',

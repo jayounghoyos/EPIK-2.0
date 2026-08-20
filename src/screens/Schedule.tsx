@@ -9,7 +9,7 @@ import { courses, dayEnd, dayStart, sessionCount, week, weeklyHours } from '../d
 export function Schedule() {
   return (
     <div className="mx-auto max-w-[1180px] px-4 py-8 lg:px-8">
-      {/* Un solo nombre para la acción: nunca CHANGE, Cambiar y CAMBIAR a la vez */}
+      {/* One name for the action: never CHANGE, Cambiar and CAMBIAR at once */}
       <Card className="mb-7 flex flex-wrap items-center justify-between gap-4 px-6 py-5">
         <div>
           <p className="text-[11px] font-semibold tracking-[0.1em] text-gray-500 uppercase">
@@ -89,7 +89,7 @@ export function Schedule() {
           </tbody>
         </Table>
 
-        {/* Se explica el vacío en vez de rellenarlo con un número inventado */}
+        {/* The gap is explained rather than filled with an invented number */}
         <div className="m-6 space-y-2 rounded-lg bg-gray-50 px-4 py-4 text-sm text-gray-700">
           <p className="flex gap-2.5">
             <Icon name="check" className="mt-0.5 size-4 shrink-0 text-gray-500" />
