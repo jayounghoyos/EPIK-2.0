@@ -5,7 +5,7 @@ import { student } from '../../data/student'
 
 const items: { id: string; label: string; icon: IconName; to?: string }[] = [
   { id: 'perfil', label: 'Mi perfil', icon: 'clipboard', to: '/perfil' },
-  { id: 'monitor', label: 'Perfil de monitor', icon: 'graduation' },
+  { id: 'monitor', label: 'Perfil de monitor', icon: 'graduation', to: '/perfil-monitor' },
   { id: 'salir', label: 'Cerrar sesión', icon: 'arrowRight' },
 ]
 

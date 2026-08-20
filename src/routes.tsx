@@ -7,6 +7,7 @@ import { Account } from './screens/Account'
 import { Certificates } from './screens/Certificates'
 import { Admissions } from './screens/Admissions'
 import { Profile } from './screens/Profile'
+import { MonitorProfile } from './screens/MonitorProfile'
 import { Documents } from './screens/Documents'
 import { Bookings } from './screens/Bookings'
 import { PaymentCenter } from './screens/PaymentCenter'
@@ -29,6 +30,7 @@ export const routes: RouteObject[] = [
       { path: 'certificados', element: <Certificates /> },
       { path: 'inscripciones', element: <Admissions /> },
       { path: 'perfil', element: <Profile /> },
+      { path: 'perfil-monitor', element: <MonitorProfile /> },
       { path: 'documentos', element: <Documents /> },
       { path: 'reservas', element: <Bookings /> },
       { path: 'centro-de-pagos', element: <PaymentCenter /> },
