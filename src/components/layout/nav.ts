@@ -36,14 +36,3 @@ export const navigation: NavItem[] = [
   },
   { id: 'inscripciones', label: 'Inscripciones', icon: 'clipboard', path: '/inscripciones' },
 ]
-
-/**
- * Replaces the empty Favorites and the broken Recent Places of the current portal.
- * Four destinations not already among the menu shortcuts, to avoid repetition.
- */
-export const quickAccess: { id: string; label: string; icon: IconName; path: string }[] = [
-  { id: 'documentos', label: 'Adjuntar documentos', icon: 'clip', path: '/documentos' },
-  { id: 'reservas', label: 'Reserva de espacios', icon: 'calendarCheck', path: '/reservas' },
-  { id: 'pagos', label: 'Centro de pagos', icon: 'bank', path: '/centro-de-pagos' },
-  { id: 'evaluacion', label: 'Evaluación docente', icon: 'clipboard', path: '/evaluacion-docente' },
-]

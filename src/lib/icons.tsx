@@ -26,6 +26,8 @@ const paths = {
   languages: ['M4 6h9', 'M8.5 4v2c0 4-2 7-4.5 8.5', 'M7 10.5c1 2.5 3 4.5 5.5 5.5', 'm12.5 21 4-9 4 9', 'M14 18h5'],
   menu: ['M4 7h16', 'M4 12h16', 'M4 17h16'],
   close: ['M6 6l12 12', 'M18 6 6 18'],
+  pinned: ['M9 3.5h6', 'M10 3.5v5.2L7.5 13h9L14 8.7V3.5', 'M12 13v7.5'],
+  plus: ['M12 5v14', 'M5 12h14'],
 } as const
 
 export type IconName = keyof typeof paths
