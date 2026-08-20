@@ -42,7 +42,7 @@ export function ScheduleGrid() {
   return (
     <div className="overflow-x-auto">
       <div className="min-w-[52rem]">
-        {/* Encabezado de días */}
+        {/* Day headers */}
         <div className="grid grid-cols-[4rem_repeat(5,1fr)]">
           <div />
           {weekdays.map((day, index) => {
@@ -67,7 +67,7 @@ export function ScheduleGrid() {
         </div>
 
         <div className="grid grid-cols-[4rem_repeat(5,1fr)]">
-          {/* Columna de horas */}
+          {/* Hour column */}
           <div className="relative" style={{ height: (hours.length - 1) * HOUR_HEIGHT }}>
             {hours.map((hour, i) => (
               <span
