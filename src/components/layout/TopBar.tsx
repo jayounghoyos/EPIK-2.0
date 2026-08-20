@@ -1,5 +1,5 @@
 import { Icon } from '../../lib/icons'
-import { student } from '../../data/student'
+import { UserMenu } from './UserMenu'
 
 /**
  * Jakob's law: search on top and the user menu on the right, where a student already
@@ -39,19 +39,7 @@ export function TopBar({ onOpenMenu }: { onOpenMenu: () => void }) {
         </div>
       </div>
 
-      <button className="ml-auto flex items-center gap-2.5 rounded-lg py-1 pr-2 pl-1 hover:bg-white/10 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-oro-500">
-        <span
-          aria-hidden="true"
-          className="grid size-9 shrink-0 place-items-center rounded-full bg-oro-500 text-[13px] font-bold text-gray-900"
-        >
-          {student.initials}
-        </span>
-        <span className="hidden text-left leading-tight sm:block">
-          <span className="block text-sm font-semibold text-white">{student.fullName}</span>
-          <span className="block text-xs text-white/75">{student.username}</span>
-        </span>
-        <Icon name="chevronDown" className="size-4 text-white/80" />
-      </button>
+      <UserMenu />
     </header>
   )
 }
