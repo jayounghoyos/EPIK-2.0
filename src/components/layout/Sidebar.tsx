@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router'
 import { Icon, type IconName } from '../../lib/icons'
-import { navigation, quickAccess } from './nav'
+import { navigation } from './nav'
+import { QuickAccess } from './QuickAccess'
 
 export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void }) {
   return (
@@ -66,38 +67,8 @@ export function Sidebar({ open, onClose }: { open: boolean; onClose: () => void 
           ))}
         </ul>
 
-        {/* Proximity: a wider gap than the internal one, so it reads as a separate group */}
-        <div className="mt-8 border-t border-gray-200 px-4 pt-5 pb-8">
-          <div className="mb-2 flex items-baseline justify-between px-3">
-            <h2 className="text-[11px] font-semibold tracking-[0.1em] text-gray-500 uppercase">
-              Accesos rápidos
-            </h2>
-            <button className="rounded text-xs font-medium text-eafit-500 hover:underline focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-eafit-400">
-              Editar
-            </button>
-          </div>
-          <ul className="space-y-0.5">
-            {quickAccess.map((item) => (
-              <li key={item.id}>
-                <NavLink
-                  to={item.path}
-                  onClick={onClose}
-                  className={({ isActive }) =>
-                    `flex items-center gap-2.5 rounded-md px-3 py-2 text-sm transition-colors
-                     focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-eafit-400 ${
-                       isActive
-                         ? 'bg-eafit-50 font-semibold text-eafit-500'
-                         : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
-                     }`
-                  }
-                >
-                  <Icon name={item.icon} className="size-4 shrink-0 text-gray-500" />
-                  {item.label}
-                </NavLink>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <QuickAccess onNavigate={onClose} />
+
       </nav>
     </>
   )
