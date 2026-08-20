@@ -1,4 +1,5 @@
 import { Icon } from '../../lib/icons'
+import { HelpButton } from './HelpButton'
 import { UserMenu } from './UserMenu'
 
 /**
@@ -39,7 +40,10 @@ export function TopBar({ onOpenMenu }: { onOpenMenu: () => void }) {
         </div>
       </div>
 
-      <UserMenu />
+      <div className="ml-auto flex items-center gap-1">
+        <HelpButton />
+        <UserMenu />
+      </div>
     </header>
   )
 }
