@@ -52,8 +52,7 @@ export function Login() {
             <Icon name="help" className="mt-0.5 size-4 shrink-0 text-oro-900" />
             <span>
               <strong className="font-semibold">Prototipo del curso Interacción Humano–Computador.</strong>{' '}
-              No es el portal real de EAFIT: no valida credenciales y no envía ningún dato. Escribe
-              cualquier cosa para entrar.
+              Todavía falta arreglar el backend para las credenciales jajajaksjjakja solo es un prototipo de la interfaz(ingresan cualquier pendajada y los deja pasar).
             </span>
           </p>
 
