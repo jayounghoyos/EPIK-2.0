@@ -1,7 +1,7 @@
 /**
- * Iconos de trazo, 24x24, grosor 1.5. Trazados de Lucide (licencia ISC).
- * Un solo set en toda la interfaz: el portal actual mezcla iconos de línea
- * con otros heredados de PeopleSoft, y esa mezcla es parte de lo que se corrige.
+ * Stroke icons, 24x24, weight 1.5. Paths from Lucide (ISC licence).
+ * One set across the whole interface: the current portal mixes line icons with
+ * others inherited from PeopleSoft, and that mixture is part of what this fixes.
  */
 import type { SVGProps } from 'react'
 

@@ -6,12 +6,12 @@ import { Icon } from '../lib/icons'
 import { counts, documents, type DocumentStatus } from '../data/documents'
 
 /**
- * El defecto grave que esta pantalla corrige: en el portal actual una fila aparece
- * con la insignia verde "Approved" mientras su propia columna de observaciones dice
- * que el documento no sirve. El estado se contradice a sí mismo.
+ * The serious defect this screen corrects: in the current portal a row carries the
+ * green "Approved" badge while its own observations column says the document is
+ * unusable. The status contradicts itself.
  *
- * Aquí una observación implica que el estado NO es aprobado, y la fila trae la
- * acción para reemplazar el archivo.
+ * Here a note implies the status is NOT approved, and the row carries the action to
+ * replace the file.
  */
 
 const statusLabel: Record<DocumentStatus, string> = {

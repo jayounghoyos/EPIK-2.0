@@ -5,10 +5,10 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 /**
- * GitHub Pages no reescribe rutas hacia el index: al recargar en /EPIK-2.0/horario
- * busca ese archivo, no lo encuentra y devuelve 404. Pages sí sirve 404.html para
- * cualquier ruta desconocida, así que copiar el index con ese nombre hace que la
- * aplicación cargue y el router resuelva la ruta.
+ * GitHub Pages does not rewrite routes to the index: reloading on /EPIK-2.0/horario
+ * looks for that file, fails to find it and returns 404. Pages does serve 404.html
+ * for any unknown route, so copying the index under that name lets the app load and
+ * the router resolve the path.
  */
 function githubPagesFallback(): Plugin {
   return {
@@ -21,7 +21,7 @@ function githubPagesFallback(): Plugin {
   }
 }
 
-// El sitio se publica en https://jayounghoyos.github.io/EPIK-2.0/
+// The site is published at https://jayounghoyos.github.io/EPIK-2.0/
 export default defineConfig({
   base: '/EPIK-2.0/',
   plugins: [react(), tailwindcss(), githubPagesFallback()],

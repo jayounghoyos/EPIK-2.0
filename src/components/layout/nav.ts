@@ -4,12 +4,12 @@ export type NavChild = { id: string; label: string; path: string }
 export type NavItem = { id: string; label: string; icon: IconName; path?: string; children?: NavChild[] }
 
 /**
- * Ley de Hick: cinco destinos de primer nivel, no quince equivalentes.
+ * Hick's law: five top-level destinations, not fifteen equivalent ones.
  *
- * Un concepto, un destino. El menú decía "Pagar" mientras la pantalla se titula
- * "Estado de cuenta", y "Historia académica" duplicaba "Mis notas". Son la misma
- * clase de inconsistencia que el portal actual comete con "Registro de Materias",
- * "Register Courses" y "Enrollment" juntos en un mismo menú.
+ * One concept, one destination. The menu said "Pagar" while the screen is titled
+ * "Estado de cuenta", and "Historia académica" duplicated "Mis notas". Both are the
+ * same class of inconsistency the current portal commits by listing "Registro de
+ * Materias", "Register Courses" and "Enrollment" together in one menu.
  */
 export const navigation: NavItem[] = [
   { id: 'inicio', label: 'Inicio', icon: 'home', path: '/' },
@@ -38,8 +38,8 @@ export const navigation: NavItem[] = [
 ]
 
 /**
- * Reemplaza el Favorites vacío y el Recent Places roto del portal actual.
- * Cuatro destinos que no están ya en los atajos del menú, para no repetir.
+ * Replaces the empty Favorites and the broken Recent Places of the current portal.
+ * Four destinations not already among the menu shortcuts, to avoid repetition.
  */
 export const quickAccess: { id: string; label: string; icon: IconName; path: string }[] = [
   { id: 'documentos', label: 'Adjuntar documentos', icon: 'clip', path: '/documentos' },

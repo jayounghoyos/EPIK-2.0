@@ -2,9 +2,9 @@ import type { ReactNode, SelectHTMLAttributes, InputHTMLAttributes } from 'react
 import { useId } from 'react'
 
 /**
- * El obligatorio se marca con etiqueta explícita, no con un asterisco pegado.
- * El borde usa gray-500 y no un gris decorativo: los grises suaves dan 1.30:1 y
- * 1.65:1, por debajo del 3:1 que exige WCAG 1.4.11 para el contorno de un control.
+ * Required fields carry an explicit label, not an asterisk glued to the text.
+ * The border uses gray-500 rather than a decorative grey: the soft greys measure
+ * 1.30:1 and 1.65:1, below the 3:1 WCAG 1.4.11 demands for a control boundary.
  */
 export function Field({
   label,

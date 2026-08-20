@@ -1,19 +1,19 @@
 import Clarity from '@microsoft/clarity'
 
 /**
- * Envoltura sobre la herramienta de analítica de comportamiento.
+ * Wrapper around the behavioural analytics provider.
  *
- * Toda la aplicación habla con este módulo y nunca con Clarity directamente, así
- * que cambiar de proveedor más adelante (PostHog, por ejemplo) es tocar un archivo.
+ * The whole app talks to this module and never to Clarity directly, so switching
+ * provider later (to PostHog, say) means editing one file.
  *
- * Qué aporta a un trabajo de IHC: mapas de calor de clic y desplazamiento por
- * pantalla, grabaciones de sesión, y señales como rage clicks y dead clicks, que
- * son evidencia de fricción y no una opinión sobre el diseño.
+ * What it gives an HCI project: click and scroll heatmaps per screen, session
+ * recordings, and signals such as rage clicks and dead clicks, which are evidence
+ * of friction rather than an opinion about the design.
  *
- * PRIVACIDAD: Clarity empieza a registrar en cuanto se llama a init(), y la API
- * de consentimiento solo frena las cookies si el proyecto está configurado para
- * exigirlo. Por eso aquí no se inicializa nada hasta que la persona acepta: el
- * aviso y el comportamiento del código dicen lo mismo.
+ * PRIVACY: Clarity starts recording the moment init() is called, and the consent
+ * API only holds back cookies if the project is configured to require it. Nothing
+ * is initialised here until the visitor accepts, so the notice and the code say
+ * the same thing.
  */
 
 const PROJECT_ID = import.meta.env.VITE_CLARITY_ID as string | undefined
@@ -29,14 +29,14 @@ export function readConsent(): Consent | null {
   return value === 'aceptado' || value === 'rechazado' ? value : null
 }
 
-/** Solo arranca con consentimiento explícito y con identificador configurado. */
+/** Starts only with explicit consent and a configured project id. */
 export function startAnalytics() {
   if (started || !PROJECT_ID || readConsent() !== 'aceptado') return
   Clarity.init(PROJECT_ID)
   Clarity.consentV2({ ad_Storage: 'denied', analytics_Storage: 'granted' })
   started = true
 
-  // La pantalla vista antes de aceptar no se pierde.
+  // The screen viewed before accepting is not lost.
   if (pendingScreen) {
     trackScreen(pendingScreen)
     pendingScreen = null
@@ -49,8 +49,8 @@ export function saveConsent(value: Consent) {
 }
 
 /**
- * Recorrido entre pantallas. Emitirlo como evento hace que el flujo sea legible
- * en el panel sin tener que ver grabaciones una por una.
+ * Screen-to-screen journey. Emitting it as an event makes the flow readable in the
+ * dashboard without watching recordings one by one.
  */
 export function trackScreen(path: string) {
   if (!started) {

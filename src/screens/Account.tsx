@@ -6,12 +6,12 @@ import { student, term } from '../data/student'
 import { balance, sections } from '../data/finance'
 
 /**
- * El portal actual resuelve esta pantalla con una sola frase en inglés centrada
- * en 1920x1080: "You have no outstanding charges at this time."
+ * The current portal resolves this screen with one English sentence centred on a
+ * 1920x1080 page: "You have no outstanding charges at this time."
  *
- * Un estado vacío bien resuelto responde tres cosas: qué pasa, por qué está bien,
- * y qué puedes hacer ahora. Eso es lo que construye esta pantalla. No hay montos,
- * cuotas ni vencimientos porque el saldo real es cero.
+ * A well-made empty state answers three things: what happened, why that is fine, and
+ * what can be done now. That is what this screen builds. There are no amounts,
+ * instalments or due dates because the real balance is zero.
  */
 export function Account() {
   return (

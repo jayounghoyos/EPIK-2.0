@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  /* Azul EAFIT · ancla #004b85 = Pantone 294C */
+  /* Azul EAFIT · anchor #004b85 = Pantone 294C */
   --color-eafit-50: #eaf2f8;
   --color-eafit-100: #cce0ee;
   --color-eafit-200: #99c1dd;
@@ -13,13 +13,13 @@
   --color-eafit-800: #002544;
   --color-eafit-900: #001a30;
 
-  /* Amarillo EAFIT · Pantone 123C. Solo superficie, nunca texto sobre blanco (1.72:1) */
+  /* Amarillo EAFIT · Pantone 123C. Surface only, never text on white (1.72:1) */
   --color-oro-300: #ffd666;
   --color-oro-500: #ffb903;
   --color-oro-700: #c98f00;
   --color-oro-900: #7a5700;
 
-  /* Semánticos */
+  /* Semantic */
   --color-exito: #0f7b4f;
   --color-aviso: #b45309;
   --color-error: #b3261e;
@@ -28,8 +28,8 @@
     Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-/* borde-control es el único legal en el contorno de un control interactivo:
-   los grises decorativos dan 1.30:1 y 1.65:1, por debajo del 3:1 de WCAG 1.4.11 */
+/* borde-control is the only legal outline for an interactive control: the
+   decorative greys measure 1.30:1 and 1.65:1, below the 3:1 of WCAG 1.4.11 */
 @utility borde-control {
   border-color: var(--color-gray-500);
 }

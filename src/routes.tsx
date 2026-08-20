@@ -13,8 +13,8 @@ import { TeacherEvaluation } from './screens/TeacherEvaluation'
 import { NotFound } from './screens/NotFound'
 
 /**
- * Tabla de rutas única. Cada pantalla vive en su propio archivo para que una rama
- * por pantalla no toque nada compartido y los merges no choquen.
+ * Single route table. Each screen lives in its own file so a branch per screen
+ * touches nothing shared and merges never collide.
  */
 export const routes: RouteObject[] = [
   {

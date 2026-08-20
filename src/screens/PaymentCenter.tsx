@@ -6,11 +6,11 @@ import { PageHeader } from '../components/ui/PageHeader'
 import { balance } from '../data/finance'
 
 /**
- * Esta pantalla no tiene diseño propio porque el portal actual no la resuelve:
- * es solo una entrada del menú lateral de Financiero.
+ * This screen has no design of its own because the current portal never resolves it:
+ * it is only an entry in the Financiero sidebar.
  *
- * Y hay un dato que decide su contenido: el saldo real es cero. Un centro de
- * pagos sin nada por pagar no es un formulario vacío, es un estado resuelto.
+ * And one fact decides its content: the real balance is zero. A payment centre with
+ * nothing to pay is not an empty form, it is a settled state.
  */
 export function PaymentCenter() {
   return (

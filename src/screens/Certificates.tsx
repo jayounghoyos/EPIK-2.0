@@ -6,13 +6,13 @@ import { Icon, type IconName } from '../lib/icons'
 import { student, term } from '../data/student'
 
 /**
- * Un solo nombre para el concepto: "Solicitud". El portal actual lo llama
- * Request, Service Request y Requests Made en la misma pantalla.
+ * One name for the concept: "Solicitud". The current portal calls it Request,
+ * Service Request and Requests Made on the same screen.
  *
- * "Mis solicitudes" va como estado vacío con la estructura de la tabla visible.
- * En el portal real esa tabla está rota: dice "1 row" pero la única fila muestra
- * el texto "Request Number", es decir un encabezado repetido como si fuera dato.
- * No se inventan solicitudes ni se afirma un conteo que no se puede demostrar.
+ * "Mis solicitudes" is an empty state with the table structure left visible. In the
+ * real portal that table is broken: it reports "1 row" whose only row renders the
+ * text "Request Number", a header repeated as if it were data. No requests are
+ * invented and no count is claimed that cannot be demonstrated.
  */
 
 const availableRequests: { id: string; label: string; icon: IconName; current?: boolean }[] = [
@@ -77,7 +77,7 @@ export function Certificates() {
             <CardHeader icon="clipboard" title="Mis solicitudes" />
             <div className="px-6 pb-6">
               <div className="overflow-hidden rounded-lg border border-gray-200">
-                {/* La estructura queda visible para que se entienda qué aparecerá aquí */}
+                {/* The structure stays visible so it is clear what will appear here */}
                 <div className="grid grid-cols-4 gap-4 border-b border-gray-200 bg-gray-50 px-5 py-3 text-[11px] font-semibold tracking-[0.08em] text-gray-600 uppercase">
                   <span>Número</span>
                   <span>Tipo</span>

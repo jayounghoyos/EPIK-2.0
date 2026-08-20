@@ -3,15 +3,15 @@ import { readConsent, saveConsent, type Consent } from '../lib/analytics'
 import { Button } from './ui/Button'
 
 /**
- * Aviso de privacidad. El sitio registra clics, desplazamiento y movimiento del
- * cursor de forma anónima para construir mapas de calor, así que se pide permiso
- * antes de activar nada: la analítica no arranca hasta que se acepta.
+ * Privacy notice. The site anonymously records clicks, scrolling and cursor movement
+ * to build heatmaps, so permission is asked before anything starts: analytics does
+ * not run until the visitor accepts.
  *
- * Es una franja al pie y no un modal: bloquear la pantalla para pedir
- * consentimiento es justo el patrón que un curso de IHC señalaría como intrusivo.
+ * It is a footer strip rather than a modal: blocking the screen to ask for consent is
+ * exactly the pattern an HCI course would flag as intrusive.
  */
 export function PrivacyNotice() {
-  // undefined = aún no se ha leído el almacenamiento, para no parpadear en el primer render
+  // undefined = storage not read yet, so the strip does not flash on first render
   const [consent, setConsent] = useState<Consent | null | undefined>(undefined)
 
   useEffect(() => {

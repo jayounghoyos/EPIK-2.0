@@ -2,9 +2,9 @@ import { Icon } from '../../lib/icons'
 import { student } from '../../data/student'
 
 /**
- * Ley de Jakob: buscador arriba y menú de usuario a la derecha, donde el
- * estudiante ya los espera. Reemplaza el desplegable "▾Student", que hoy es
- * la única navegación global del portal.
+ * Jakob's law: search on top and the user menu on the right, where a student already
+ * expects them. Replaces the "▾Student" dropdown, which is today the portal's only
+ * global navigation.
  */
 export function TopBar({ onOpenMenu }: { onOpenMenu: () => void }) {
   return (

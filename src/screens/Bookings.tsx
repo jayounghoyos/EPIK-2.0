@@ -8,13 +8,13 @@ import { Icon } from '../lib/icons'
 import { student } from '../data/student'
 
 /**
- * El formulario original apila catorce campos en una lista plana, mezcla
- * "Guardar" con "Clear" y "Continue" en la misma pantalla, y expone "Class Nbr",
- * jerga interna abreviada, entre etiquetas en español.
+ * The original form stacks fourteen fields in a flat list, mixes "Guardar" with
+ * "Clear" and "Continue" on the same screen, and exposes "Class Nbr", abbreviated
+ * internal jargon, among Spanish labels.
  *
- * Aquí los campos se agrupan en bloques de cuatro o menos (Ley de Miller), con
- * la separación entre bloques mayor que la interna (proximidad), y una sola
- * barra de acciones, toda en español.
+ * Here the fields are grouped into blocks of four or fewer (Miller's law), with a
+ * wider gap between blocks than within them (proximity), and a single action bar,
+ * all in Spanish.
  */
 export function Bookings() {
   const [tab, setTab] = useState<'nueva' | 'mias'>('nueva')
@@ -137,7 +137,7 @@ export function Bookings() {
             </Group>
           </Card>
 
-          {/* Una sola barra de acciones, toda en español */}
+          {/* A single action bar, all in Spanish */}
           <div className="mt-6 flex flex-wrap justify-end gap-3">
             <Button variant="secondary">Cancelar</Button>
             <Button variant="secondary">Guardar</Button>

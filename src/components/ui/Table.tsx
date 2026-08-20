@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 
-/** Encabezados en español y cifras tabulares. El portal actual mezcla encabezados
- *  en inglés sobre datos en español, y no alinea los números. */
+/** Spanish headers and tabular figures. The current portal mixes English headers over
+ *  Spanish data, and never aligns its numbers. */
 export function Table({ children, caption }: { children: ReactNode; caption?: string }) {
   return (
     <div className="overflow-x-auto">

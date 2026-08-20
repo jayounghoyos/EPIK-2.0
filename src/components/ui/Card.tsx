@@ -2,9 +2,9 @@ import type { ReactNode } from 'react'
 import { Icon, type IconName } from '../../lib/icons'
 
 /**
- * Región común: cada dominio vive dentro de un contenedor con borde propio.
- * Las tarjetas son deliberadamente idénticas entre sí; la agrupación la produce
- * el contenedor, no un código de color, que una marca de dos tintas no puede dar.
+ * Common region: each domain lives inside a container with its own border.
+ * The cards are deliberately identical; grouping comes from the boundary, not from
+ * colour coding, which a two-ink brand cannot supply.
  */
 export function Card({ children, className = '' }: { children: ReactNode; className?: string }) {
   return (
