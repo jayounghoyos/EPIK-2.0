@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "driver.js/dist/driver.css";
+@import "./styles/tour.css";
 
 @theme {
   /* Azul EAFIT · anchor #004b85 = Pantone 294C */
