@@ -43,7 +43,7 @@ export function UserMenu() {
   }, [open])
 
   return (
-    <div ref={container} className="relative ml-auto">
+    <div ref={container} data-tour="user-menu" className="relative ml-auto">
       <button
         ref={trigger}
         onClick={() => setOpen((value) => !value)}

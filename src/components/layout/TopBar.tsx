@@ -24,7 +24,7 @@ export function TopBar({ onOpenMenu }: { onOpenMenu: () => void }) {
         <span className="block text-xl font-extrabold tracking-tight text-white">EAFIT</span>
       </a>
 
-      <div className="mx-auto hidden w-full max-w-xl md:block">
+      <div data-tour="search" className="mx-auto hidden w-full max-w-xl md:block">
         <label className="sr-only" htmlFor="buscador">
           Buscar en el portal
         </label>

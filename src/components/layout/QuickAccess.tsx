@@ -21,7 +21,7 @@ export function QuickAccess({ onNavigate }: { onNavigate: () => void }) {
   }
 
   return (
-    <div className="mt-8 border-t border-gray-200 px-4 pt-5 pb-8">
+    <div data-tour="quick-access" className="mt-8 border-t border-gray-200 px-4 pt-5 pb-8">
       <div className="mb-2 flex items-baseline justify-between px-3">
         <h2 className="text-[11px] font-semibold tracking-[0.1em] text-gray-500 uppercase">
           Accesos rápidos
